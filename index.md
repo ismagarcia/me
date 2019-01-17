@@ -12,30 +12,37 @@ and driving forward our new software and hardware IP with
 
 Between 2016-2017 I joined the <a href="https://www.arm.com/">Arm</a> Architecture and Technology Group, 
 Inteligent Machines Future System Designs with <a href="https://uk.linkedin.com/in/paulshughes">Paul Hughes</a>
-analysing and prototyping models around subsystems with computer vision and ML
+analysing and prototyping models around subsystems with computer 
+vision and ML
 
-In 2012 I joined <a href="https://www.arm.com/">Arm</a> Processor Division working in system architecture and 
-heterogeneous computing with <a href="https://uk.linkedin.com/in/charles-garc%C3%ADa-tobin-0374071">Charles Garcia-Tobin</a> and <a href="https://www.linkedin.com/in/jason-parker-1548aa1/">Jason Parker</a>.
+In 2012 I joined <a href="https://www.arm.com/">Arm</a> Processor Division working in system architecture 
+and heterogeneous computing with <a href="https://uk.linkedin.com/in/charles-garc%C3%ADa-tobin-0374071">Charles Garcia-Tobin</a> and <a href="https://www.linkedin.com/in/jason-parker-1548aa1/">Jason Parker</a>.
 </pre>
 
 ## Academic research
 <pre>
-My research concerned with parallel efficient data structures for data visualization, 
-from level-of-detail to texture-based rendering methods, geometric modeling and ray-tracing. 
-My work explored practical applications in a variety of areas in computer graphics, 
-including real-time tree rendering, gpu-based data-structures for geometric and texturing level-of-detail, 
-and more recently dynamic parallel data-structures for ray-tracing and general-purpose gpu applications.
+My research concerned with parallel efficient data structures for data 
+visualization, from level-of-detail to texture-based rendering methods, geometric 
+modeling and ray-tracing. 
+My work explored practical applications in a variety of areas in computer 
+graphics, including real-time tree rendering, gpu-based data-structures 
+for geometric and texturing level-of-detail, and more recently dynamic 
+parallel data-structures for ray-tracing and general-purpose gpu applications.
 
 I have a Ph. D. in Computer Science from the universties <a href="https://www.linkedin.com/in/jason-parker-1548aa1">UPC</a> & <a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">UdG</a>
 
-In 2011 I did doctorate research internship in <a href="http://alice.loria.fr">ALICE Project-Team</a> (INRIA Nancy), under supervision of <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>
+In 2011 I did doctorate research internship in <a href="http://alice.loria.fr">ALICE Project-Team</a>
+(INRIA Nancy), under supervision of <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>
 
-In 2007 I started my Phd. in Computer Grahics joining the <a href="http://ggg.udg.edu/">GGG research group</a>, advised by <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a>.
+In 2007 I started my Phd. in Computer Grahics joining the <a href="http://ggg.udg.edu/">GGG</a>
+research group, advised by <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a>.
 
-In 2005 I did an internship at the <a href="">Computer Graphics Research Group</a>, of the
-Technical University of Budapest. My mentor was <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a>.
+In 2005 I did an internship at the <a href="">Computer Graphics Research Group</a> 
+of the Technical University of Budapest. 
+My mentor was <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a>.
 
-I was introduced in the Computer Graphics area advisored by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
+I was introduced in the Computer Graphics area advisored 
+by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
 </pre>
 
 
