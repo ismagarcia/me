@@ -31,6 +31,7 @@ and heterogeneous computing projects with <a href="https://uk.linkedin.com/in/ch
 and <a href="https://www.linkedin.com/in/jason-parker-1548aa1/">Jason Parker</a>.
 </p>
 </div>
+&nbsp;
 
 ## Academic research
 <div class="dark_box">
@@ -77,41 +78,57 @@ by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
 
 ## Selected industry projects
 
+### Exploring Deep Neural Networks Performance
+
+![Octocat](assets/img/dnn_analysis.png){:width="128px"} Investigating deep neural networks for future use-cases, analysing and breaking them down to identify the most relevant operations and data patterns, capturing key insights with data science techniques to drive new software and hardware solutions.
+
+_Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classification, Regression, LSTM, GAN, Clustering, Ensemble Learning, Synthetic Data Generation, Performance Analysis
+
 ### Automotive ADAS/AR subsystems and use-cases
 
 ![Octocat](assets/img/adas_subsys.png){:width="128px"} Analysing and prototyping 
 computer vision and ML subsystems for ADAS/AR use-cases. 
+
+_Keywords_: Modelling, Virtualization, System Architecture, Memory management, Radar, SLAM, Eye-Tracking, Stereo matching, Deep Neural Networks, Object Detection, Performance Analysis
 
 ### Exploring new AArch64 CPU ISA extensions (SVE)
 
 ![Octocat](assets/img/sve_asm.png){:width="128px"} Prototyping and analysing the impact of new <a href="https://community.arm.com/tools/hpc/b/hpc/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture">SVE (Scalable Vector Extension)</a> instruction set in computer vision workloads.
 Exploiting as much data-level parallelism as possible with new instructions with vector lengths that scale from 128 to 2048 bits.
 
-### GPU coherency and heterogeneous computing
+_Keywords_: SIMD, Vector Instructions, Modelling, CPU Architecture, Computer Vision, Keypoint and Features Detection, Assembly Language, Performance Analysis
 
-![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelling, protytiping low-level software, and analysing heterogeneous compute use-cases to explore <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> features between different type of processors (CPU & GPU), enabling them sharing data as simply as passing a pointer, which massively simplifies the software, and delivers more power efficient and higher performance returns than software managed mechanism.
+### Heterogeneous Computing and GPU Coherency
+
+![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelling, prototyping low-level software, and analysing heterogeneous compute use-cases to explore <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> features between different type of processors (CPU & GPU), enabling them sharing data as simply as passing a pointer, which massively simplifies the software, and delivers more power efficient and higher performance returns than software managed mechanism.
+
+_Keywords_: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, System Architecture, Modelling, System Programming, Simulation Waveform, FPGA prototyping
 
 ## Selected publications
 
 #### Parallel spatial data structures for interactive rendering
 ![Octocat](assets/img/phd_thesis_2012_caption.png){:width="128px"} PhD Thesis, October 2012 <a href="https://www.tdx.cat/bitstream/handle/10803/107998/tigf.pdf?sequence=8&isAllowed=y">[pdf]</a>
 <div class="publicationabstract">
- Advances in graphic processing units (GPUs) introduce new parallel architectures with many processor cores in single computing devices. Graphic algorithms and data structures should be adapted to take advantage of the specific aspects of these current and future parallel many-core architectures -- as standard graphics data structures for single or multiple CPUs or fixed-function GPUs are not scalable and flexible enough to do so. Thus, the problem of defining parallel- friendly data structures that can be efficiently created, updated, and accessed is still an ongoing research challenge.
+The focus of our study is to design and provide time- and space-efficient parallel data structures and algorithms for real-time rendering applications.   
 
-The context of computer graphics is closely related to spatial data, usually defined by points, lines, rectangles, regions, surfaces, and volumes. The representation of such data has always played a crucial role in many applications. More imporatantly, quite often it is crucial that for data be accessed efficiently to improve algorithmic speed. As an example, irregular spatial data should be fitted or resampled into regular domains in order to support efficient parallel evaluation in modern GPUs. These regular spatial data structures allow original samples to be collected and queried in parallel very efficiently. The main question explored in this thesis is how to define novel parallel random-access data structures for surface and image spatial data with efficient construction, storage, and query memory access patterns.
+A large number of operations in computer graphics are concerned with the process of collecting spatial data in a computer’s memory, in such a way that the information can be subsequently recovered as quickly as possible in order to be processed and generate a screen image in real-time. In this context, it is important to retain and organize the spatial data in such a way that fast retrieval and evaluation are possible.  
 
-In order to address this question, representations for shape detail mapping over coarse geometries in real-time applications are explored. The key idea is to create a mapping of the input spatial data on a coarse lattice in which each cell contains a local description of shape and shading information for rendering this region of the domain. This low-bandwidth localized memory access pattern is increasingly advantageous in many-core architectures and crucial to provide a high rendering speed.
+This thesis introduces three specific representations of spatial data with efficient parallel random-access for interactive rendering applications. Surface and volume representations of
+different topology and sparsity are handled with efficient encoding and rendering algorithms, where the key idea is to create a mapping of the input data to a virtual grid, which naturally suits for parallel graphics processing units with a Single Instruction, Multiple Data (SIMD)
+programming model.  
 
-Our main contribution is a set of parallel-efficient methods to evaluate irregular, sparse or even implicit geometries and textures in different applications: a method to decouple shape and shading details from high-resolution meshes, mapping them interactively onto lower resolution simpler domains; an editable framework to map high-resolution meshes to simpler cube-based domains, generating a parallel-friendly quad-based representation; a new parallel hashing scheme compacting spatial data with high load factors, which has the unique advantage of exploiting spatial coherence in input data and access patterns. 
+The proposed approaches create a coarse lattice in which each cell contains a local description of surface and volume information, required for rendering such regions of the domain. This low-bandwidth localized memory access pattern is increasingly advantageous in many-core architectures, were the usage of random-access parallel data structures is crucial to provide fast rendering speed and good visual quality.
 </div>
-&nbsp;
+&nbsp;  
+_Keywords_: 
 
 #### Interactive Applications for Sketch-Based Editable Polycube Map
 ![Octocat](assets/img/editablepc_tvc2013_teaser.png){:width="128px"} IEEE Transactions on Visualization and Computer Graphics, (Volume:19, Issue: 7, July 2013); Ismael Garcia, Jiazhi Xia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="https://ieeexplore.ieee.org/document/6361388">[pdf]</a> 
 <div class="publicationabstract">
 In this paper we propose a sketch-based editable polycube mapping method that, given a general mesh and a simple polycube that coarsely resembles the shape of the object, plus sketched features indicating relevant correspondences between the two, provides a uniform, regular and user-controllable quads-only mesh that can be used as a basis structure for subdivision. Large scale models with complex geometry and topology can be processed efficiently with simple, intuitive operations. We show that the simple, intuitive nature of the polycube map is a substantial advantage from the point of view of the interface by demonstrating a series of applications, including kit-basing, shape morphing, painting over the parameterization domain, and GPU-friendly tessellated subdivision displacement, where the user is also able to control the number of patches in the base mesh by the construction of the base polycube.
 </div>
-&nbsp;
+&nbsp;  
+_Keyworkds_: Digital Geometry Processing, Surface Parameterization, Polycube Map, GPU Subdivision Surface
 
 #### A Runtime Cache for Interactive Procedural Modeling
 ![Octocat](assets/img/hash_cache_teaser.png){:width="128px"} SMI 2012: Shape Modeling International, Computer & Graphics; Tim Reiner, Sylvain Lefebvre, Lorenz Diener, Ismael Garcia, Bruno Jobard, Carsten Dachsbacher <a href="http://ggg.udg.edu/publicacions/UsersWebs/hashcache_smi2012/">[project page]</a>
@@ -120,8 +137,8 @@ In this paper we propose a sketch-based editable polycube mapping method that, g
 <div class="publicationabstract">
 We present an efficient runtime cache to accelerate the display of procedurally displaced and textured implicit surfaces, exploiting spatio-temporal coherence between consecutive frames. We cache evaluations of implicit textures covering a conceptually infinite space. Rotating objects, zooming onto surfaces, and locally deforming shapes now requires minor cache updates per frame and benefits from mostly cached values, avoiding expensive re-evaluations. A novel parallel hashing scheme supports arbitrarily large data records and allows for an automated deletion policy: new information may evict information no longer required from the cache, resulting in an efficient usage. This sets our solution apart from previous caching techniques, which do not dynamically adapt to view changes and interactive shape modifications. We provide a thorough analysis on cache behavior for different procedural noise functions to displace implicit base shapes, during typical modeling operations. 
 </div>
-&nbsp;
-
+&nbsp;  
+_Keywords_: Parallel Hashing, Runtime Cache, Interactive Shape Modeling, Implicit Surface Rendering, Procedural Textures 
 
 #### Coherent parallel hashing
 ![Octocat](assets/img/cohash_2011.png){:width="128px"} ACM Transactions on Graphics  
@@ -130,7 +147,8 @@ Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre,
 <div class="publicationabstract">
 Recent spatial hashing schemes hash millions of keys in parallel, compacting sparse spatial data in small hash tables while still allowing for fast access from the GPU. Unfortunately, available schemes suffer from two drawbacks: Multiple runs of the construction process are often required before success, and the random nature of the hash functions decreases access performance. We introduce a new parallel hashing scheme which reaches high load factor with a very low failure rate. In addition our scheme has the unique advantage to exploit coherence in the data and the access patterns for faster performance. Compared to existing approaches, it exhibits much greater locality of memory accesses and consistent execution paths within groups of threads. This is especially well suited to Computer Graphics applications, where spatial coherence is common. In absence of coherence our scheme performs similarly to previous methods, but does not suffer from construction failures. Our scheme is based on the Robin Hood scheme modified to quickly abort queries of keys that are not in the table, and to preserve coherence. We demonstrate our scheme on a variety of data sets. We analyze construction and access performance, as well as cache and threads behavior.
 </div>
-&nbsp;
+&nbsp;  
+_Keywords_: Spatial Data, Parallel Computing, Coherent Memory, Cache Memory, Hashing, Sparse Data
 
 #### Editable Polycube Map for GPU-based Subdivision Surfaces
 ![Octocat](assets/img/epcm_i3d_200w_148h.png){:width="128px"} I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ggg.udg.edu/publicacions/UsersWebs/igarcia_epcm_i3d2011/index.shtml">[project page]</a>
@@ -138,8 +156,8 @@ Recent spatial hashing schemes hash millions of keys in parallel, compacting spa
 <div class="publicationabstract">
 In this paper we propose an editable polycube mapping method that, given an arbitrary high-resolution polygonal mesh and a simple polycube representation plus optional sketched features indicating relevant correspondences between the two, provides a uniform, regular and artist-controllable quads-only mesh with a parameterized subdivision scheme. The method introduces a global parameterization, based on a divide and conquer strategy, which allows to create polycube-maps with a much smaller number of patches, and gives the user much more control over the quality of the induced subdivision surface. All this makes it a practical method for real-time rendering on modern hardware (e.g. OGL 4.1 and D3D11 tessellation hardware). By sketching these correspondence features, processing large-scale models with complex geometry and topology is now feasible. This is crucial for obtaining watertight displaced Catmull-Clark subdivision surfaces and high-quality texturing on real-time applications.
 </div>
-&nbsp;
-
+&nbsp;  
+_Keywords_: Digital Geometry Processing, Surface Parameterization, Polycube Map, GPU Subdivision Surface
 
 #### IGT: Inverse Geometric Textures
 ![Octocat](assets/img/Teaser_200w_128h.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 27(5), 2008; Ismael Garcia, Gustavo Patow  
@@ -148,7 +166,8 @@ In this paper we propose an editable polycube mapping method that, given an arbi
 <div class="publicationabstract">
 Preserving details from a high resolution reference model onto lower resolution models is a complex, and sometimes daunting, task as manual intervention is required to correct texture misplacements. Inverse Geometric Textures (IGT) is a parameterization independent texturing technique that allows preservation of texture details from a high resolution reference model onto lower resolutions, generated with a given simplification method. IGT uses a parameterization defined on the reference model to generate an inversely parameterized texture that stores, for each texel, a list of all triangles that mapped onto it. This way, for any valid texture coordinate, IGT can know the point and the triangle of the detailed model that was projected, allowing application of details from the reference model onto the fragment from the low-resolution model. IGT is encoded in compact data structures and can be evaluated quickly. Furthermore, the high resolution model can have its own independent, secondary parameterization, so that no additional effort is required to directly use artist-designed content. 
 </div>
-&nbsp;
+&nbsp;  
+_Keywords_: Appearance Preserving Simplification, Detail-Recovery, Computer Games, Texturing, Parameterizations, Level-of-Detail
 
 #### Generation and interactive visualization of 3D vegetation
 ![Octocat](assets/img/nph07.png){:width="128px"} Master thesis in Computing, 2007; from the University of Girona and the UPC Barcelona Tech; advised by Gustavo Patow and Mateu Sbert  <a href="http://www.gametools.org/archives/publications/mastertesi_isma.pdf">[pdf]</a>
@@ -160,7 +179,8 @@ Preserving details from a high resolution reference model onto lower resolution 
 <div class="publicationabstract">
 This paper presents a technique to render in real time complex trees using billboard clouds as an impostor simplification for the original polygonal tree, combined with a new texture-based representation for the foliage. The technique provides several new contributions with respect to previous approaches. The new algorithm allows progressive level of detail both at the geometric and at the shader levels. It also preserves the parallax effects of the original polygonal model keeping leaf positions, orientations, and preserving the overlapping of the leaves as seen from any view point. In addition, the texture-based representation provides high-definition close views without introducing high memory requeriments. We adapted a realistic lighting model with soft shadows and a global illumination precomputation, allowing to render highly complex scenes with thousands of trees in real time. 
 </div>
-&nbsp;
+&nbsp;  
+_Keywords_: Image Generation, Clustering, 3D Graphics, Realism
 
 <!--
 #### Tree rendering with billboard clouds
@@ -178,7 +198,8 @@ This paper presents a method to render complex trees on high frame rates while p
 <div class="publicationabstract">
 This paper presents a simple method to render complex trees on high frame rates while maintaining parallax effects. Based on the recognition that a planar impostor is accurate if the represented polygon is in its plane, we find an impostor for each of those groups of tree leaves that lie approximately in the same plane. The groups are built automatically by a clustering algorithm. Unlike billboards, these impostors are not rotated when the camera moves, thus the expected parallax effects are provided. On the other hand, clustering allows the replacement of a large number of leaves by a single semi-transparent quadrilateral, which improves rendering time considerably. Our impostors well represent the tree from any direction and provide accurate depth values, thus the method is also good for shadow computation.
 </div>
-&nbsp;
+&nbsp;  
+_Keywords_: Image Generation, Clustering, 3D Graphics, Realism
 
 ## Academic teaching  
 
@@ -244,32 +265,32 @@ Dublin, Ireland
 Deep Neural Networks on Arm Cortex-A CPUs:   
 Analysis of CPU Inference on Vision workloads  
 MEng Electrical & Electronic Engineering Hons Project  
-<a href="https://www.hw.ac.uk/">Heriot-Watt University</a>
+<a href="https://www.hw.ac.uk/">Heriot-Watt University</a>, United Kingdom
 
 #### 2016    Jan-Peter Larsson 
 3D Reconstruction using Stereo Matching Techniques on Scalable Vector Processors  
 MEng Electrical Hons Project  
-<a href="https://www.ed.ac.uk/home">Edinburgh University</a>
+<a href="https://www.ed.ac.uk/home">Edinburgh University</a>, United Kingdom
  
 #### 2011	Enrique Nuzete
 Interactive polycubemap editor  
 BEng Project, Technical Computer Engineering   
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>   
+<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain 
 
 #### 2011    Tania Mendes
 Modelling and visualization of skeleton-based animations  
 BEng Project, Technical Computer Engineering   
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>  
+<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain
 
 #### 2007    Verena Skuk
 Procedural modelling and rendering of vegetation  
 Student Research Project  
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>  
+<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain
 
 #### 2007    Isaac Moles
 Real-time rendering of large forest  
 BEng Project, Technical Computer Engineering   
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>  
+<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain
 
 ## Other professional activities
 
