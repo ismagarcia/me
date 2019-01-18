@@ -255,10 +255,11 @@ BEng Project, Technical Computer Engineering
 #### CGVCVIP  Computer  Graphics, Visualization, Computer  Vision &  Image Processing
 2012
 <a href="http://www.iadisportal.org/digital-library/iadis-international-conference-computer-graphics-visualization-computer-vision-and-image-processing-2012-part-of-mccsis-2012">IADIS International Conference Computer Graphics Visualization and Image Processing</a>  
+Journal program committee member  
 
 #### CEIG: 
 <a href="http://ceig2015.uji.es">CEIG 2015</a>  
-
+Conference program committee member
 
 ### Reviewer
  
