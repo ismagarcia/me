@@ -3,6 +3,15 @@
 
 @import "jekyll-theme-minimal";
 
+.publicationabstract {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 10px;
+
+}
+
 code, pre {
   overflow-x: hidden;
   font-family: 'Noto Sans'; 
@@ -29,15 +38,6 @@ code, pre {
 .row {
   margin-left: -20px;
   *zoom: 1;
-}
-
-.publicationabstract {
-    position: relative;
-    float: left;
-    width: 100%;
-    margin-top: 10px;
-    padding-right: 10px;
-
 }
 
 .well {

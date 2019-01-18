@@ -6,16 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ismael Garcia</title>
 
+<style>
+{%if site.logo %}
+.publicationabstract {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+{% else %}
+/* 
+   This paragraph font size reduction only required for printing pdf in Safari
+   The pdf will provide fully working links
+*/
+p {
+font-size:60%;
+}
+.publicationabstract {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    padding-right: 10px;
+    font-size:60%;
+}
+{% endif %}
+</style>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/js_jquery.shorten.js"></script>	
 
 <script language="javascript">
+{%if site.logo %}
 $(document).ready(function() {
-$("div.publicationabstract").shorten({showChars:180, 
+$("div.publicationabstract").shorten({showChars:180,
 moreText: '<img src="assets/img/plus.svg" width=12pt>',
 lessText: '<img src="assets/img/minus.svg" width=12pt>'
 });
 });
+{% else %}
+$(document).ready(function() {
+$("div.publicationabstract").shorten({showChars:180,
+lessText: '<img src="assets/img/minus.svg" width=12pt>'
+moreText: '<img src="assets/img/plus.svg" width=12pt>',
+});
+});
+{% endif %}
 </script>
 
 {% seo %}
@@ -28,23 +65,33 @@ lessText: '<img src="assets/img/minus.svg" width=12pt>'
     <div class="wrapper">
       <header>
         
-        {% if site.logo %}
-<!--
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
--->
-        <div class="avatar">
+       <div class="avatar">
 	  <div class="well">
+                {% if site.logo %}
+
                 <div class="avatar">
                     <img src="{{site.logo | relative_url}}" alt="Ismael Garcia" />
-                </div><!--/avatar -->
+                </div>
+                
+                {% endif %}
+
                 <br class="clearfix" />
                 <h1><center><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></center></h1>
                 <div class="contact">
                   <div>
                     <p><a href="#">isma.garcia.fernandez@outlook.com</a>
-                      <!--<object data="assets/img/mail.svg" type="image/svg+xml" width=32
-                              style="vertical-align:middle"></object>-->
+                      <object data="assets/img/mail.svg" type="image/svg+xml" width=32
+                              style="vertical-align:middle"></object>
                     </p>
+
+                {% if site.logo %}
+                {% else %}
+                    <p><a href="#">+44(0)7449970683</a>
+                      <object data="assets/img/call_phone.svg" type="image/svg+xml" width=32
+                              style="vertical-align:middle"></object>
+                    </p>
+                 {% endif %}
+
                   </div>
                   <!--
                   <div>
@@ -66,7 +113,6 @@ lessText: '<img src="assets/img/minus.svg" width=12pt>'
                 </div><!--/contact -->
 	  </div><!--/.well -->
         </div><!--/span-->
-        {% endif %}
 
         <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
 

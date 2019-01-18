@@ -2,6 +2,37 @@
 layout: default
 ---
 
+{% if site.logo %}
+
+{% else %}
+
+## Personal statement
+
+<div class="dark_box">
+<p class="dark_paragraph">
+{% if site.application == "MSFT" %}
+This is text for MSFT...
+{% else %}
+  {% if site.application == "AMZN" %}
+This is text for AMZN...
+  {% else %}
+    {% if site.application == "DPMND" %}
+This is text for DPMND...
+    {% else %}
+      {% if site.application == "AZN" %}
+This is text for AZN...
+      {% else %}
+OTHER
+      {% endif %}
+    {% endif %}  
+  {% endif %}
+{% endif %}
+</p>
+</div>  
+&nbsp;  
+
+{% endif %}
+
 ## Industry advanced product development
 
 <div class="dark_box">
@@ -101,6 +132,8 @@ programming model, Vector Instructions, Parallel Programming, Modelling, CPU Arc
 
 _Keywords_: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, System Architecture, Modelling, System Programming, Simulation Waveform, FPGA prototyping
 
+### Note: Other experimental projects can be provided upon request.
+
 ## Selected publications
 
 #### Parallel spatial data structures for interactive rendering
@@ -117,7 +150,7 @@ programming model.
 The proposed approaches create a coarse lattice in which each cell contains a local description of surface and volume information, required for rendering such regions of the domain. This low-bandwidth localized memory access pattern is increasingly advantageous in many-core architectures, were the usage of random-access parallel data structures is crucial to provide fast rendering speed and good visual quality.
 </div>
 &nbsp;  
-_Keywords_: 
+_Keywords_: Spatial data, Parallel Computing, Spatial Hashing, Surface Parameterization, Subdivision Surfaces, Surface Simplification
 
 #### Interactive Applications for Sketch-Based Editable Polycube Map
 ![Octocat](assets/img/editablepc_tvc2013_teaser.png){:width="128px"} IEEE Transactions on Visualization and Computer Graphics, (Volume:19, Issue: 7, July 2013); Ismael Garcia, Jiazhi Xia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="https://ieeexplore.ieee.org/document/6361388">[pdf]</a> 
@@ -132,7 +165,7 @@ _Keyworkds_: Digital Geometry Processing, Surface Parameterization, Polycube Map
  
 
 <div class="publicationabstract">
-We present an efficient runtime cache to accelerate the display of procedurally displaced and textured implicit surfaces, exploiting spatio-temporal coherence between consecutive frames. We cache evaluations of implicit textures covering a conceptually infinite space. Rotating objects, zooming onto surfaces, and locally deforming shapes now requires minor cache updates per frame and benefits from mostly cached values, avoiding expensive re-evaluations. A novel parallel hashing scheme supports arbitrarily large data records and allows for an automated deletion policy: new information may evict information no longer required from the cache, resulting in an efficient usage. This sets our solution apart from previous caching techniques, which do not dynamically adapt to view changes and interactive shape modifications. We provide a thorough analysis on cache behavior for different procedural noise functions to displace implicit base shapes, during typical modeling operations. 
+We present an efficient runtime cache to accelerate the display of procedurally displaced and textured implicit surfaces, exploiting spatio-temporal coherence between consecutive frames. We cache evaluations of implicit textures covering a conceptually infinite space. Rotating objects, zooming onto surfaces, and locally deforming shapes now requires minor cache updates per frame and benefits from mostly cached values, avoiding expensive re-evaluations. A novel parallel hashing scheme supports arbitrarily large data records and allows for an automated deletion policy: new information may evict information no longer required from the cache, resulting in an efficient usage. This sets our solution apart from previous caching techniques, which do not dynamically adapt to view changes and interactive shape modifications. We provide a thorough analysis on cache behavior for different procedural noise functions to displace implicit base shapes, during typical modeling operations.  
 </div>
 &nbsp;  
 _Keywords_: Parallel Hashing, Runtime Cache, Interactive Shape Modeling, Implicit Surface Rendering, Procedural Textures 
@@ -197,6 +230,14 @@ This paper presents a simple method to render complex trees on high frame rates 
 </div>
 &nbsp;  
 _Keywords_: Image Generation, Clustering, 3D Graphics, Realism
+
+## Technical and Soft Skills
+
+• Programming (Scripting) Language and version Control: R, Python, LaTex, Git. 
+• Statistics and Data science Tools : Scikit-learn, scipy, numpy, matplotlib, ggplot2, 
+plotly, randomforest, SQL, pySpark(Basic) etc. 
+• Computing : Experienced user of Photoshop, ImageJ, DNA strider, Microsoft Office (Word, Access, Excel, PowerPoint) and SPSS. Familiar with Windows, Mac and Linux operating systems. 
+
 
 ## Academic teaching  
 
