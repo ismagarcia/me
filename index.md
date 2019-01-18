@@ -19,10 +19,9 @@ solutions.
 </p>
 
 <p class="dark_paragraph">
-Between 2016-2017 I worked in <a href="https://www.arm.com/">Arm</a>'s Architecture and Technology 
+Between 2016-2017 I worked with <a href="https://uk.linkedin.com/in/paulshughes">Paul Hughes</a> in <a href="https://www.arm.com/">Arm</a>'s Architecture and Technology 
 Group, as member of the Intelligent Machines Future System Design 
-team, working with <a href="https://uk.linkedin.com/in/paulshughes">Paul Hughes</a> analysing and prototyping 
-computer vision and ML subsystems for ADAS.
+team, analysing and prototyping computer vision and ML subsystems for ADAS.
 </p>
 
 <p class="dark_paragraph">
@@ -41,8 +40,7 @@ I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/?_ga=2.
 
 <p class="dark_paragraph">
 My research concerned with parallel efficient data structures for data 
-visualization, geometric modeling, image-based data structures
-and ray-tracing. 
+visualization, geometric modeling, image-based representations and ray-tracing. 
 </p>
 
 <p class="dark_paragraph">
@@ -64,9 +62,8 @@ In 2007 I started my Phd. in Computer Graphics joining the
 </p>
 
 <p class="dark_paragraph">
-In 2005 I did a research internship at Technical University of Budapest
-<a href="">Computer Graphics Research Group</a> collaborating with 
-<a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a>.
+In 2005 I did a research internship collaborating with <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a> at Technical University of Budapest
+<a href="">Computer Graphics Research Group</a>.
 </p>
 
 <p class="dark_paragraph">
@@ -80,27 +77,27 @@ by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
 
 ### Exploring Deep Neural Networks Performance
 
-![Octocat](assets/img/dnn_analysis.png){:width="128px"} Investigating deep neural networks for future use-cases, analysing and breaking them down to identify the most relevant operations and data patterns, capturing key insights with data science techniques to drive new software and hardware solutions.
+![Octocat](assets/img/dnn_analysis.png){:width="128px"} Investigated deep neural networks for future use-cases, analysing them and breaking them down to distill the most relevant operations and data patterns, capturing key insights with data science techniques, to then drive new software and hardware solutions.
 
 _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classification, Regression, LSTM, GAN, Clustering, Ensemble Learning, Synthetic Data Generation, Performance Analysis
 
 ### Automotive ADAS/AR subsystems and use-cases
 
-![Octocat](assets/img/adas_subsys.png){:width="128px"} Analysing and prototyping 
+![Octocat](assets/img/adas_subsys.png){:width="128px"} Analysed and prototyped
 computer vision and ML subsystems for ADAS/AR use-cases. 
 
 _Keywords_: Modelling, Virtualization, System Architecture, Memory management, Radar, SLAM, Eye-Tracking, Stereo matching, Deep Neural Networks, Object Detection, Performance Analysis
 
 ### Exploring new AArch64 CPU ISA extensions (SVE)
 
-![Octocat](assets/img/sve_asm.png){:width="128px"} Prototyping and analysing the impact of new <a href="https://community.arm.com/tools/hpc/b/hpc/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture">SVE (Scalable Vector Extension)</a> instruction set in computer vision workloads.
-Exploiting as much data-level parallelism as possible with new instructions with vector lengths that scale from 128 to 2048 bits.
+![Octocat](assets/img/sve_asm.png){:width="128px"} Investigated the impact of <a href="https://community.arm.com/tools/hpc/b/hpc/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture">SVE (Scalable Vector Extension)</a> instruction set in computer vision workloads, exploiting as much data-level parallelism as possible, with new instructions and vector lengths that scale from 128 to 2048 bits.
 
-_Keywords_: SIMD, Vector Instructions, Modelling, CPU Architecture, Computer Vision, Keypoint and Features Detection, Assembly Language, Performance Analysis
+_Keywords_: Single Instruction, Multiple Data (SIMD)
+programming model, Vector Instructions, Parallel Programming, Modelling, CPU Architecture, Computer Vision, Keypoint and Features Detection, Assembly Language, Performance Analysis
 
 ### Heterogeneous Computing and GPU Coherency
 
-![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelling, prototyping low-level software, and analysing heterogeneous compute use-cases to explore <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> features between different type of processors (CPU & GPU), enabling them sharing data as simply as passing a pointer, which massively simplifies the software, and delivers more power efficient and higher performance returns than software managed mechanism.
+![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelled and prototyped low-level software, and analysed heterogeneous compute use-cases to incorporate <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> support between different type of processors (CPU & GPU), enabling them to share data, as simply as passing a pointer, which massively simplify the software, and delivers more power efficient and higher performance applications than other software managed cache synchronization mechanisms.
 
 _Keywords_: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, System Architecture, Modelling, System Programming, Simulation Waveform, FPGA prototyping
 
@@ -109,7 +106,7 @@ _Keywords_: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, 
 #### Parallel spatial data structures for interactive rendering
 ![Octocat](assets/img/phd_thesis_2012_caption.png){:width="128px"} PhD Thesis, October 2012 <a href="https://www.tdx.cat/bitstream/handle/10803/107998/tigf.pdf?sequence=8&isAllowed=y">[pdf]</a>
 <div class="publicationabstract">
-The focus of our study is to design and provide time- and space-efficient parallel data structures and algorithms for real-time rendering applications.   
+The focus of our study is to design and provide time- and space-efficient parallel data structures and algorithms for real-time rendering and general-purpose GPU applications. 
 
 A large number of operations in computer graphics are concerned with the process of collecting spatial data in a computer’s memory, in such a way that the information can be subsequently recovered as quickly as possible in order to be processed and generate a screen image in real-time. In this context, it is important to retain and organize the spatial data in such a way that fast retrieval and evaluation are possible.  
 
@@ -370,7 +367,7 @@ From the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona<
 ## Honors and awards
  
 #### 2007	Generation and real-time visualization of 3D vegetation
-Best UdG-CS project award 2006/2007  
+Best Computer Science Project Award 2006-2007  
 <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
 Patronat Award 12th Edition winner  
 Supervised by Gustavo Patow and Mateu Sbert  
