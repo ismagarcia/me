@@ -67,7 +67,7 @@ Exploiting as much data-level parallelism as possible with new instructions with
 
 ### GPU coherency and heterogeneous computing
 
-![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelling, protytiping low-level software, and analysing heterogeneous compute use-cases to explore <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> features between different type of processors (CPU & GPU) enabling sharing data, as simply as passing a pointer, which massively simplifies the software, more power efficient and higher performance than software managed mechanism.
+![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelling, protytiping low-level software, and analysing heterogeneous compute use-cases to explore <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> features between different type of processors (CPU & GPU), enabling them sharing data as simply as passing a pointer, which massively simplifies the software, and delivers more power efficient and higher performance returns than software managed mechanism.
 
 ## Selected publications
 
