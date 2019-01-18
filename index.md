@@ -55,19 +55,19 @@ by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
 
 ## Selected industry projects
 
-### Automotive ADAS subsystems and use-cases
+### Automotive ADAS/AR subsystems and use-cases
 
-![Octocat](assets/img/adas_subsys.png){:width="128px"} Modeling and prototyping 
-
+![Octocat](assets/img/adas_subsys.png){:width="128px"} Analysing and prototyping 
+computer vision and ML subsystems for ADAS/AR use-cases. 
 
 ### Exploring new AArch64 ISA extensions (SVE)
 
 ![Octocat](assets/img/sve_asm.png){:width="128px"} Prototyping and analysing the impact of new <a href="https://community.arm.com/tools/hpc/b/hpc/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture">SVE (Scalable Vector Extension)</a> instruction set in computer vision workloads.
-Exploiting as much data-level parallelism as possible for new instructions with vector lengths that scale from 128 to 2048 bits.
+Exploiting as much data-level parallelism as possible with new instructions with vector lengths that scale from 128 to 2048 bits.
 
 ### GPU coherency and heterogeneous computing
 
-![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelling, early protytiping low-level software, and analysing heterogeneous compute use-cases to explore <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> features between different type of processors (CPU & GPU) enabling sharing data, as simply as passing a pointer, which massively simplifies the software, more power efficient and higher performance than software managed mechanism.
+![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelling, protytiping low-level software, and analysing heterogeneous compute use-cases to explore <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> features between different type of processors (CPU & GPU) enabling sharing data, as simply as passing a pointer, which massively simplifies the software, more power efficient and higher performance than software managed mechanism.
 
 ## Selected publications
 
