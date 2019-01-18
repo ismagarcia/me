@@ -4,54 +4,76 @@ layout: default
 
 ## Industry advanced product development
 
-<pre>
+<div class="dark_box">
+<p class="dark_paragraph">
 I'm a staff engineer in <a href="https://www.arm.com/">Arm</a>'s Machine Learning Group working
 with David Mansell and <a href="https://www.linkedin.com/in/ianbratt" title="Ian Bratt">Ian Bratt</a>.
+</p>
 
+<p class="dark_paragraph">
 My current work involves analysing neural networks of future use-cases, 
 identifying the most relevant operations and data patterns, 
 capturing key insights with data science techniques to advance 
 real-world performance of <a href="https://www.arm.com">Arm</a>'s new software and hardware 
 solutions.
+</p>
 
+<p class="dark_paragraph">
 Between 2016-2017 I worked in <a href="https://www.arm.com/">Arm</a>'s Architecture and Technology 
 Group, as member of the Intelligent Machines Future System Design 
 team, working with <a href="https://uk.linkedin.com/in/paulshughes">Paul Hughes</a> analysing and prototyping 
 computer vision and ML subsystems for ADAS.
+</p>
 
+<p class="dark_paragraph">
 In 2012 I joined <a href="https://www.arm.com/">Arm</a>'s Processor Division working in system architecture 
 and heterogeneous computing projects with <a href="https://uk.linkedin.com/in/charles-garc%C3%ADa-tobin-0374071">Charles Garcia-Tobin</a> 
 and <a href="https://www.linkedin.com/in/jason-parker-1548aa1/">Jason Parker</a>.
-</pre>
+</p>
+</div>
 
 ## Academic research
-<pre>
+<div class="dark_box">
+<p class="dark_paragraph">
 I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>.
+</p>
 
+<p class="dark_paragraph">
 My research concerned with parallel efficient data structures for data 
 visualization, geometric modeling, image-based data structures
 and ray-tracing. 
+</p>
 
+<p class="dark_paragraph">
 My work explored practical applications in a variety of areas in computer 
 graphics, including real-time tree rendering, GPU efficient 
 data-structures for geometric and texturing, and more recently 
 dynamic parallel data-structures for ray-tracing and general-purpose 
 GPU applications.
+</p>
 
+<p class="dark_paragraph">
 In 2011 I did a doctorate research internship in <a href="http://alice.loria.fr">ALICE Project-Team</a>
 (<a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a>), collaborating with <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>.
+</p>
 
+<p class="dark_paragraph">
 In 2007 I started my Phd. in Computer Graphics joining the 
 <a href="http://ggg.udg.edu/">GGG research group</a>, under the supervision of <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a>.
+</p>
 
+<p class="dark_paragraph">
 In 2005 I did a research internship at Technical University of Budapest
 <a href="">Computer Graphics Research Group</a> collaborating with 
 <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a>.
+</p>
 
+<p class="dark_paragraph">
 I was introduced in the Computer Graphics field advised 
 by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
-</pre>
-
+</p>
+</div>  
+&nbsp;
 
 ## Selected industry projects
 
@@ -60,7 +82,7 @@ by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
 ![Octocat](assets/img/adas_subsys.png){:width="128px"} Analysing and prototyping 
 computer vision and ML subsystems for ADAS/AR use-cases. 
 
-### Exploring new AArch64 ISA extensions (SVE)
+### Exploring new AArch64 CPU ISA extensions (SVE)
 
 ![Octocat](assets/img/sve_asm.png){:width="128px"} Prototyping and analysing the impact of new <a href="https://community.arm.com/tools/hpc/b/hpc/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture">SVE (Scalable Vector Extension)</a> instruction set in computer vision workloads.
 Exploiting as much data-level parallelism as possible with new instructions with vector lengths that scale from 128 to 2048 bits.
