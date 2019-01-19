@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 {% if site.logo %}
 
 {% else %}
@@ -11,16 +10,16 @@ layout: default
 <div class="dark_box">
 <p class="dark_paragraph">
 {% if site.application == "MSFT" %}
-This is text for MSFT...
+!INCLUDE "msft.md"
 {% else %}
   {% if site.application == "AMZN" %}
-This is text for AMZN...
+!INCLUDE "amzn.md"
   {% else %}
     {% if site.application == "DPMND" %}
-This is text for DPMND...
+!INCLUDE "dpmnd.md"
     {% else %}
       {% if site.application == "AZN" %}
-This is text for AZN...
+!INCLUDE "azn.md"
       {% else %}
 OTHER
       {% endif %}
@@ -469,7 +468,7 @@ IWOCL 2014 https://www.iwocl.org/iwocl-2014/agenda-and-slides/
 ## Previous experience
 
 #### From June 2003 to March 2006	El Baúl S.A. – Grupo editorial el baúl
-Redesign and implementation  of a corporative application to the web management of adverts  
+Redesign and implementation of online classified advertisement and community website. 
 <a href="http://www.elbaul.es">elbaul.es</a>  
 Web developer
 

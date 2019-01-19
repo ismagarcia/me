@@ -1,6 +1,7 @@
 title: Ismael Garcia
 # Printed resume: disable logo / Online: enable logo
-logo: /assets/img/logo.png 
+logo: /assets/img/logo.png
+phone_contact: dummy_phone
 application: DPMND # MSFT,AMZN,DPMND,AZN
 description:
 show_downloads: false
