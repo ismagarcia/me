@@ -230,13 +230,14 @@ This paper presents a simple method to render complex trees on high frame rates 
 &nbsp;  
 _Keywords_: Image Generation, Clustering, 3D Graphics, Realism
 
+<!--
 ## Technical and Soft Skills
 
 • Programming (Scripting) Language and version Control: R, Python, LaTex, Git. 
 • Statistics and Data science Tools : Scikit-learn, scipy, numpy, matplotlib, ggplot2, 
 plotly, randomforest, SQL, pySpark(Basic) etc. 
 • Computing : Experienced user of Photoshop, ImageJ, DNA strider, Microsoft Office (Word, Access, Excel, PowerPoint) and SPSS. Familiar with Windows, Mac and Linux operating systems. 
-
+-->
 
 ## Academic teaching  
 
