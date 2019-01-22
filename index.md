@@ -5,6 +5,8 @@ layout: default
 
 {% else %}
 
+&nbsp;  
+&nbsp;  
 ## Personal statement
 
 <div class="dark_box">
@@ -21,7 +23,11 @@ layout: default
       {% if site.application == "AZN" %}
 !INCLUDE "azn.md"
       {% else %}
-OTHER
+        {% if site.application == "SMSNG" %}
+!INCLUDE "smsng.md"
+        {% else %}
+          OTHER
+        {% endif %}
       {% endif %}
     {% endif %}  
   {% endif %}
@@ -32,6 +38,13 @@ OTHER
 
 {% endif %}
 
+{% if site.logo %}
+{% else %}
+
+
+&nbsp;  
+&nbsp;  
+{% endif %}
 ## Industry advanced product development
 
 <div class="dark_box">
@@ -105,11 +118,23 @@ by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
 
 ## Selected industry projects
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+{% endif %}
+
 ### Exploring Deep Neural Networks Performance
 
 ![Octocat](assets/img/dnn_analysis.png){:width="128px"} Investigated deep neural networks for future use-cases, analysing them and breaking them down to distill the most relevant operations and data patterns, capturing key insights with data science techniques, to then drive new software and hardware solutions.
 
 _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classification, Regression, LSTM, GAN, Clustering, Ensemble Learning, Synthetic Data Generation, Performance Analysis
+
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+{% endif %}
 
 ### Automotive ADAS/AR subsystems and use-cases
 
@@ -118,6 +143,11 @@ computer vision and ML subsystems for ADAS/AR use-cases.
 
 _Keywords_: Modelling, Virtualization, System Architecture, Memory management, Radar, SLAM, Eye-Tracking, Stereo matching, Deep Neural Networks, Object Detection, Performance Analysis
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+{% endif %}
 ### Exploring new AArch64 CPU ISA extensions (SVE)
 
 ![Octocat](assets/img/sve_asm.png){:width="128px"} Investigated the impact of <a href="https://community.arm.com/tools/hpc/b/hpc/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture">SVE (Scalable Vector Extension)</a> instruction set in computer vision workloads, exploiting as much data-level parallelism as possible, with new instructions and vector lengths that scale from 128 to 2048 bits.
@@ -149,7 +179,7 @@ programming model.
 The proposed approaches create a coarse lattice in which each cell contains a local description of surface and volume information, required for rendering such regions of the domain. This low-bandwidth localized memory access pattern is increasingly advantageous in many-core architectures, were the usage of random-access parallel data structures is crucial to provide fast rendering speed and good visual quality.
 </div>
 &nbsp;  
-_Keywords_: Spatial data, Parallel Computing, Spatial Hashing, Surface Parameterization, Subdivision Surfaces, Surface Simplification
+_Keywords_: Spatial data, Dense and Sparse Data Structures, Parallel Computing, Spatial Hashing, Surface Parameterization, Subdivision Surfaces, Surface Simplification
 
 #### Interactive Applications for Sketch-Based Editable Polycube Map
 ![Octocat](assets/img/editablepc_tvc2013_teaser.png){:width="128px"} IEEE Transactions on Visualization and Computer Graphics, (Volume:19, Issue: 7, July 2013); Ismael Garcia, Jiazhi Xia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="https://ieeexplore.ieee.org/document/6361388">[pdf]</a> 
@@ -198,6 +228,12 @@ Preserving details from a high resolution reference model onto lower resolution 
 &nbsp;  
 _Keywords_: Appearance Preserving Simplification, Detail-Recovery, Computer Games, Texturing, Parameterizations, Level-of-Detail
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+{% endif %}
+
 #### Generation and interactive visualization of 3D vegetation
 ![Octocat](assets/img/nph07.png){:width="128px"} Master thesis in Computing, 2007; from the University of Girona and the UPC Barcelona Tech; advised by Gustavo Patow and Mateu Sbert  <a href="http://www.gametools.org/archives/publications/mastertesi_isma.pdf">[pdf]</a>
 
@@ -230,14 +266,36 @@ This paper presents a simple method to render complex trees on high frame rates 
 &nbsp;  
 _Keywords_: Image Generation, Clustering, 3D Graphics, Realism
 
-<!--
-## Technical and Soft Skills
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+{% endif %}
 
-• Programming (Scripting) Language and version Control: R, Python, LaTex, Git. 
-• Statistics and Data science Tools : Scikit-learn, scipy, numpy, matplotlib, ggplot2, 
-plotly, randomforest, SQL, pySpark(Basic) etc. 
-• Computing : Experienced user of Photoshop, ImageJ, DNA strider, Microsoft Office (Word, Access, Excel, PowerPoint) and SPSS. Familiar with Windows, Mac and Linux operating systems. 
--->
+## Technical skills
+
+### Languages 
+English (Read, Write and Speak: Fluent),
+Spanish (mother language),
+Catalan (Read, Write and Speak: Fluent).
+
+### Programming Languages
+C, C++, OpenCL, CUDA, Aarch64 Assembly, NEON, SVE, R, Python,  Latex, MatLab, GLSL, SQL, HTML, CSS, PHP.
+
+### Programming frameworks and APIs
+Tensorflow, R, Jupyter Notebook, Caffe, OpenGL, OpenMP, Unity, Ogre3D, Android NDK, LLVM.
+
+### Software 
+Git, Vim, GDB, Confluence, JIRA, 3ds Max, Maya, Zbrush, Blender, Photoshop, Gimp, Inkscape, Visual Studio.
+
+### Operating System and Firmware development
+
+Linux, Android, Windows, Firmware and bare-metal.
+
+_Keywords_: parallel computing, multi-threaded design, algorithm design, numerical methods, data visualization, machine learning, computer vision, 3d graphics and game engine programming, white papers, technical papers, GPU, CPU and FPGA development
+
 
 ## Academic teaching  
 
@@ -398,6 +456,12 @@ BR PhD Fellowship from the <a href="https://www.udg.edu/ca/study-at-the-udg">Uni
 #### 2006 – 2007	Master in computing
 From the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, and the <a href="https://www.upc.edu/en?set_language=en">UPC Barcelona Tech</a>  
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+{% endif %}
+
 #### 2003 – 2006	Computer Engineering
 <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
 
@@ -437,6 +501,12 @@ Research PhD student
 #### From September 2004 to April 2007	Gametools Project
 <a href="http://ima.udg.edu/~sellares/Tin2010/Tin2010.htm">European Union Project (IST-2-004363)</a>  
 Research developer  
+
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+{% endif %}
 
 #### From February 2010 to April 2010	Research intership - INRIA Nancy (France), Alice project-team
 Phd thesis research intership under supervision of <a href="http://www.antexel.com/sylefeb/research">Dr.Sylvain Lefebvre</a>, INRIA contract <a href="http://alice.loria.fr/">Alice project-team</a>  
