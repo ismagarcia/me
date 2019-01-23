@@ -105,7 +105,7 @@ In 2007 I started my Phd. in Computer Graphics joining the
 </p>
 
 <p class="dark_paragraph">
-In 2005 I did a research internship collaborating with <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a> at Technical University of Budapest
+In 2005 I did a research internship collaborating with <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a>
 <a href="">Computer Graphics Research Group</a>.
 </p>
 
@@ -235,7 +235,7 @@ _Keywords_: Appearance Preserving Simplification, Detail-Recovery, Computer Game
 {% endif %}
 
 #### Generation and interactive visualization of 3D vegetation
-![Octocat](assets/img/nph07.png){:width="128px"} Master thesis in Computing, 2007; from the University of Girona and the UPC Barcelona Tech; advised by Gustavo Patow and Mateu Sbert  <a href="http://www.gametools.org/archives/publications/mastertesi_isma.pdf">[pdf]</a>
+![Octocat](assets/img/nph07.png){:width="128px"} Master thesis in Computing, 2007; from the University of Girona and the UPC Barcelona Tech; advised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  <a href="http://www.gametools.org/archives/publications/mastertesi_isma.pdf">[pdf]</a>
 
 #### Multi-layered indirect texturing for tree rendering
 ![Octocat](assets/img/cork_close_view_polygonal_left_121_billboards_multilayer_right_200w_128h.png){:width="128px"} Eurographics Workshop on Natural Phenomena 2007; Ismael Garcia, Gustavo Patow, Laszlo Szirmay-Kalos, Mateu Sbert  
@@ -476,7 +476,7 @@ From the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona<
 Best Computer Science Project Award 2006-2007  
 <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
 Patronat Award 12th Edition winner  
-Supervised by Gustavo Patow and Mateu Sbert  
+Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  
 
 
 ## Academic experience
