@@ -284,7 +284,8 @@ Catalan (Read, Write and Speak: Fluent).
 ### Programming Languages
 C, C++, OpenCL, CUDA, Aarch64 Assembly, NEON, SVE, R, Python,  Latex, MatLab, GLSL, SQL, HTML, CSS, PHP.
 
-### Programming frameworks and APIs
+### Programming frameworks and APIs  
+
 Tensorflow, R, Jupyter Notebook, Caffe, OpenGL, OpenMP, Unity, Ogre3D, Android NDK, LLVM.
 
 ### Software 
