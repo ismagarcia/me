@@ -179,7 +179,7 @@ programming model.
 The proposed approaches create a coarse lattice in which each cell contains a local description of surface and volume information, required for rendering such regions of the domain. This low-bandwidth localized memory access pattern is increasingly advantageous in many-core architectures, were the usage of random-access parallel data structures is crucial to provide fast rendering speed and good visual quality.
 </div>  
 &nbsp;  
-**Best Ph.D. Thesis Award of the School of Computer Science**  
+**<a href="http://www2.udg.edu/Portals/165/Resoluci%C3%B3%20convocat%C3%B2ria%202013.pdf">Best Ph.D. Thesis Award of the School of Computer Science</a>**  
 **<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>, 2012-2013**
  
 _Keywords_: Spatial data, Dense and Sparse Data Structures, Parallel Computing, Spatial Hashing, Surface Parameterization, Subdivision Surfaces, Surface Simplification
