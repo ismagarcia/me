@@ -177,8 +177,11 @@ different topology and sparsity are handled with efficient encoding and renderin
 programming model.  
 
 The proposed approaches create a coarse lattice in which each cell contains a local description of surface and volume information, required for rendering such regions of the domain. This low-bandwidth localized memory access pattern is increasingly advantageous in many-core architectures, were the usage of random-access parallel data structures is crucial to provide fast rendering speed and good visual quality.
-</div>
+</div>  
 &nbsp;  
+**Best Ph.D. Thesis Award of the School of Computer Science**  
+**<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>, 2012-2013**
+ 
 _Keywords_: Spatial data, Dense and Sparse Data Structures, Parallel Computing, Spatial Hashing, Surface Parameterization, Subdivision Surfaces, Surface Simplification
 
 #### Interactive Applications for Sketch-Based Editable Polycube Map
@@ -359,9 +362,9 @@ Dublin, Ireland
 ## Supervised Bachelor Students:
 
 #### 2017    Gershom Akoli Agim
-Deep Neural Networks on Arm Cortex-A CPUs:   
-Analysis of CPU Inference on Vision workloads  
-MEng Electrical & Electronic Engineering Hons Project  
+Deep Neural Networks on Arm Cortex-A CPUs: Analysis of CPU Inference on Vision workloads
+<br>
+MEng Electrical & Electronic Engineering Hons Project   
 <a href="https://www.hw.ac.uk/">Heriot-Watt University</a>, United Kingdom
 
 #### 2016    Jan-Peter Larsson 
