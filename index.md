@@ -290,7 +290,7 @@ C, C++, OpenCL, CUDA, Aarch64 Assembly, NEON, SVE, R, Python,  Latex, MatLab, GL
 
 ### Programming frameworks and APIs  
 
-Tensorflow, R, Jupyter Notebook, Caffe, OpenGL, OpenMP, Unity, Ogre3D, Android NDK, LLVM.
+Tensorflow, R, Jupyter Notebook, Caffe, OpenCV, DirectX, OpenGL, OpenMP, Unity, Ogre3D, Android NDK, LLVM.
 
 ### Software 
 Git, Vim, GDB, Confluence, JIRA, 3ds Max, Maya, Zbrush, Blender, Photoshop, Gimp, Inkscape, Visual Studio.
@@ -475,9 +475,13 @@ From the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona<
 
 
 ## Honors and awards
- 
-#### 2007	Generation and real-time visualization of 3D vegetation
-Best Computer Science Project Award 2006-2007  
+
+#### 2013        Best Ph.D. Thesis Award of the School of Computer Science  
+**<a href="http://www2.udg.edu/Portals/165/Resoluci%C3%B3%20convocat%C3%B2ria%202013.pdf">Publication September 2013</a>**  
+**<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>, 2012-2013**  
+  
+#### 2007	Best Computer Science Project Award 2006-2007  
+Generation and real-time visualization of 3D vegetation 
 <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
 Patronat Award 12th Edition winner  
 Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  
@@ -502,6 +506,12 @@ Reserch developer
 #### From May 2007 to May 2011	PhD research fellowship BR
 <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>  
 Research PhD student    
+
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+{% endif %}
 
 #### From September 2004 to April 2007	Gametools Project
 <a href="http://ima.udg.edu/~sellares/Tin2010/Tin2010.htm">European Union Project (IST-2-004363)</a>  
