@@ -163,6 +163,30 @@ _Keywords_: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, 
 
 ### Note: Other experimental projects can be provided upon request.
 
+
+## Honors and awards
+
+#### 2013        Best Ph.D. Thesis Award of the School of Computer Science  
+Parallel spatial data structures for interactive rendering, PhD Thesis, defended October 2012  
+**<a href="http://www2.udg.edu/Portals/165/Resoluci%C3%B3%20convocat%C3%B2ria%202013.pdf">Publication September 2013</a>**  
+**<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>, 2013**  
+  
+#### 2007	Best Computer Science Project Award 2006-2007  
+Generation and real-time visualization of 3D vegetation 
+<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
+Patronat Award 12th Edition winner  
+Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  
+
+
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;      
+{% endif %}
+
 ## Selected publications
 
 #### Parallel spatial data structures for interactive rendering
@@ -222,6 +246,12 @@ In this paper we propose an editable polycube mapping method that, given an arbi
 &nbsp;  
 _Keywords_: Digital Geometry Processing, Surface Parameterization, Polycube Map, GPU Subdivision Surface
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+{% endif %}
+
 #### IGT: Inverse Geometric Textures
 ![Octocat](assets/img/Teaser_200w_128h.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 27(5), 2008; Ismael Garcia, Gustavo Patow  
 <a href="http://ggg.udg.edu/publicacions/UsersWebs/igarcia_igt_siga2008/">[project page]</a>
@@ -232,11 +262,6 @@ Preserving details from a high resolution reference model onto lower resolution 
 &nbsp;  
 _Keywords_: Appearance Preserving Simplification, Detail-Recovery, Computer Games, Texturing, Parameterizations, Level-of-Detail
 
-{% if site.logo %}
-{% else %}
-&nbsp;  
-&nbsp;  
-{% endif %}
 
 #### Generation and interactive visualization of 3D vegetation
 ![Octocat](assets/img/nph07.png){:width="128px"} Master thesis in Computing, 2007; from the University of Girona and the UPC Barcelona Tech; advised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  <a href="http://www.gametools.org/archives/publications/mastertesi_isma.pdf">[pdf]</a>
@@ -261,6 +286,13 @@ This paper presents a method to render complex trees on high frame rates while p
 &nbsp;
 -->
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+{% endif %}
+
+
 #### Leaf cluster impostors for tree rendering with parallax
 ![Octocat](assets/img/billboardComparison_200w_128h.png){:width="128px"} Short Paper of Eurographics (Dublin, Ireland), pp. 69-72, 2005; Ismael Garcia, Mateu Sbert, Laszlo Szirmay-Kalos  
 
@@ -269,14 +301,6 @@ This paper presents a simple method to render complex trees on high frame rates 
 </div>
 &nbsp;  
 _Keywords_: Image Generation, Clustering, 3D Graphics, Realism
-
-{% if site.logo %}
-{% else %}
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-{% endif %}
 
 ## Technical skills
 
@@ -393,6 +417,22 @@ Real-time rendering of large forest
 BEng Project, Technical Computer Engineering   
 <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain
 
+
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+{% endif %}
+
+
 ## Other professional activities
 
 ### Program Committee Member	 
@@ -472,19 +512,6 @@ From the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona<
 
 #### 1999 – 2003	Technical Computer Engineering 
 <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
-
-
-## Honors and awards
-
-#### 2013        Best Ph.D. Thesis Award of the School of Computer Science  
-**<a href="http://www2.udg.edu/Portals/165/Resoluci%C3%B3%20convocat%C3%B2ria%202013.pdf">Publication September 2013</a>**  
-**<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>, 2012-2013**  
-  
-#### 2007	Best Computer Science Project Award 2006-2007  
-Generation and real-time visualization of 3D vegetation 
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
-Patronat Award 12th Edition winner  
-Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  
 
 
 ## Academic experience
