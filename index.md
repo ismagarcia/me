@@ -172,7 +172,7 @@ Parallel spatial data structures for interactive rendering, PhD Thesis, defended
 **<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>, 2013**  
   
 #### 2007	Best Computer Science Project Award 2006-2007  
-Generation and real-time visualization of 3D vegetation 
+Generation and real-time visualization of 3D vegetation  
 <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
 Patronat Award 12th Edition winner  
 Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  
