@@ -190,11 +190,11 @@ Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a 
 ## Selected publications
 
 #### Parallel spatial data structures for interactive rendering
-![Octocat](assets/img/phd_thesis_2012_caption.png){:width="128px"} PhD Thesis, October 2012 <a href="https://www.tdx.cat/bitstream/handle/10803/107998/tigf.pdf?sequence=8&isAllowed=y">[pdf]</a>  
-&nbsp;  
-**<a href="http://www2.udg.edu/Portals/165/Resoluci%C3%B3%20convocat%C3%B2ria%202013.pdf">Best Ph.D. Thesis Award of the School of Computer Science</a>**  
-**<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>, 2012-2013**  
- 
+![Octocat](assets/img/phd_thesis_2012_caption.png){:width="128px"} PhD Thesis, October 2012 <a href="https://www.tdx.cat/bitstream/handle/10803/107998/tigf.pdf?sequence=8&isAllowed=y">[pdf]</a>
+
+Best Ph.D. Thesis Award of the School of Computer Science 2013  
+<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>
+
 <div class="publicationabstract">
 The focus of our study is to design and provide time- and space-efficient parallel data structures and algorithms for real-time rendering and general-purpose GPU applications. 
 
