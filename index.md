@@ -128,7 +128,7 @@ by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
 
 ![Octocat](assets/img/dnn_analysis.png){:width="128px"} Investigated deep neural networks for future use-cases, analysing them and breaking them down to distill the most relevant operations and data patterns, capturing key insights with data science techniques, to then drive new software and hardware solutions.
 
-_Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classification, Regression, LSTM, GAN, Clustering, Ensemble Learning, Synthetic Data Generation, Performance Analysis
+_Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classification, Regression, LSTM, GAN, Clustering, Ensemble Learning, AutoML, Synthetic Data Generation, Performance Analysis
 
 {% if site.logo %}
 {% else %}
@@ -310,7 +310,7 @@ Spanish (mother language),
 Catalan (Read, Write and Speak: Fluent).
 
 ### Programming Languages
-C, C++, OpenCL, CUDA, Aarch64 Assembly, NEON, SVE, R, Python,  Latex, MatLab, GLSL, SQL, HTML, CSS, PHP.
+C, C++, OpenCL, CUDA, Aarch64 Assembly, NEON, SVE, R, Python,  Latex, MatLab, GLSL, SQL, NoSQL, HTML, CSS, PHP.
 
 ### Programming frameworks and APIs  
 
