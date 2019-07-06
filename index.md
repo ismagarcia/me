@@ -89,7 +89,7 @@ visualization, geometric modeling, image-based representations and ray-tracing.
 <p class="dark_paragraph">
 My work explored practical applications in a variety of areas in computer 
 graphics, including real-time tree rendering, GPU efficient 
-data-structures for geometric and texturing, and more recently 
+data-structures for geometry processing and texturing, and more recently 
 dynamic parallel data-structures for ray-tracing and general-purpose 
 GPU applications.
 </p>
