@@ -41,7 +41,16 @@ layout: default
 {% if site.logo %}
 {% else %}
 
-
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp; 
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
 &nbsp;  
 &nbsp;  
 {% endif %}
@@ -64,7 +73,7 @@ solutions.
 <p class="dark_paragraph">
 Between 2016-2017 I worked with <a href="https://uk.linkedin.com/in/paulshughes">Paul Hughes</a> in <a href="https://www.arm.com/">Arm</a>'s Architecture and Technology 
 Group, as member of the Intelligent Machines Future System Design 
-team, analysing and prototyping computer vision and ML subsystems for ADAS.
+team, analysing and prototyping computer vision and ML subsystems for Advanced Driver-Assistance System and Computational Biology applications.
 </p>
 
 <p class="dark_paragraph">
@@ -120,8 +129,6 @@ by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
 
 {% if site.logo %}
 {% else %}
-&nbsp;  
-&nbsp;  
 {% endif %}
 
 ### Exploring Deep Neural Networks Performance
@@ -132,20 +139,17 @@ _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classif
 
 {% if site.logo %}
 {% else %}
-&nbsp;  
-&nbsp;  
 {% endif %}
 
-### Automotive ADAS/AR subsystems and use-cases
+### Advanced Driver-Assistance System and Computational Biology applications
 
-![Octocat](assets/img/adas_subsys.png){:width="128px"} Analysed and prototyped
-computer vision and ML subsystems for ADAS/AR use-cases. 
+![Octocat](assets/img/adas_cb_subsys.png){:width="128px"} Analysed and prototyped
+computer vision and ML subsystems for Advanced Driver-Assistance System and Computational Biology applications. 
 
-_Keywords_: Modelling, Virtualization, System Architecture, Memory management, Radar, SLAM, Eye-Tracking, Stereo matching, Deep Neural Networks, Object Detection, Performance Analysis
+_Keywords_: Modelling,  Image Segmentation, Graph/Network Structures, Deep Neural Networks,,Virtualization, System Architecture, Memory management, Radar, SLAM, Stereo matching, Object Detection, Performance Analysis
 
 {% if site.logo %}
 {% else %}
-&nbsp;  
 &nbsp;  
 {% endif %}
 ### Exploring new AArch64 CPU ISA extensions (SVE)
@@ -155,6 +159,10 @@ _Keywords_: Modelling, Virtualization, System Architecture, Memory management, R
 _Keywords_: Single Instruction, Multiple Data (SIMD)
 programming model, Vector Instructions, Parallel Programming, Modelling, CPU Architecture, Computer Vision, Keypoint and Features Detection, Assembly Language, Performance Analysis
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+{% endif %}
 ### Heterogeneous Computing and GPU Coherency
 
 ![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelled and prototyped low-level software, and analysed heterogeneous compute use-cases to incorporate <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> support between different type of processors (CPU & GPU), enabling them to share data, as simply as passing a pointer, which massively simplify the software, and delivers more power efficient and higher performance applications than other software managed cache synchronization mechanisms.
@@ -184,7 +192,15 @@ Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a 
 &nbsp;  
 &nbsp;  
 &nbsp;  
-&nbsp;      
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp; 
+&nbsp;     
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp; 
 {% endif %}
 
 ## Selected publications
@@ -217,6 +233,14 @@ In this paper we propose a sketch-based editable polycube mapping method that, g
 &nbsp;  
 _Keyworkds_: Digital Geometry Processing, Surface Parameterization, Polycube Map, GPU Subdivision Surface
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp; 
+{% endif %}
 #### A Runtime Cache for Interactive Procedural Modeling
 ![Octocat](assets/img/hash_cache_teaser.png){:width="128px"} SMI 2012: Shape Modeling International, Computer & Graphics; Tim Reiner, Sylvain Lefebvre, Lorenz Diener, Ismael Garcia, Bruno Jobard, Carsten Dachsbacher <a href="http://ggg.udg.edu/publicacions/UsersWebs/hashcache_smi2012/">[project page]</a>
  
@@ -227,6 +251,24 @@ We present an efficient runtime cache to accelerate the display of procedurally 
 &nbsp;  
 _Keywords_: Parallel Hashing, Runtime Cache, Interactive Shape Modeling, Implicit Surface Rendering, Procedural Textures 
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;
+&nbsp;  
+&nbsp;
+&nbsp;  
+&nbsp;
+&nbsp;
+&nbsp;  
+&nbsp;
+&nbsp;
+&nbsp;  
+&nbsp; 
+{% endif %}
 #### Coherent parallel hashing
 ![Octocat](assets/img/cohash_2011.png){:width="128px"} ACM Transactions on Graphics  
 Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ggg.udg.edu/publicacions/UsersWebs/cohash_siga2011/index.shtml">[project page]</a>
@@ -237,6 +279,13 @@ Recent spatial hashing schemes hash millions of keys in parallel, compacting spa
 &nbsp;  
 _Keywords_: Spatial Data, Parallel Computing, Coherent Memory, Cache Memory, Hashing, Sparse Data
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp; 
+{% endif %}
 #### Editable Polycube Map for GPU-based Subdivision Surfaces
 ![Octocat](assets/img/epcm_i3d_200w_148h.png){:width="128px"} I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ggg.udg.edu/publicacions/UsersWebs/igarcia_epcm_i3d2011/index.shtml">[project page]</a>
 
@@ -423,13 +472,7 @@ BEng Project, Technical Computer Engineering
 &nbsp;  
 &nbsp;  
 &nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-&nbsp;  
+&nbsp;    
 {% endif %}
 
 
@@ -492,6 +535,23 @@ Local organizer
 2010 GPU Mesh Processing tools  
 NVIDIA Mutual Non-Disclosure Agreement 
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp; 
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp; 
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+{% endif %}
 ## Education and training  
 
 #### 2007 – 2012	Ph.D. in Computer  Science
@@ -503,8 +563,6 @@ From the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona<
 
 {% if site.logo %}
 {% else %}
-&nbsp;  
-&nbsp;  
 {% endif %}
 
 #### 2003 – 2006	Computer Engineering
@@ -536,8 +594,6 @@ Research PhD student
 
 {% if site.logo %}
 {% else %}
-&nbsp;  
-&nbsp;  
 {% endif %}
 
 #### From September 2004 to April 2007	Gametools Project
@@ -546,8 +602,6 @@ Research developer
 
 {% if site.logo %}
 {% else %}
-&nbsp;  
-&nbsp;  
 {% endif %}
 
 #### From February 2010 to April 2010	Research intership - INRIA Nancy (France), Alice project-team
@@ -578,6 +632,13 @@ IWOCL 2013 https://www.iwocl.org/2013-presentations/
 IWOCL 2014 https://www.iwocl.org/iwocl-2014/agenda-and-slides/
 -->
 
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+&nbsp;  
+&nbsp;  
+{% endif %}
 ## Previous experience
 
 #### From June 2003 to March 2006	El Baúl S.A. – Grupo editorial el baúl
