@@ -136,7 +136,8 @@ _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classif
 
 ![Octocat](assets/img/adas_cb_subsys.png){:width="128px"} Analysed and prototyped
 computer vision and ML subsystems for Advanced Driver-Assistance System and Computational Biology applications.
-_Keywords_: Modelling,  Image Segmentation, Graph/Network Structures, Deep Neural Networks,,Virtualization, System Architecture, Memory management, Radar, SLAM, Stereo matching, Object Detection, Performance Analysis
+
+_Keywords_: Modelling,  Image Segmentation, Graph/Network Structures, Deep Neural Networks, Virtualization, System Architecture, Memory management, Radar, SLAM, Stereo matching, Object Detection, Performance Analysis
 
 {% if site.logo %}
 {% else %}
