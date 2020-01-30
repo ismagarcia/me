@@ -64,7 +64,7 @@ solutions.
 <p class="dark_paragraph">
 Between 2016-2017 I worked with <a href="https://uk.linkedin.com/in/paulshughes">Paul Hughes</a> in <a href="https://www.arm.com/">Arm</a>'s Architecture and Technology 
 Group, as member of the Intelligent Machines Future System Design 
-team, analysing and prototyping computer vision and ML subsystems for Advanced Driver-Assistance System and Computational Biology applications.
+team, analysing and prototyping computer vision and ML subsystems for ADAS.
 </p>
 
 <p class="dark_paragraph">
@@ -120,6 +120,8 @@ by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
 
 {% if site.logo %}
 {% else %}
+&nbsp;  
+&nbsp;  
 {% endif %}
 
 ### Exploring Deep Neural Networks Performance
@@ -130,14 +132,16 @@ _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classif
 
 {% if site.logo %}
 {% else %}
+&nbsp;  
+&nbsp;  
 {% endif %}
 
-### Advanced Driver-Assistance System and Computational Biology applications
+### Automotive ADAS/AR subsystems and use-cases
 
-![Octocat](assets/img/adas_cb_subsys.png){:width="128px"} Analysed and prototyped
-computer vision and ML subsystems for Advanced Driver-Assistance System and Computational Biology applications.
+![Octocat](assets/img/adas_subsys.png){:width="128px"} Analysed and prototyped
+computer vision and ML subsystems for ADAS/AR use-cases. 
 
-_Keywords_: Modelling,  Image Segmentation, Graph/Network Structures, Deep Neural Networks, Virtualization, System Architecture, Memory management, Radar, SLAM, Stereo matching, Object Detection, Performance Analysis
+_Keywords_: Modelling, Virtualization, System Architecture, Memory management, Radar, SLAM, Eye-Tracking, Stereo matching, Deep Neural Networks, Object Detection, Performance Analysis
 
 {% if site.logo %}
 {% else %}
@@ -310,7 +314,7 @@ C, C++, OpenCL, CUDA, Aarch64 Assembly, NEON, SVE, R, Python,  Latex, MatLab, GL
 
 ### Programming frameworks and APIs  
 
-Tensorflow, R, Jupyter Notebook, Caffe, OpenCV, DirectX, OpenGL, OpenMP, Unity, Ogre3D, Android NDK, LLVM.
+Tensorflow, Pytorch, R, Jupyter Notebook, Caffe2, OpenCV, DirectX, OpenGL, OpenMP, Unity, Ogre3D, Android NDK, LLVM.
 
 ### Software 
 Git, Vim, GDB, Confluence, JIRA, 3ds Max, Maya, Zbrush, Blender, Photoshop, Gimp, Inkscape, Visual Studio.
