@@ -136,12 +136,12 @@ _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classif
 &nbsp;  
 {% endif %}
 
-### Automotive ADAS/AR subsystems and use-cases
+### Advanced Driver-Assistance System and Computational Biology applications
 
-![Octocat](assets/img/adas_subsys.png){:width="128px"} Analysed and prototyped
-computer vision and ML subsystems for ADAS/AR use-cases. 
+![Octocat](assets/img/adas_cb_subsys.png){:width="128px"} Analysed and prototyped
+computer vision and ML subsystems for Advanced Driver-Assistance System and Computational Biology applications.
 
-_Keywords_: Modelling, Virtualization, System Architecture, Memory management, Radar, SLAM, Eye-Tracking, Stereo matching, Deep Neural Networks, Object Detection, Performance Analysis
+_Keywords_: Modelling,  Image Segmentation, Graph/Network Structures, Deep Neural Networks, Virtualization, System Architecture, Memory management, Radar, SLAM, Stereo matching, Object Detection, Performance Analysis
 
 {% if site.logo %}
 {% else %}
