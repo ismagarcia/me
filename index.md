@@ -49,7 +49,7 @@ layout: default
 
 <div class="dark_box">
 <p class="dark_paragraph">
-I'm a staff engineer in <a href="https://www.arm.com/">Arm</a>'s Machine Learning Group working
+I'm a principal engineer in <a href="https://www.arm.com/">Arm</a>'s Machine Learning Group working
 with David Mansell and <a href="https://www.linkedin.com/in/ianbratt" title="Ian Bratt">Ian Bratt</a>.
 </p>
 
