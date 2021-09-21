@@ -203,7 +203,7 @@ _Keywords_: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, 
 
 ## Honors and awards
 
-#### 2021        Interview and career recognition [book expected publication: November 2021] 
+#### 2021        Interview and career recognition [book publication date: November 2021] 
 Career recognition by the board of trustees of the <a href="https://patronateps.udg.edu/">Polytechnic School Patronage</a> (<a href="https://www.udg.edu/en/">University of Girona</a>) in 25th anniversary book, by founding members, industrialists, representatives of institutions, Chamber of Commerce, delegates from different government departments and presidents and deans of professional associations from <a href="https://www.udg.edu/en/">University of Girona</a>.
 <a href="https://patronateps.udg.edu/llibre-25-anys-premis-patronat/">25th Anniversary Book: Polytechnic School Patronage</a>
 
