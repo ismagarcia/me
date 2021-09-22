@@ -142,7 +142,7 @@ I was introduced in the Computer Graphics field advised by <a href="http://ima.u
 
 ### Predictive Models for Kernel Selection Heuristics [2020-Now]
 
-![Octocat](assets/img/gemm_kernel_heuristics.png){:width="192px"} Designed and Developed innovative predictive model for CPUs & GPUs, for high-performance selection of kernels implementations of GEMM (General Matrix Multiply) and convolutions, within Machine Learning use-cases; choosing the right implementation in microseconds is crucial through fast and general heuristics.
+![Octocat](assets/img/gemm_kernel_heuristics.png){:width="192px"} Designed and developed innovative predictive model for CPUs & GPUs, for high-performance selection of kernels implementations of GEMM (General Matrix Multiply) and convolutions, within Machine Learning use-cases; choosing the right implementation in microseconds is crucial through fast and general heuristics.
 
 _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classification, Regression, AutoML, Data Augmentation, Performance Analysis
 
