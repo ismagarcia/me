@@ -159,11 +159,7 @@ _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classif
 _Keywords_: Matrix multiplication, Outer product, Modelling, CPU Architecture, Deep Neural Network, Performance Analysis
 
 {% if site.logo %}
-{% else %}
-&nbsp;  
-&nbsp;
-&nbsp;
-&nbsp;  
+{% else %} 
 {% endif %}
 
 ### Exploring Deep Neural Networks Performance [2018-Now]
@@ -257,14 +253,6 @@ The focus of our study is to design and provide time- and space-efficient parall
 
 {% if site.logo %}
 {% else %}
-&nbsp;  
-&nbsp;
-&nbsp;
-&nbsp;  
-&nbsp;
-&nbsp;
-&nbsp;  
-&nbsp;  
 {% endif %}
 
 
@@ -345,8 +333,6 @@ _Keywords_: Digital Geometry Processing, Surface Parameterization, Polycube Map,
 
 {% if site.logo %}
 {% else %}
-&nbsp;  
-&nbsp;  
 {% endif %}
 
 #### IGT: Inverse Geometric Textures
@@ -439,7 +425,7 @@ Spanish (mother language),
 Catalan (Read, Write and Speak: Fluent).
 
 ### Programming Languages
-R, Python, C, C++, Objective C, OpenCL, CUDA, Aarch64 Assembly, NEON, SVE,  Latex, MatLab, GLSL, SQL, NoSQL, HTML, CSS, PHP.
+R, Python, C, C++, Objective C, OpenCL, CUDA, Aarch64 Assembly, NEON, SVE, Javascript, Latex, MatLab, GLSL, SQL, NoSQL, HTML, CSS, PHP.
 
 ### Programming frameworks and APIs  
 
