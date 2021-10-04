@@ -45,7 +45,7 @@ layout: default
 &nbsp;  
 &nbsp;  
 {% endif %}
-## Industry advanced product development
+## Industry advanced product development [l](#industry-advanced-product-development)  
 
 <div class="dark_box">
 <p class="dark_paragraph">
@@ -75,7 +75,7 @@ and <a href="https://www.linkedin.com/in/jason-parker-1548aa1/">Jason Parker</a>
 </div>
 &nbsp;
 
-## Academic research
+## Academic research [l](#academic-research)
 <div class="dark_box">
 
 <!--
@@ -132,7 +132,7 @@ I was introduced in the Computer Graphics field advised by <a href="http://ima.u
 </div>  
 &nbsp;
 
-## Selected industry projects ordered chronologically
+## Selected industry projects ordered chronologically [l](#selected-industry-projects-ordered-chronologically)
 
 {% if site.logo %}
 {% else %}
@@ -140,7 +140,7 @@ I was introduced in the Computer Graphics field advised by <a href="http://ima.u
 &nbsp;  
 {% endif %}
 
-### Predictive Models for Kernel Selection Heuristics [2020-Now]
+### Predictive Models for Kernel Selection Heuristics [2020-Now] [l](#predictive-models-for-kernel-selection-heuristics)
 
 ![Octocat](assets/img/gemm_kernel_heuristics.png){:width="192px"} Designed and developed innovative predictive model for CPUs & GPUs, for high-performance selection of kernels implementations of GEMM (General Matrix Multiply) and convolutions, within Machine Learning use-cases; choosing the right implementation in microseconds is crucial through fast and general heuristics.
 
@@ -152,7 +152,7 @@ _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classif
 &nbsp;  
 {% endif %}
 
-### Exploring new Armv9-A ML CPU ISA extensions (SME)<br>[2020-Now]
+### Exploring new Armv9-A ML CPU ISA extensions (SME)<br>[2020-Now] [l](#exploring-new-armv9-a-ml-cpu-isa-extensions-sme)
 
 ![Octocat](assets/img/sme_extensions.png){:width="192px"} Investigated the impact of <a href="https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/scalable-matrix-extension-armv9-a-architecture">SME (Scalable Matrix Extension)</a> instruction set in ML workloads and network architectures, exploiting outer product operations with a new programmer’s model and register state to support matrix operations.
 
@@ -162,7 +162,7 @@ _Keywords_: Matrix multiplication, Outer product, Modelling, CPU Architecture, D
 {% else %} 
 {% endif %}
 
-### Exploring Deep Neural Networks Performance [2018-Now]
+### Exploring Deep Neural Networks Performance [2018-Now] [l](#exploring-deep-neural-networks-performance)
 
 ![Octocat](assets/img/dnn_analysis.png){:width="128px"} Investigated deep neural networks for future use-cases, analysing them and breaking them down to distill the most relevant operations and data patterns, capturing key insights with data science techniques, to then drive new software and hardware solutions.
 
@@ -174,21 +174,21 @@ _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classif
 &nbsp;  
 {% endif %}
 
-### Advanced Driver-Assistance System and Computational Biology applications [2016-2017]
+### Advanced Driver-Assistance System and Computational Biology applications [2016-2017] [l](#advanced-driver-assistance-system-and-computational-biology-applications)
 
 ![Octocat](assets/img/adas_cb_subsys.png){:width="128px"} Analysed and prototyped
 computer vision and ML subsystems for Advanced Driver-Assistance System and Computational Biology applications.
 
 _Keywords_: Modelling,  Image Segmentation, Graph/Network Structures, Deep Neural Networks, Virtualization, System Architecture, Memory management, Radar, SLAM, Stereo matching, Object Detection, Performance Analysis
 
-### Exploring new Armv8-A CPU ISA extensions (SVE) [2015-2016]
+### Exploring new Armv8-A CPU ISA extensions (SVE) [2015-2016] [l](#exploring-new-armv8-a-cpu-isa-extensions-sve)
 
 ![Octocat](assets/img/sve_asm.png){:width="128px"} Investigated the impact of <a href="https://community.arm.com/tools/hpc/b/hpc/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture">SVE (Scalable Vector Extension)</a> instruction set in computer vision workloads, exploiting as much data-level parallelism as possible, with new instructions and vector lengths that scale from 128 to 2048 bits.
 
 _Keywords_: Single Instruction, Multiple Data (SIMD)
 programming model, Vector Instructions, Parallel Programming, Modelling, CPU Architecture, Computer Vision, Keypoint and Features Detection, Assembly Language, Performance Analysis
 
-### Heterogeneous Computing and GPU Coherency [2012-2014]
+### Heterogeneous Computing and GPU Coherency [2012-2014] [l](#heterogeneous-computing-and-gpu-coherency)
 
 ![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelled and prototyped low-level software, and analysed heterogeneous compute use-cases to incorporate <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> support between different type of processors (CPU & GPU), enabling them to share data, as simply as passing a pointer, which massively simplify the software, and delivers more power efficient and higher performance applications than other software managed cache synchronization mechanisms.
 
@@ -197,7 +197,7 @@ _Keywords_: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, 
 #### Note: Other experimental projects can be provided upon request.
 
 
-## Honors and awards
+## Honors and awards [l](#honors-and-awards)
 
 #### 2021        Interview and career recognition [book publication date: November 2021] 
 Career recognition by the board of trustees of the <a href="https://patronateps.udg.edu/">Polytechnic School Patronage</a> (<a href="https://www.udg.edu/en/">University of Girona</a>) in 25th anniversary book, by founding members, industrialists, representatives of institutions, Chamber of Commerce, delegates from different government departments and presidents and deans of professional associations from <a href="https://www.udg.edu/en/">University of Girona</a>.
@@ -219,7 +219,7 @@ Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a 
 {% else %}
 {% endif %}
 
-## Selected publications
+## Selected publications [l](#selected-publications)
 
 #### Parallel spatial data structures for interactive rendering
 ![Octocat](assets/img/phd_thesis_2012_caption.png){:width="128px"} PhD Thesis, October 2012 <a href="https://www.tdx.cat/bitstream/handle/10803/107998/tigf.pdf?sequence=8&isAllowed=y">[pdf]</a>
@@ -417,31 +417,31 @@ This paper presents a simple method to render complex trees on high frame rates 
 &nbsp;  
 _Keywords_: Image Generation, Clustering, 3D Graphics, Realism
 
-## Technical skills
+## Technical skills [l](#tecnical-skills)
 
-### Languages 
+### Languages [l](#languages) 
 English (Read, Write and Speak: Fluent),
 Spanish (mother language),
 Catalan (Read, Write and Speak: Fluent).
 
-### Programming Languages
+### Programming Languages [l](#programming-languages)
 R, Python, C, C++, Objective C, OpenCL, CUDA, Aarch64 Assembly, NEON, SVE, Javascript, Latex, MatLab, GLSL, SQL, NoSQL, HTML, CSS, PHP.
 
-### Programming frameworks and APIs  
+### Programming frameworks and APIs [l](#programming-frameworks-and-apis) 
 
 Tensorflow, Pytorch, RStudio, Mathematica, Jupyter Notebook, Caffe2, OpenCV, DirectX, OpenGL, OpenMP, Unity, Ogre3D, Android NDK, LLVM.
 
-### Software 
+### Software [l](software) 
 AWS, Google Cloud Platform, Docker, Kubernetes, Spark, Hadoop, Git, Confluence, JIRA, Sharepoint, Vim, GDB, 3ds Max, Maya, Zbrush, Blender, Photoshop, Gimp, Inkscape, Visual Studio.
 
-### Operating System and Firmware development
+### Operating System and Firmware development [l](#operating-system-and-firmware-development)
 
 OSX, Linux, Android, Windows, Firmware and bare-metal.
 
 _Keywords_: parallel computing, multi-threaded design, algorithm design, numerical methods, data visualization, machine learning, computer vision, 3d graphics and game engine programming, white papers, technical papers, GPU, CPU and FPGA development
 
 
-## Academic teaching  
+## Academic teaching [l](#academic-teaching) 
 
 #### From 2010 to 2011	Multimedia  and computing technologies,  
 Technical Computer Engineering  (University  of Girona)  
@@ -464,7 +464,7 @@ Enviromental Science (University  of Girona)
 Teaching assistant  
 
 
-## Conference talks
+## Conference talks [l](#conference-talks)
 
 #### 2021: Modelling Machine Learning networks with Scalable Matrix Extensions
 Global Engineering Conference<br>
@@ -510,7 +510,7 @@ Prague, Czech Republic
 <a href="http://isg.cs.tcd.ie/eg2005/">Eurographics 2005</a>   
 Dublin, Ireland  
 
-## Supervised Bachelor Students:
+## Supervised Bachelor Students: [l](#supervised-bachelor-students)
 
 #### 2017    Gershom Akoli Agim
 Deep Neural Networks on Arm Cortex-A CPUs: Analysis of CPU Inference on Vision workloads
@@ -551,9 +551,9 @@ BEng Project, Technical Computer Engineering
 {% endif %}
 
 
-## Other professional activities
+## Other professional activities [l](#other-professional-activites)
 
-### Program Committee Member	 
+### Program Committee Member [l](#program-committee-member)	 
 #### CGVCVIP  Computer  Graphics, Visualization, Computer  Vision &  Image Processing
 2012
 <a href="http://www.iadisportal.org/digital-library/iadis-international-conference-computer-graphics-visualization-computer-vision-and-image-processing-2012-part-of-mccsis-2012">IADIS International Conference Computer Graphics Visualization and Image Processing</a>  
@@ -563,7 +563,7 @@ Journal program committee member
 <a href="http://ceig2015.uji.es">CEIG 2015</a>  
 Conference program committee member
 
-### Reviewer
+### Reviewer [l](#reviewer)
  
 #### Siggraph Asia: 
 <a href="https://sa2015.siggraph.org/en">Siggraph Asia 2015</a>  
@@ -601,16 +601,16 @@ Technical papers reviewer
 Technical papers reviewer  
 
 
-### Conference Organizer	
+### Conference Organizer [l](#conference-organizer)	
 2009 <a href="http://iiia.udg.edu/EGSR2009/">Eurographics Symposium on Rendering, EGSR</a>  
 Girona, Spain  
 Local organizer  
 
-### Industry research collaborations	
+### Industry research collaborations [l](#industry-research-collaboration)	
 2010 GPU Mesh Processing tools  
 NVIDIA Mutual Non-Disclosure Agreement 
 
-## Education and training  
+## Education and training [l](#education-and-training) 
 
 #### 2007 – 2012	Ph.D. in Computer  Science
 Dissertation: Parallel spatial data structures for interactive rendering  
