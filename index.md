@@ -425,21 +425,19 @@ Spanish (mother language),
 Catalan (Read, Write and Speak: Fluent).
 
 ### Programming Languages [l](#programming-languages)
-R, Python, C, C++, Objective C, OpenCL, CUDA, Aarch64 Assembly, NEON, SVE, Javascript, Latex, MatLab, GLSL, SQL, NoSQL, HTML, CSS, PHP.
+R, Python, C, C++, Objective C, OpenCL, CUDA, Aarch64 Assembly (NEON, SVE), Javascript, Latex, MatLab, GLSL, SQL, NoSQL, HTML, CSS, PHP.
 
-### Programming frameworks and APIs [l](#programming-frameworks-and-apis) 
+### Programming frameworks, tools and APIs [l](#programming-frameworks-tools-and-apis) 
 
-Tensorflow, Pytorch, RStudio, Mathematica, Jupyter Notebook, Caffe2, OpenCV, DirectX, OpenGL, OpenMP, Unity, Ogre3D, Android NDK, LLVM.
-
-### Software [l](software) 
-AWS, Google Cloud Platform, Docker, Kubernetes, Spark, Hadoop, Git, Confluence, JIRA, Sharepoint, Vim, GDB, 3ds Max, Maya, Zbrush, Blender, Photoshop, Gimp, Inkscape, Visual Studio.
+Tensorflow, Pytorch, RStudio, Mathematica, Jupyter Notebook, Caffe2, OpenCV, DirectX, OpenGL, OpenMP, Unity, Ogre3D, Android NDK, LLVM,
+AWS, Google Cloud Platform, Docker, Kubernetes, Spark, Hadoop, Git, Confluence, JIRA, Sharepoint, Visual Studio, GDB, 
+3ds Max, Maya, Zbrush, Blender, Photoshop, Gimp, Inkscape.
 
 ### Operating System and Firmware development [l](#operating-system-and-firmware-development)
 
 OSX, Linux, Android, Windows, Firmware and bare-metal.
 
 _Keywords_: parallel computing, multi-threaded design, algorithm design, numerical methods, data visualization, machine learning, computer vision, 3d graphics and game engine programming, white papers, technical papers, GPU, CPU and FPGA development
-
 
 ## Academic teaching [l](#academic-teaching) 
 
