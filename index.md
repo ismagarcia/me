@@ -429,8 +429,8 @@ R, Python, C, C++, Objective C, OpenCL, CUDA, Aarch64 Assembly (NEON, SVE), Java
 
 ### Programming frameworks, tools and APIs [l](#programming-frameworks-tools-and-apis) 
 
-Tensorflow, Pytorch, RStudio, Mathematica, Jupyter Notebook, Caffe2, OpenCV, DirectX, OpenGL, OpenMP, Unity, Ogre3D, Android NDK, LLVM,
-AWS, Google Cloud Platform, Docker, Kubernetes, Spark, Hadoop, Git, Confluence, JIRA, Sharepoint, Visual Studio, GDB, 
+Tensorflow, Pytorch, JAX, RStudio, Mathematica, Jupyter Notebook, Caffe2, OpenCV, DirectX, OpenGL, OpenMP, Unity, Android NDK, LLVM,
+AWS(EC2, EFS, S3), Google Cloud Platform, Docker, Kubernetes, Spark, Hadoop, Git, Confluence, JIRA, Sharepoint, Visual Studio, GDB, 
 3ds Max, Maya, Zbrush, Blender, Photoshop, Gimp, Inkscape.
 
 ### Operating System and Firmware development [l](#operating-system-and-firmware-development)
