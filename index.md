@@ -199,9 +199,11 @@ _Keywords_: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, 
 
 ## Honors and awards [l](#honors-and-awards)
 
+<!--
 #### 2021        Interview and career recognition [book publication date: November 2021] 
 Career recognition by the board of trustees of the <a href="https://patronateps.udg.edu/">Polytechnic School Patronage</a> (<a href="https://www.udg.edu/en/">University of Girona</a>) in 25th anniversary book, by founding members, industrialists, representatives of institutions, Chamber of Commerce, delegates from different government departments and presidents and deans of professional associations from <a href="https://www.udg.edu/en/">University of Girona</a>.
 <a href="https://patronateps.udg.edu/llibre-25-anys-premis-patronat/">25th Anniversary Book: Polytechnic School Patronage</a>
+-->
 
 #### 2013        Best Ph.D. Thesis Award of the School of Computer Science  
 Parallel spatial data structures for interactive rendering, PhD Thesis, defended October 2012  
@@ -430,7 +432,7 @@ R, Python, C, C++, Objective C, OpenCL, CUDA, Aarch64 Assembly (NEON, SVE), Java
 ### Programming frameworks, tools and APIs [l](#programming-frameworks-tools-and-apis) 
 
 Tensorflow, Pytorch, JAX, RStudio, Mathematica, Jupyter Notebook, Caffe2, OpenCV, DirectX, OpenGL, OpenMP, Unity, Android NDK, LLVM,
-AWS(EC2, EFS, S3), Google Cloud Platform, Docker, Kubernetes, Spark, Hadoop, Git, Confluence, JIRA, Sharepoint, Visual Studio, GDB, 
+AWS (EC2, EFS, S3), Google Cloud Platform, Docker, Kubernetes, Spark, Hadoop, Git, Confluence, JIRA, Sharepoint, Visual Studio, GDB, 
 3ds Max, Maya, Zbrush, Blender, Photoshop, Gimp, Inkscape.
 
 ### Operating System and Firmware development [l](#operating-system-and-firmware-development)
