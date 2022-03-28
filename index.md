@@ -48,17 +48,16 @@ layout: default
 ## Industry advanced product development [l](#industry-advanced-product-development)  
 
 <div class="dark_box">
+
+ 
+{% if True %}
 <p class="dark_paragraph">
-I'm a principal engineer in <a href="https://www.arm.com/">Arm</a>'s Machine Learning Group working
-with David Mansell and <a href="https://www.linkedin.com/in/ianbratt" title="Ian Bratt">Ian Bratt</a>.
+I'm a tech lead and principal engineer in <a href="https://research.samsung.com/">Samsung Research</a>, driving on-device AI vision and speech applied research projects, focusing on ML-hardware aware solutions (Auto ML): frameworks and neural network models optimisation for the next generation of Samsung products; from proof-of-concepts to commercial products.
 </p>
+{% endif %}
 
 <p class="dark_paragraph">
-My current work involves analysing neural networks of future use-cases, 
-identifying the most relevant operations and data patterns, 
-capturing key insights with data science techniques to advance 
-real-world performance of <a href="https://www.arm.com">Arm</a>'s new software and hardware 
-solutions.
+Between 2022-2018, as a principal engineer in Arm's Machine Learning Group, I worked  with David Mansell and <a href="https://www.linkedin.com/in/ianbratt" title="Ian Bratt">Ian Bratt</a>, analysing neural networks of future use-cases, identifying the most relevant operations and data patterns, capturing key insights with data science techniques to advance real-world performance of <a href="https://www.arm.com">Arm</a>'s new software and hardware solutions.
 </p>
 
 <p class="dark_paragraph">
@@ -140,7 +139,7 @@ I was introduced in the Computer Graphics field advised by <a href="http://ima.u
 &nbsp;  
 {% endif %}
 
-### Predictive Models for Kernel Selection Heuristics [2020-Now] [l](#predictive-models-for-kernel-selection-heuristics)
+### Predictive Models for Kernel Selection Heuristics [2020-2022] [l](#predictive-models-for-kernel-selection-heuristics)
 
 ![Octocat](assets/img/gemm_kernel_heuristics.png){:width="192px"} Designed and developed innovative predictive model for CPUs & GPUs, for high-performance selection of kernels implementations of GEMM (General Matrix Multiply) and convolutions, within Machine Learning use-cases; choosing the right implementation in microseconds is crucial through fast and general heuristics.
 
@@ -152,7 +151,7 @@ _Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classif
 &nbsp;  
 {% endif %}
 
-### Exploring new Armv9-A ML CPU ISA extensions (SME)<br>[2020-Now] [l](#exploring-new-armv9-a-ml-cpu-isa-extensions-sme)
+### Exploring new Armv9-A ML CPU ISA extensions (SME)<br>[2020-2022] [l](#exploring-new-armv9-a-ml-cpu-isa-extensions-sme)
 
 ![Octocat](assets/img/sme_extensions.png){:width="192px"} Investigated the impact of <a href="https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/scalable-matrix-extension-armv9-a-architecture">SME (Scalable Matrix Extension)</a> instruction set in ML workloads and network architectures, exploiting outer product operations with a new programmer’s model and register state to support matrix operations.
 
@@ -162,7 +161,7 @@ _Keywords_: Matrix multiplication, Outer product, Modelling, CPU Architecture, D
 {% else %} 
 {% endif %}
 
-### Exploring Deep Neural Networks Performance [2018-Now] [l](#exploring-deep-neural-networks-performance)
+### Exploring Deep Neural Networks Performance [2018-2022] [l](#exploring-deep-neural-networks-performance)
 
 ![Octocat](assets/img/dnn_analysis.png){:width="128px"} Investigated deep neural networks for future use-cases, analysing them and breaking them down to distill the most relevant operations and data patterns, capturing key insights with data science techniques, to then drive new software and hardware solutions.
 
@@ -700,7 +699,7 @@ IWOCL 2014 https://www.iwocl.org/iwocl-2014/agenda-and-slides/
 
 #### From June 2003 to March 2006	El Baúl S.A. – Grupo editorial el baúl
 Redesign and implementation of online classified advertisement and community website. 
-<a href="http://www.elbaul.es">elbaul.es</a>  
+<a href="http://www.elbaul.com">elbaul.com</a>  
 Web developer
 
 #### From July 2002 to December 2002	Institut d’Informàtica i Aplicacions, Universitat  de Girona
