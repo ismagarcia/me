@@ -50,11 +50,9 @@ layout: default
 <div class="dark_box">
 
  
-{% if True %}
 <p class="dark_paragraph">
 I'm a tech lead and principal engineer in <a href="https://research.samsung.com/">Samsung Research</a>, driving on-device AI vision and speech applied research projects, focusing on ML-hardware aware solutions (Auto ML): frameworks and neural network models optimisation for the next generation of Samsung products; from proof-of-concepts to commercial products.
 </p>
-{% endif %}
 
 <p class="dark_paragraph">
 Between 2022-2018, as a principal engineer in Arm's Machine Learning Group, I worked  with David Mansell and <a href="https://www.linkedin.com/in/ianbratt" title="Ian Bratt">Ian Bratt</a>, analysing neural networks of future use-cases, identifying the most relevant operations and data patterns, capturing key insights with data science techniques to advance real-world performance of <a href="https://www.arm.com">Arm</a>'s new software and hardware solutions.
@@ -84,12 +82,12 @@ I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/?_ga=2.
 
 <p class="dark_paragraph">
 My research concerned with parallel efficient data structures for data 
-visualization, geometric modeling, image-based representations and ray-tracing. 
+visualization, geometric modelling, image-based representations and ray-tracing. 
 </p>
 
 <p class="dark_paragraph">
 My work explored practical applications in a variety of areas in computer 
-graphics, including real-time tree rendering, GPU efficient 
+graphics, including real-time rendering, GPU efficient 
 data-structures for geometry processing and texturing, and 
 dynamic parallel data-structures for ray-tracing and general-purpose 
 GPU applications.
@@ -121,7 +119,7 @@ I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/">Unive
 </p>
 
 <p class="dark_paragraph">
-My previous research explored practical applications in a variety of areas in computer graphics, including real-time tree rendering, GPU efficient data-structures for geometry processing and texturing, and dynamic parallel data-structures for ray-tracing and general-purpose GPU applications.
+My previous research explored practical applications in a variety of areas in computer graphics, including real-time rendering, GPU efficient data-structures for geometry processing and texturing, and dynamic parallel data-structures for ray-tracing and general-purpose GPU applications.
 </p>
 
 <p class="dark_paragraph">
