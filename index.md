@@ -137,6 +137,19 @@ I was introduced in the Computer Graphics field advised by <a href="http://ima.u
 &nbsp;  
 {% endif %}
 
+### Speech Separation and Enhancement [2022] [l](#predictive-models-for-kernel-selection-heuristics)
+
+![Octocat](assets/img/npu_speech_separation.png){:width="128px"} Designed and developed extremely efficient real-time voice enhancement RNN architecture models, extracting speech signal using Neural Processing Units and enhancing it while successfully meeting <a href="https://news.samsung.com/global/samsung-advances-new-era-of-screens-with-its-new-2023-neo-qled-micro-led-and-samsung-oled-lineup-boasting-powerful-performance-secure-connectivity-and-personalized-experiences">strict latency & quality targets</a>. 
+
+_Keywords_: Deep Neural Networks, Convolutions, RNN, Speech Processing, Speaker Source Separation, Neural Processing Units, Real-time Processing
+
+{% if site.logo %}
+{% else %}
+&nbsp;  
+&nbsp;  
+{% endif %}
+
+
 ### Predictive Models for Kernel Selection Heuristics [2020-2022] [l](#predictive-models-for-kernel-selection-heuristics)
 
 ![Octocat](assets/img/gemm_kernel_heuristics.png){:width="192px"} Designed and developed innovative predictive model for CPUs & GPUs, for high-performance selection of kernels implementations of GEMM (General Matrix Multiply) and convolutions, within Machine Learning use-cases; choosing the right implementation in microseconds is crucial through fast and general heuristics.
