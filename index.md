@@ -137,9 +137,9 @@ I was introduced in the Computer Graphics field advised by <a href="http://ima.u
 &nbsp;  
 {% endif %}
 
-### Speech Separation and Enhancement [2022] [l](#predictive-models-for-kernel-selection-heuristics)
+### Speech Separation and Enhancement [2022-2023] [l](#predictive-models-for-kernel-selection-heuristics)
 
-![Octocat](assets/img/npu_speech_separation.png){:width="128px"} Designed and developed extremely efficient real-time voice enhancement RNN architecture models, extracting speech signal using Neural Processing Units and enhancing it while successfully meeting <a href="https://news.samsung.com/global/samsung-advances-new-era-of-screens-with-its-new-2023-neo-qled-micro-led-and-samsung-oled-lineup-boasting-powerful-performance-secure-connectivity-and-personalized-experiences">strict latency & quality targets</a>. 
+![Octocat](assets/img/npu_speech_separation.png){:width="128px"} Designed and developed efficient real-time RNN architecture models that distinguishes and separates the primary voice from other sounds. The key is to take advantage of Neural Processing Units to achieve <a href="https://news.samsung.com/us/ai-driven-sound-innovation-redefining-the-tv-audio-experience/">optimal sound enhancements in real-time</a>, providing deeper and greater details by analyzing content scene by scene and accentuating various audio elements including human voices, background music and sound effects. 
 
 _Keywords_: Deep Neural Networks, Convolutions, RNN, Speech Processing, Speaker Source Separation, Neural Processing Units, Real-time Processing
 
