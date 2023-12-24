@@ -72,63 +72,6 @@ and <a href="https://www.linkedin.com/in/jason-parker-1548aa1/">Jason Parker</a>
 </div>
 &nbsp;
 
-## Academic research [l](#academic-research)
-<div class="dark_box">
-
-<!--
-<p class="dark_paragraph">
-I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>.
-</p>
-
-<p class="dark_paragraph">
-My research concerned with parallel efficient data structures for data 
-visualization, geometric modelling, image-based representations and ray-tracing. 
-</p>
-
-<p class="dark_paragraph">
-My work explored practical applications in a variety of areas in computer 
-graphics, including real-time rendering, GPU efficient 
-data-structures for geometry processing and texturing, and 
-dynamic parallel data-structures for ray-tracing and general-purpose 
-GPU applications.
-</p>
-
-<p class="dark_paragraph">
-In 2011 I did a doctorate research internship in <a href="http://alice.loria.fr">ALICE Project-Team</a>
-(<a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a>), collaborating with <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>.
-</p>
-
-<p class="dark_paragraph">
-In 2007 I started my Phd. in Computer Graphics joining the 
-<a href="http://ggg.udg.edu/">GGG research group</a>, under the supervision of <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a>.
-</p>
-
-<p class="dark_paragraph">
-In 2005 I did a research internship collaborating with <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a>
-<a href="">Computer Graphics Research Group</a>.
-</p>
-
-<p class="dark_paragraph">
-I was introduced in the Computer Graphics field advised 
-by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
-</p>
--->
-
-<p class="dark_paragraph">
-I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/">University of Girona</a>. My research concerned with parallel efficient data structures for data visualization, geometric modeling, image-based representations and ray-tracing.
-</p>
-
-<p class="dark_paragraph">
-My previous research explored practical applications in a variety of areas in computer graphics, including real-time rendering, GPU efficient data-structures for geometry processing and texturing, and dynamic parallel data-structures for ray-tracing and general-purpose GPU applications.
-</p>
-
-<p class="dark_paragraph">
-I was introduced in the Computer Graphics field advised by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>. In 2005 I did a research internship collaborating with <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a> <a href="http://cg.iit.bme.hu/portal/en/cg">Computer Graphics Research Group</a>. In 2007 I started my Phd. in Computer Graphics joining the <a href="http://ggg.udg.edu/">GGG research group</a>, under the supervision of <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a> with doctorate research internships with <a href="http://alice.loria.fr">ALICE Project-Team</a> (<a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a>), collaborating with <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>.
-</p>
-
-</div>  
-&nbsp;
-
 ## Selected industry projects ordered chronologically [l](#selected-industry-projects-ordered-chronologically)
 
 {% if site.logo %}
@@ -206,6 +149,62 @@ _Keywords_: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, 
 
 #### Note: Other experimental projects can be provided upon request.
 
+## Academic research [l](#academic-research)
+<div class="dark_box">
+
+<!--
+<p class="dark_paragraph">
+I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>.
+</p>
+
+<p class="dark_paragraph">
+My research concerned with parallel efficient data structures for data 
+visualization, geometric modelling, image-based representations and ray-tracing. 
+</p>
+
+<p class="dark_paragraph">
+My work explored practical applications in a variety of areas in computer 
+graphics, including real-time rendering, GPU efficient 
+data-structures for geometry processing and texturing, and 
+dynamic parallel data-structures for ray-tracing and general-purpose 
+GPU applications.
+</p>
+
+<p class="dark_paragraph">
+In 2011 I did a doctorate research internship in <a href="http://alice.loria.fr">ALICE Project-Team</a>
+(<a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a>), collaborating with <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>.
+</p>
+
+<p class="dark_paragraph">
+In 2007 I started my Phd. in Computer Graphics joining the 
+<a href="http://ggg.udg.edu/">GGG research group</a>, under the supervision of <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a>.
+</p>
+
+<p class="dark_paragraph">
+In 2005 I did a research internship collaborating with <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a>
+<a href="">Computer Graphics Research Group</a>.
+</p>
+
+<p class="dark_paragraph">
+I was introduced in the Computer Graphics field advised 
+by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
+</p>
+-->
+
+<p class="dark_paragraph">
+I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/">University of Girona</a>. My research concerned with parallel efficient data structures for data visualization, geometric modeling, image-based representations and ray-tracing.
+</p>
+
+<p class="dark_paragraph">
+My previous research explored practical applications in a variety of areas in computer graphics, including real-time rendering, GPU efficient data-structures for geometry processing and texturing, and dynamic parallel data-structures for ray-tracing and general-purpose GPU applications.
+</p>
+
+<p class="dark_paragraph">
+I was introduced in the Computer Graphics field advised by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>. In 2005 I did a research internship collaborating with <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a> <a href="http://cg.iit.bme.hu/portal/en/cg">Computer Graphics Research Group</a>. In 2007 I started my Phd. in Computer Graphics joining the <a href="http://ggg.udg.edu/">GGG research group</a>, under the supervision of <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a> with doctorate research internships with <a href="http://alice.loria.fr">ALICE Project-Team</a> (<a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a>), collaborating with <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>.
+</p>
+
+</div>  
+&nbsp;
 
 ## Honors and awards [l](#honors-and-awards)
 
