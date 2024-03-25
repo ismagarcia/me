@@ -551,7 +551,7 @@ _Keywords_: Digital Geometry Processing, Surface Parameterization, Polycube Map,
 
 
 #### &#x2022; A Runtime Cache for Interactive Procedural Modeling (2012)
-![Octocat](assets/img/hash_cache_teaser.png){:width="128px"} SMI 2012: Shape Modeling International, Computer & Graphics; Tim Reiner, Sylvain Lefebvre, Lorenz Diener, Ismael Garcia, Bruno Jobard, Carsten Dachsbacher <a href="http://ggg.udg.edu/publicacions/UsersWebs/hashcache_smi2012/">[project page]</a>
+![Octocat](assets/img/hash_cache_teaser.png){:width="128px"} SMI 2012: Shape Modeling International, Computer & Graphics; Tim Reiner, Sylvain Lefebvre, Lorenz Diener, Ismael Garcia, Bruno Jobard, Carsten Dachsbacher <a href="http://ismaelgarcia.ai/000_academic_projects/hashcache_smi2012/">[project page]</a>
  
 
 <div class="publicationabstract">
@@ -573,7 +573,7 @@ _Keywords_: Parallel Hashing, Runtime Cache, Interactive Shape Modeling, Implici
 {% endif %}
 
 #### &#x2022; Coherent parallel hashing (2011)
-![Octocat](assets/img/cohash_2011.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ggg.udg.edu/publicacions/UsersWebs/cohash_siga2011/index.shtml">[project page]</a>
+![Octocat](assets/img/cohash_2011.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ismaelgarcia.ai/000_academic_projects/cohash_siga2011/index.shtml">[project page]</a>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -596,7 +596,7 @@ _Keywords_: Spatial Data, Parallel Computing, Coherent Memory, Cache Memory, Has
 
 
 #### &#x2022; Editable Polycube Map for GPU-based Subdivision Surfaces (2011)
-![Octocat](assets/img/epcm_i3d_200w_148h.png){:width="128px"} I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ggg.udg.edu/publicacions/UsersWebs/igarcia_epcm_i3d2011/index.shtml">[project page]</a>
+![Octocat](assets/img/epcm_i3d_200w_148h.png){:width="128px"} I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_epcm_i3d2011/index.shtml">[project page]</a>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -624,7 +624,7 @@ _Keywords_: Digital Geometry Processing, Surface Parameterization, Polycube Map,
 
 #### &#x2022; IGT: Inverse Geometric Textures (2008)
 ![Octocat](assets/img/Teaser_200w_128h.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 27(5), 2008; Ismael Garcia, Gustavo Patow  
-<a href="http://ggg.udg.edu/publicacions/UsersWebs/igarcia_igt_siga2008/">[project page]</a>
+<a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_igt_siga2008/">[project page]</a>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -650,7 +650,7 @@ _Keywords_: Appearance Preserving Simplification, Detail-Recovery, Computer Game
 
 #### &#x2022; Multi-layered indirect texturing for tree rendering (2007)
 ![Octocat](assets/img/cork_close_view_polygonal_left_121_billboards_multilayer_right_200w_128h.png){:width="128px"} Eurographics Workshop on Natural Phenomena 2007; Ismael Garcia, Gustavo Patow, Laszlo Szirmay-Kalos, Mateu Sbert  
-<a href="http://ggg.udg.edu/publicacions/UsersWebs/igarcia_tree_np2007/">[project page]</a>
+<a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_tree_np2007/">[project page]</a>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
