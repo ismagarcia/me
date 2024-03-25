@@ -14,34 +14,31 @@ layout: default
 
 <div class="dark_box">
 <p class="dark_paragraph">
-{% if site.application == "MSFT" %}
-This is the personal statement for MSFT
+{% if site.application == "GEN" %}
+<p class="dark_paragraph">
+I am an engineer at heart, with passion for AI, high performance computing, real-time processing, audio-visual perception, and data analytics. Leveraging over 10 years’ of experience architecting and productionizing high performance computing, computer vision and speech recognition systems. Last 6 years, in industry-leading AI labs, working in AI applied research projects. My experience spans from firmware development to high performance GPU computing and CPU, NPU or DSP processing in embedded systems. 
+</p>
+
+<p class="dark_paragraph">
+I have spent all my career in research and senior applied research roles, leading and collaborating cross-functional local and remote teams. Recently, I have been leading applied research teams focused on prototyping and analyzing how to integrate new research features into future products, serving as a bridge between research concepts and commercial solutions.
+</p>
+
+<p class="dark_paragraph">
+I speak English, Spanish and Catalan fluently and Korean at beginner's level. I genuinely enjoy applying mathematical and computational approaches to decode complex systems. Eager to continuously expand my knowledge, I am especially energized by opportunities to collaborate with multidisciplinary teams on cutting-edge challenges. My engineering foundation paired with my drive to learn makes me adept at breaking down complex technical problems and assessing potential innovations that balance creativity with pragmatic and scalable solutions. 
+</p> 
+ 
+<p class="dark_paragraph">
+I have expertise optimizing large automatic speech recognition (ASR) models (100s of millions of parameters) for on-device deployment by making them 20-5% smaller while retaining most of their accuracy. While details are confidential from previous employer project, I gained valuable skills - including knowledge distillation, architecture adaptation, mixed quantization, and optimizations for memory, bandwidth and latency - to meet real-time performance requirements on resource-constrained hardware running many intensive tasks concurrently. The equivalent public ASR models I applied these techniques to are Whisper and HuBERT. My key achievement was successfully generating optimized ASR models that meet strict latency, quality and performance requirements for on-device NPUs. I have been explored the integration of ASRs with speaker diarization and speech-to-speech translation, as a service for streaming content providers.
+</p>
+
+<p class="dark_paragraph">
+In last role, I gained significant hands-on expertise in deploying large language models (LLMs) on accelerated services and embedded devices. While details are confidential with previous employer project, my primary focus has been fine-tuning and optimizing pre-trained models to meet stringent latency and performance requirements for real-time services. For instance, I successfully slimmed recurrent neural networks (RNNs) and transformers by up to 80% by applying quantization, pruning, knowledge distillation and other compression techniques without severely impacting their accuracy. The results were applied to enhance accessibility of video content, with descriptive captions and subtitles or voiceovers generated automatically for media content.
+</p> 
+{% if site.web_mode %}
 {% else %}
-  {% if site.application == "AMZN" %}
-This is text for AMZN...
-  {% else %}
-    {% if site.application == "DPMND" %}
-This is text for DPMND...
-    {% else %}
-      {% if site.application == "AZN" %}
-This is text for AZN...
-      {% else %}
-        {% if site.application == "SMSNG" %}
-        {% else %}
-          {% if site.application == "APPLE" %}
-          {% else %}
-            {% if site.application == "HF" %}
-            {% else %}
-              {% if site.application == "ARM" %}
-     	      {% else %}
-                  OTHER
-     	      {% endif %}
-            {% endif %}
-          {% endif %}
-        {% endif %}
-      {% endif %}
-    {% endif %}  
-  {% endif %}
+{% if site.application == "OTHER" %}
+
+{% endif %}
 {% endif %}
 </p>
 </div>  
