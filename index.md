@@ -573,7 +573,7 @@ _Keywords_: Parallel Hashing, Runtime Cache, Interactive Shape Modeling, Implici
 {% endif %}
 
 #### &#x2022; Coherent parallel hashing (2011)
-![Octocat](assets/img/cohash_2011.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ismaelgarcia.ai/000_academic_projects/cohash_siga2011/index.shtml">[project page]</a>
+![Octocat](assets/img/cohash_2011.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ismaelgarcia.ai/000_academic_projects/cohash_siga2011/">[project page]</a>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -596,7 +596,7 @@ _Keywords_: Spatial Data, Parallel Computing, Coherent Memory, Cache Memory, Has
 
 
 #### &#x2022; Editable Polycube Map for GPU-based Subdivision Surfaces (2011)
-![Octocat](assets/img/epcm_i3d_200w_148h.png){:width="128px"} I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_epcm_i3d2011/index.shtml">[project page]</a>
+![Octocat](assets/img/epcm_i3d_200w_148h.png){:width="128px"} I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_epcm_i3d2011/">[project page]</a>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
