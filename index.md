@@ -1,32 +1,225 @@
 ---
 layout: default
----
-{% if site.logo %}
+---  
+{% if site.web_mode %}
+&nbsp;
+&nbsp;
+{% endif %}
+
+{% if site.application == "OTHER" %} 
 
 {% else %}
 
-&nbsp;  
-&nbsp;  
 ## Personal statement
 
 <div class="dark_box">
 <p class="dark_paragraph">
 {% if site.application == "MSFT" %}
-!INCLUDE "msft.md"
+This is the personal statement for MSFT
 {% else %}
   {% if site.application == "AMZN" %}
-!INCLUDE "amzn.md"
+This is text for AMZN...
   {% else %}
     {% if site.application == "DPMND" %}
-!INCLUDE "dpmnd.md"
+This is text for DPMND...
     {% else %}
       {% if site.application == "AZN" %}
-!INCLUDE "azn.md"
+This is text for AZN...
       {% else %}
         {% if site.application == "SMSNG" %}
-!INCLUDE "smsng.md"
+I am an engineer at heart with close links and passion for high performance computing, graphics, visual perception, and AI.
+I have always been working in research and senior applied research positions, collaborating with local and remote teams, and leading small-to-medium sized technical teams. 
+
+More recently, prototyping, and analyzing how subsystems might integrate new research features, closing the bridge between research and future products. I enjoy applying mathematical and computational approaches to understand complex systems, always open and eager to learn new things, and specially interested to work with multidisciplinary teams.
         {% else %}
-          OTHER
+          {% if site.application == "APPLE" %}
+<p class="dark_paragraph">
+I am an engineer at heart, with passion for AI, high performance computing, system architecture, real-time processing, audio-visual perception, and data analytics. I have over 8 years of experience in system architecture and software performance analysis. My expertise includes an in-depth understanding of computer architecture of IP processors, from early-stage software models up to deployment in RTL, FPGA, and silicon. I have explored and challenged the limits of interconnects, CPUs/GPUs/NPUs through use-cases characterization, tracing and distilling the key compute and data patterns, reducing them down to manageable low-level benchmarks for performance analysis. 
+</p>
+
+{% if site.web_mode %}
+{% else %}
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+{% endif %}
+
+<p class="dark_paragraph">
+I have spent all my career in research and senior applied research roles, working flexibly as main individual contributor, leading teams and collaborating with cross-functional local and remote teams, to define and implement non-intrusive, highly accurate tools for characterizing and modeling complex workloads, ensuring precise workload representation and clear presentation of the captured insights.
+</p>
+
+<p class="dark_paragraph">
+My skills include planning and implementing tool systems for architectural exploration and software/hardware co-optimization. I design and develop strategies for software/hardware co-optimization and lead coordination with other software, hardware and architects' stakeholders, to achieve optimal performance of new software and hardware components for next-generation processors.
+</p>
+
+{% if site.web_mode %}
+{% else %}
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+{% endif %}
+
+
+<p class="dark_paragraph">
+In last role, I gained significant hands-on expertise in deploying large language models (LLMs) on accelerated services and embedded devices. While details are confidential with previous employer project, my primary focus has been fine-tuning and optimizing pre-trained models to meet stringent latency and performance requirements for real-time services. For instance, I successfully slimmed recurrent neural networks (RNNs) and transformers by up to 80% by applying quantization, pruning, knowledge distillation and other compression techniques without severely impacting their accuracy. The results were applied to enhance accessibility of video content, with descriptive captions and subtitles or voiceovers generated automatically for media content.
+</p>
+ 
+<p class="dark_paragraph">
+I have strong proficiency in C++ and Python, with experience prototyping new features from firmware, to operating system driver level or user-space applications for key instrumentation. I can debug performance or functional problems at any stage of the software-hardware co-development and optimization process: from user-space to architectural and microarchitectural levels in simulators, emulators and even occasionally up to waveform-level when required. Then, I am able to make performance projections from individual components or full SoC simulators and tools such as Gem5, QEMU, and DynamoRIO. 
+</p>
+
+{% if site.web_mode %}
+{% else %}
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+{% endif %}
+
+
+<p class="dark_paragraph">
+My passion for analysis and performance optimization energise me to have a high degree of initiative and confident problem-solving abilities, which have earned me recognition and awards in projects spanning from proof-of-concept to deployment in production, introducing novel data analysis and AI techniques to create tools for performance prediction, and finally presenting the main achievements in internal and external conferences and events.
+</p>
+
+<p class="dark_paragraph">
+I speak English, Spanish and Catalan fluently and Korean at beginner's level. I genuinely enjoy applying mathematical and computational approaches to decode complex systems. Eager to continuously expand my knowledge, I am especially energized by opportunities to collaborate with multidisciplinary teams on cutting-edge challenges. My engineering foundation paired with my drive to learn makes me adept at breaking down complex technical problems and assessing potential innovations that balance creativity with pragmatic and scalable solutions. 
+</p> 
+
+<!--
+I have experience over 8 years of system architecture expertise, and SW performance analysis.
+I have understanding of computer architecture and microarchitectures from prototype/early-stage system models to deployment in final RTL, FPGA, silicon and softare.
+I have experience challenging the limits of interconnect, CPUs/GPUs/NPUs from use-cases to low-level performance analysis.
+I have passion for analysis and improvement.
+Capable of working both in teams and independently.
+Demonstrated high degree of initiative and confident problem solved (awards)
+I have experience working on pre-silicon platfomrs from models, RTL, simulation, emulation and FPGA.
+I have experience using data analysis and AI create tools that aims to help us analyse and predict performance of different
+I have experience in many type of use-cases running on CPU, GPU and NPUs, from AI, Computer Vision, Computer Graphics, Speech Recognition.
+I have profound background in workload modeling:
+I have experience of defining methodologies of tracing and reducition of large use-case applications to speedup simulation and make performance projection to provide insights to s/w and h/w architects
+I can plan and implement tool systems for architectural exploration and performance analysis, driving software/hardware vertical integration and planiong software/hardware co-optimization for next generation features in processors.
+I have a strong CPU/GPU/NPU architecture and workload extraction as a good grasp of compiler, binary analysis and software/hardware co-optimization.
+I have experience in investigation of cutting-edge, high-performance computing from servers, to mobile and embeded CPU and SoC architectures, contributiong vital data support for crucial decision-making processes.
+I have experience designing and executing implementations of relevant tool systems for the exploration of architecture and the analysis of performance.
+I have experience developing strategies for software/hardware co-optimization features and lead the integration of software and hardware components for th enext generation processors.
+I have experinece constructing non-intrusive, highly accurate tools for characterizing and modelling complex workloads, ensuring precise workload representation.
+I have experience analysing and extracting the distinctive features of real-world scenario workloads, delivering essential insights to the architecture and development teams.
+I have experience making performance projections and architectural exploration using SoC simulators
+I have experience using performance simulators including fast models and cycle accurate models like SystemC, Gem5, QEMU, or DynamoRIO.
+I have strong skills in languages such as C++ and Pythob. And I have experience prototyping new features at firmware and and OS driver levels, or user-space applicatoins addressing key instrumentation to gather key insights at any stage of the softwware-hardware co-development and optimization.
+I have experience debugging performance or functional problems from user-space, up to architectural and micro-architectural level in simulators, and occasional up to waveform-level when required.
+-->
+          {% else %}
+            {% if site.application == "HF" %}
+<p class="dark_paragraph">
+When I discovered Hugging Face was seeking a machine learning expert to drive advancements in core speech and language capabilities to expand accessibility for all, I was captivated. Leveraging over 2 years’ of experience architecting and productionizing speech recognition systems - including at industry-leading AI labs - to now lead cutting edge textual and spoken language interfaces towards equitable open availability deeply resonates. I have worked 6 years in applied research AI projects, and more than  10 years in applied resarch of high-performance computing with GPUs.
+</p>
+
+<p class="dark_paragraph">
+I am an engineer at heart, with passion for AI, high performance computing, real-time processing, audio-visual perception, and data analytics. My experience spans from firmware development to high performance GPU computing and CPU, NPU or DSP processing in embedded systems. I have spent my career in research and senior applied research roles, leading and collaborating cross-functional local and remote teams. Recently, I have been leading applied research teams focused on prototyping and analyzing how to integrate new research features into future products, serving as a bridge between research concepts and commercial solutions.
+</p>
+
+<p class="dark_paragraph">
+I speak English, Spanish and Catalan fluently and Korean at beginner's level. I genuinely enjoy applying mathematical and computational approaches to decode complex systems. Eager to continuously expand my knowledge, I am especially energized by opportunities to collaborate with multidisciplinary teams on cutting-edge challenges. My engineering foundation paired with my drive to learn makes me adept at breaking down complex technical problems and assessing potential innovations that balance creativity with pragmatic and scalable solutions.
+</p>
+
+<p class="dark_paragraph">
+I have expertise optimizing large automatic speech recognition (ASR) models (100s of millions of parameters) for on-device deployment by making them 20-5% smaller while retaining most of their accuracy. While details are confidential due to an ongoing employer project, I gained valuable skills - including knowledge distillation, architecture adaptation, mixed quantization, and optimizations for memory, bandwidth and latency - to meet real-time performance requirements on resource-constrained hardware running many intensive tasks concurrently. The equivalent public ASR models I applied these techniques to are Whisper and HuBERT. My key achievement was successfully generating optimized ASR models that meet strict latency, quality and performance requirements for on-device NPUs. I have also explored the integration of ASRs with speaker diarization and speech-to-speech translation, as a service for streaming content providers.
+</p>
+
+<p class="dark_paragraph">
+In my current role, I have gained significant hands-on expertise in deploying large language models (LLMs) on accelerated services and embedded devices. While details are confidential due to an ongoing employer project, my primary focus has been fine-tuning and optimizing pre-trained models to meet stringent latency and performance requirements for real-time services. For instance, I successfully slimmed recurrent neural networks (RNNs) and transformers by up to 80% by applying quantization, pruning, knowledge distillation and other compression techniques without severely impacting their accuracy. The results were applied to enhance accessibility of video content, with descriptive captions and subtitles or voiceovers generated automatically for media content.
+</p>
+
+<p class="dark_paragraph">
+I am deeply committed to utilizing ML to drive positive change through open research and guiding the next generation of innovators—values. I would be eager and enthusiastic to join forces with your talented community of experts pushing boundaries in NLP and Speech while ensuring these powerful tools can empower changemakers everywhere. My background (see attached CV!) at the intersection of commercial speech systems implementation and publishing open dialogue research would allow me to quickly contribute to advancing the technology further and expanding its accessibility right away. Together I am confident we could spearhead truly impactful innovations that meaningfully progress more people ahead. I would greatly welcome the opportunity to further discuss ideas on that potential with you and the team!
+</p>
+            {% else %}
+              {% if site.application == "ARM" %}
+<p class="dark_paragraph">
+I am an engineer at heart, with passion for AI, high performance computing, system architecture, real-time processing, audio-visual perception, and data analytics. I have over 8 years of experience in system architecture and software performance analysis. My expertise includes an in-depth understanding of computer architecture of IP processors, from early-stage software models up to deployment in RTL, FPGA, and silicon. I have explored and challenged the limits of interconnects, CPUs/GPUs/NPUs through use-cases characterization, tracing and distilling the key compute and data patterns, reducing them down to manageable low-level benchmarks for performance analysis. 
+</p>
+
+<p class="dark_paragraph">
+I have spent all my career in research and senior applied research roles, working flexibly as main individual contributor, leading teams and collaborating with cross-functional local and remote teams, to define and implement non-intrusive, highly accurate tools for characterizing and modeling complex workloads, ensuring precise workload representation and clear presentation of the captured insights.
+</p>
+
+<p class="dark_paragraph">
+My skills include planning and implementing tool systems for architectural exploration and software/hardware co-optimization. I design and develop strategies for software/hardware co-optimization and lead coordination with other software, hardware and architects' stakeholders, to achieve optimal performance of new software and hardware components for next-generation processors.
+</p>
+
+<p class="dark_paragraph">
+I have strong proficiency in C++ and Python, with experience prototyping new features from firmware, to operating system driver level or user-space applications for key instrumentation. I can debug performance or functional problems at any stage of the software-hardware co-development and optimization process: from user-space to architectural and microarchitectural levels in simulators, emulators and even occasionally up to waveform-level when required. Then, I am able to make performance projections from individual components or full SoC simulators and tools such as Gem5, QEMU, and DynamoRIO. 
+</p>
+
+<p class="dark_paragraph">
+My passion for analysis and performance optimization energise me to have a high degree of initiative and confident problem-solving abilities, which have earned me recognition and awards in projects spanning from proof-of-concept to deployment in production, introducing novel data analysis and AI techniques to create tools for performance prediction, and finally presenting the main achievements in internal and external conferences and events.
+</p>
+
+<p class="dark_paragraph">
+I speak English, Spanish and Catalan fluently and Korean at beginner's level. I genuinely enjoy applying mathematical and computational approaches to decode complex systems. Eager to continuously expand my knowledge, I am especially energized by opportunities to collaborate with multidisciplinary teams on cutting-edge challenges. My engineering foundation paired with my drive to learn makes me adept at breaking down complex technical problems and assessing potential innovations that balance creativity with pragmatic and scalable solutions. 
+</p> 
+
+<!--
+I have experience over 8 years of system architecture expertise, and SW performance analysis.
+I have understanding of computer architecture and microarchitectures from prototype/early-stage system models to deployment in final RTL, FPGA, silicon and softare.
+I have experience challenging the limits of interconnect, CPUs/GPUs/NPUs from use-cases to low-level performance analysis.
+I have passion for analysis and improvement.
+Capable of working both in teams and independently.
+Demonstrated high degree of initiative and confident problem solved (awards)
+I have experience working on pre-silicon platfomrs from models, RTL, simulation, emulation and FPGA.
+I have experience using data analysis and AI create tools that aims to help us analyse and predict performance of different
+I have experience in many type of use-cases running on CPU, GPU and NPUs, from AI, Computer Vision, Computer Graphics, Speech Recognition.
+I have profound background in workload modeling:
+I have experience of defining methodologies of tracing and reducition of large use-case applications to speedup simulation and make performance projection to provide insights to s/w and h/w architects
+I can plan and implement tool systems for architectural exploration and performance analysis, driving software/hardware vertical integration and planiong software/hardware co-optimization for next generation features in processors.
+I have a strong CPU/GPU/NPU architecture and workload extraction as a good grasp of compiler, binary analysis and software/hardware co-optimization.
+I have experience in investigation of cutting-edge, high-performance computing from servers, to mobile and embeded CPU and SoC architectures, contributiong vital data support for crucial decision-making processes.
+I have experience designing and executing implementations of relevant tool systems for the exploration of architecture and the analysis of performance.
+I have experience developing strategies for software/hardware co-optimization features and lead the integration of software and hardware components for th enext generation processors.
+I have experinece constructing non-intrusive, highly accurate tools for characterizing and modelling complex workloads, ensuring precise workload representation.
+I have experience analysing and extracting the distinctive features of real-world scenario workloads, delivering essential insights to the architecture and development teams.
+I have experience making performance projections and architectural exploration using SoC simulators
+I have experience using performance simulators including fast models and cycle accurate models like SystemC, Gem5, QEMU, or DynamoRIO.
+I have strong skills in languages such as C++ and Pythob. And I have experience prototyping new features at firmware and and OS driver levels, or user-space applicatoins addressing key instrumentation to gather key insights at any stage of the softwware-hardware co-development and optimization.
+I have experience debugging performance or functional problems from user-space, up to architectural and micro-architectural level in simulators, and occasional up to waveform-level when required.
+-->
+	      {% else %}
+	        {% if site.application == "GEN" %}
+<p class="dark_paragraph">
+I am an engineer at heart, with passion for AI, high performance computing, real-time processing, audio-visual perception, and data analytics. Leveraging over 10 years’ of experience architecting and productionizing high performance computing, computer vision and speech recognition systems. Last 6 years, in industry-leading AI labs, working in AI applied research projects. My experience spans from firmware development to high performance GPU computing and CPU, NPU or DSP processing in embedded systems. 
+</p>
+
+<p class="dark_paragraph">
+I have spent all my career in research and senior applied research roles, leading and collaborating cross-functional local and remote teams. Recently, I have been leading applied research teams focused on prototyping and analyzing how to integrate new research features into future products, serving as a bridge between research concepts and commercial solutions.
+</p>
+
+<p class="dark_paragraph">
+I speak English, Spanish and Catalan fluently and Korean at beginner's level. I genuinely enjoy applying mathematical and computational approaches to decode complex systems. Eager to continuously expand my knowledge, I am especially energized by opportunities to collaborate with multidisciplinary teams on cutting-edge challenges. My engineering foundation paired with my drive to learn makes me adept at breaking down complex technical problems and assessing potential innovations that balance creativity with pragmatic and scalable solutions. 
+</p> 
+ 
+<p class="dark_paragraph">
+I have expertise optimizing large automatic speech recognition (ASR) models (100s of millions of parameters) for on-device deployment by making them 20-5% smaller while retaining most of their accuracy. While details are confidential from previous employer project, I gained valuable skills - including knowledge distillation, architecture adaptation, mixed quantization, and optimizations for memory, bandwidth and latency - to meet real-time performance requirements on resource-constrained hardware running many intensive tasks concurrently. The equivalent public ASR models I applied these techniques to are Whisper and HuBERT. My key achievement was successfully generating optimized ASR models that meet strict latency, quality and performance requirements for on-device NPUs. I have been explored the integration of ASRs with speaker diarization and speech-to-speech translation, as a service for streaming content providers.
+</p>
+
+<p class="dark_paragraph">
+In last role, I gained significant hands-on expertise in deploying large language models (LLMs) on accelerated services and embedded devices. While details are confidential with previous employer project, my primary focus has been fine-tuning and optimizing pre-trained models to meet stringent latency and performance requirements for real-time services. For instance, I successfully slimmed recurrent neural networks (RNNs) and transformers by up to 80% by applying quantization, pruning, knowledge distillation and other compression techniques without severely impacting their accuracy. The results were applied to enhance accessibility of video content, with descriptive captions and subtitles or voiceovers generated automatically for media content.
+</p> 
+{% if site.web_mode %}
+{% else %}
+{% endif %}
+
+                {% else %}
+                  OTHER
+     	        {% endif %}
+              {% endif %}
+            {% endif %}
+          {% endif %}
         {% endif %}
       {% endif %}
     {% endif %}  
@@ -34,120 +227,381 @@ layout: default
 {% endif %}
 </p>
 </div>  
-&nbsp;  
-
+&nbsp;
 {% endif %}
 
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %}
-
-
-&nbsp;  
-&nbsp;  
 {% endif %}
-## Industry advanced product development [l](#industry-advanced-product-development)  
+
+{% if site.resume_mode == true %}
+{% else %}
+<div class="dark_border_only_box">
+{% endif %}
+
+<h3 id="apr2024-present2024-l-huawei-research-uk">
+Apr.2024-Present <a href="https://www.cambridgesciencepark.co.uk/company-directory/hauwei-uk-rd-centre/">l Huawei Research UK</a>
+</h3>
+<center>
 
 <div class="dark_box">
-
- 
 <p class="dark_paragraph">
-I'm a tech lead and principal engineer in <a href="https://research.samsung.com/">Samsung Research</a>, driving on-device AI vision and speech applied research projects, focusing on ML-hardware aware solutions (Auto ML): frameworks and neural network models optimisation for the next generation of Samsung products; from proof-of-concepts to commercial products.
+I am a Principal Performance Modelling Engineer in <a href="https://www.huawei.com/en/publications/huawei-research">Huawei Research</a> (<a href="https://www.cambridgesciencepark.co.uk/company-directory/hauwei-uk-rd-centre/">UK</a>), focusing on modelling and simulation of upcoming CPU and NPU processors with AI future use-cases, leading architectural studies and software/hardware co-optimization to define requirements and new innovative features of such advanced processors. 
+</p>
+</div>
+&nbsp;
+
+</center>
+
+{% if site.resume_mode == true %}
+{% else %}
+</div>
+&nbsp;
+{% endif %}
+
+{% if site.web_mode %}
+{% else %}
+{% endif %}
+
+
+## Previous Experience
+
+{% if site.resume_mode == true %}
+{% else %}
+<div class="dark_border_only_box">
+{% endif %}
+
+<h3 id="jan2024-mar2024-l-freelance-ai-consultant">
+Jan.2024-Mar.2024 <a href="https://ismaelgarcia.ai">l Freelance AI Consultant</a>
+</h3>
+<center>
+
+<div class="dark_box">
+<p class="dark_paragraph">
+Exploring next career steps and AI freelance consulting.
+</p>
+</div>
+&nbsp;
+
+</center>
+
+{% if site.resume_mode == true %}
+{% else %}
+</div>
+&nbsp;
+{% endif %}
+
+
+{% if site.resume_mode == true %}
+{% else %}
+<div class="dark_border_only_box">
+{% endif %}
+
+<h3 id="apr2022-dec2023-l-samsung-research-uk">
+Apr.2022-Dec.2023 <a href="https://research.samsung.com/sruk">l Samsung Research UK</a>
+</h3>
+<center>
+
+<div class="dark_box">
+<p class="dark_paragraph">
+Between 2022-2023, as Tech Lead and Principal Engineer in <a href="https://research.samsung.com/">Samsung Research</a> (<a href="https://research.samsung.com/sruk">SRUK</a>), I worked with <a href="https://www.linkedin.com/in/chrisalder/" title="Chris Alder">Chris Alder</a> and <a href="https://www.linkedin.com/in/ben-duckworth-05aa8b11" tittle="Ben Duckworth">Ben Duckworth</a>, leading an On-Device AI Applied Research team and collaborated with cross-functional local and remote teams, driving on-device AI vision & speech applied research projects, focusing on ML-hardware aware solutions: frameworks and neural network models optimisation for the next generation of Samsung products; from proof-of-concepts to commercial products in fast-paced projects.
+</p>
+</div>
+&nbsp;
+
+<div class="transparent_box" style="text-align: left;">
+<h4 id="-speech-separation-and-enhancement-2022-2023">&#x2022; Speech Separation and Enhancement (2022-2023)</h4>
+
+<p>
+<img src="assets/img/npu_speech_separation.png" alt="Octocat" width="128px"> Designed and developed efficient real-time RNN architecture models that distinguish and separate the primary voice from other sounds. The key is to take advantage of Neural Processing Units to achieve <a href="https://news.samsung.com/us/ai-driven-sound-innovation-redefining-the-tv-audio-experience/">optimal sound enhancements in real-time</a>, providing deeper and greater details by analyzing content scene by scene and accentuating various audio elements including human voices, background music and sound effects in next generation products.
 </p>
 
-<p class="dark_paragraph">
-Between 2022-2018, as a principal engineer in Arm's Machine Learning Group, I worked  with David Mansell and <a href="https://www.linkedin.com/in/ianbratt" title="Ian Bratt">Ian Bratt</a>, analysing neural networks of future use-cases, identifying the most relevant operations and data patterns, capturing key insights with data science techniques to advance real-world performance of <a href="https://www.arm.com">Arm</a>'s new software and hardware solutions.
+<h5 id="-outstanding-rd-award-for-performance--continuous-contributions-122023-results-also-presented-in-ces-2024"><a href="https://ismagarcia.github.io/me/assets/img/samsung_electronics_award_2023.png">** Outstanding R&amp;D Award for performance &amp; continuous contributions (12/2023) **</a><br><a href="https://www.youtube.com/live/kwC80iGpbhY?si=fg7ZeI95bYLGzmbz&amp;t=1372">(Results also presented at CES 2024)</a></h5>
+
+<p>
+<em>Keywords</em>: Deep Neural Networks, Pytorch, Tensorflow, Jax, RNN, Transformers, Speech Processing, Speaker Source Separation, NPU: Neural Processing Units, DSP: Digital Signal Processing Units, Tizen, Real-time Processing
 </p>
 
+<h4 id="-face-and-speaker-detection-and-verification-2022-2023">&#x2022; Face and Speaker Detection & Verification (2022-2023)</h4>
+
+<p>
+<img src="assets/img/hts_figure.png" alt="Octocat" width="128px"> Optimized deep neural network architectures to achieve real-time faces and lips detection, from characters displayed on the screen, taking advantage of Neural Processing Units to <a href="https://www.samsung.com/au/support/tv-audio-video/object-tracking-sound-on-your-smart-tv/">automatically associate their voices with their position</a> in the image, for increased realism and immersive sound experience in next generation products. And experimental Speaker Verification for parental control use-cases
+</p>
+
+<p>
+<em>Keywords</em>: Deep Neural Networks, Pytorch, Tensorflow, Object Detection, NPU: Neural Processing Units, DSP: Digital Signal Processing Units, Tizen, Real-time Processing
+</p>
+
+</div>
+&nbsp;
+
+</center>
+
+{% if site.resume_mode == true %}
+{% else %}
+</div>
+&nbsp;
+{% endif %}
+
+
+{% if site.web_mode %}
+{% else %} 
+{% endif %}
+
+
+
+{% if site.resume_mode == true %}
+{% else %}
+<div class="dark_border_only_box">
+{% endif %}
+
+<h3 id="jan2018-mar2022-l-arm-machine-learning-group-architecture-and-technology">
+Jan.2018-Mar.2022 <a href="https://www.arm.com">l Arm<br>(Machine Learning Group)</a>
+</h3>
+<center>
+
+<div class="dark_box">
 <p class="dark_paragraph">
-Between 2016-2017 I worked with <a href="https://uk.linkedin.com/in/paulshughes">Paul Hughes</a> in <a href="https://www.arm.com/">Arm</a>'s Architecture and Technology 
+Between 2018-2022, as a Principal Engineer in <a href="https://www.arm.com/">Arm</a>'s Machine Learning Group, I worked  with David Mansell and <a href="https://www.linkedin.com/in/ianbratt" title="Ian Bratt">Ian Bratt</a>, analysing neural networks of future use-cases, identifying the most relevant operations and data patterns, capturing key insights with data science techniques to advance real-world performance of <a href="https://www.arm.com">Arm</a>'s new software and hardware solutions.
+</p>
+</div>
+&nbsp;
+
+
+<div class="transparent_box" style="text-align: left;">
+
+<h4 id="-predictive-models-for-kernels-selection-heuristics-2020-2022">&#x2022; Predictive Models for Kernel Selection Heuristics (2020-2022)</h4>
+
+<p>
+<img src="assets/img/gemm_kernel_heuristics.png" alt="Octocat" width="192px"> Designed and developed innovative predictive model for CPUs & GPUs, for high-performance selection of kernels implementations of GEMM (General Matrix Multiply) and convolutions, within Machine Learning use-cases; choosing the right implementation in microseconds is crucial through fast and general heuristics.
+</p>
+
+<p>
+<em>Keywords</em>: Deep Neural Networks, Tensorflow, Keras, Convolutions, General Matrix Multiply, Decision Trees, Random Forest, Classification, Regression, AutoML, Data Augmentation, Performance Analysis
+</p>
+
+
+<h4 id="-new-armv9-a-ml-cpu-isa-extensions-sme-2020-2022">&#x2022; New Armv9-A ML CPU ISA extensions (SME) (2020-2022)</h4>
+
+<p>
+<img src="assets/img/sme_extensions.png" alt="Octocat" width="192px"> Investigated novel CPU architecture features called <a href="https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/scalable-matrix-extension-armv9-a-architecture">SME (Scalable Matrix Extension)</a>—a new instruction set designed to optimize performance and power efficiency of AI applications. SME enables hardware-acceleration of outer product operations, for fast general matrix multiplication used AI core oeprations. Through hardware simulations and benchmarking, I demonstrated to CPU architects and hardware engineers concrete performance gains for AI applications
+</p>
+
+<p>
+<em>Keywords</em>: Matrix multiplication, Outer product, Modelling, CPU Architecture, Deep Neural Network, Performance Analysis
+</p>
+
+
+<h4 id="-future-use-cases-and-deep-neural-networks-performance-2018-2022">&#x2022; Future Use-Cases & Deep Neural Networks Performance (2018-2022)</h4>
+
+<p>
+<img src="assets/img/dnn_analysis.png" alt="Octocat" width="128px"> Investigated deep neural networks for future use-cases, analysing them and breaking them down to distill the most relevant operations and data patterns, capturing key insights with data science techniques, to then drive new software and hardware solutions.
+</p>
+
+<p>
+<em>Keywords</em>: Deep Neural Networks, Convolutions, General Matrix Multiply, Classification, Regression, LSTM, Transformers, Clustering, Ensemble Learning, Data Augmentation, Performance Analysis
+</p>
+
+</div>
+
+</center>
+
+{% if site.resume_mode == true %}
+{% else %}
+</div>
+&nbsp;
+{% endif %}
+
+
+{% if site.resume_mode == true %}
+{% else %}
+<div class="dark_border_only_box">
+{% endif %}
+
+<h3 id="sep2012-Dec2017-l-arm-machine-learning-group-architecture-and-technology">
+Sep.2012-Dec.2017 <a href="https://www.arm.com">l Arm<br>(Architecture & Technology Group)</a>
+</h3>
+<center>
+
+<div class="dark_box">
+<p class="dark_paragraph">
+Between 2015-2017, I worked with <a href="https://uk.linkedin.com/in/paulshughes">Paul Hughes</a> in <a href="https://www.arm.com/">Arm</a>'s Architecture and Technology 
 Group, as member of the Intelligent Machines Future System Design 
 team, analysing and prototyping computer vision and ML subsystems for ADAS.
 </p>
+</div>
+&nbsp;
 
+<div class="transparent_box" style="text-align: left;">
+
+<h4 id="-adas-and-computational-biology-use-cases-2016-2017">&#x2022; ADAS & Computational Biology use-cases (2016-2017)</h4>
+
+<p>
+<img src="assets/img/adas_cb_subsys.png" alt="Octocat" width="128px"> Analysed and prototyped machine learning subsystems for ADAS (Advanced Driver-Assistance System) and Computational Biology applications, to identify which computational patterns could be optimized with the <a href="https://community.arm.com    /tools/hpc/b/hpc/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture">SVE (Scalable Vector Extension)</a> instruction set.
+</p>
+
+<p>
+<em>Keywords</em>: Image Segmentation, SLAM, Stereo matching, Object Detection, Graph/Network Structures, Deep Neural Networks, System Architecture, Memory management, Virtualization, Software Modelling, Performance Analysis
+</p>
+
+
+<h4 id="-new-armv8-a-cpu-isa-extensions-sve-2015-2016">&#x2022; New Armv8-A CPU ISA extensions (SVE) (2015-2016)</h4>
+
+<p>
+<img src="assets/img/sve_asm.png" alt="Octocat" width="128px"> Investigated the impact of <a href="https://community.arm.com/tools/hpc/b/hpc/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture">SVE (Scalable Vector Extension)</a>: a new instruction set, with applications in computer vision workloads, exploiting as much data-level parallelism as possible, with new instructions and vector lengths that scale from 128 to 2048 bits. Through hardware simulations and benchmarking, I demonstrated to CPU architects and hardware engineers concrete performance gains in computer vision applications.
+</p>
+
+<p>
+<em>Keywords</em>: Single Instruction, Multiple Data (SIMD)
+programming model, Vector Instructions, Parallel Programming, Modelling, CPU Architecture, Computer Vision, Keypoint and Features Detection, Assembly Language, Performance Analysis
+</p>
+
+</div>
+
+
+<div class="dark_box">
 <p class="dark_paragraph">
-In 2012 I joined <a href="https://www.arm.com/">Arm</a>'s Processor Division working in system architecture 
+Between 2012-2014, I joined <a href="https://www.arm.com/">Arm</a>'s Processor Division as Staff Engineer, working on system architecture 
 and heterogeneous computing projects with <a href="https://uk.linkedin.com/in/charles-garc%C3%ADa-tobin-0374071">Charles Garcia-Tobin</a> 
 and <a href="https://www.linkedin.com/in/jason-parker-1548aa1/">Jason Parker</a>.
 </p>
 </div>
 &nbsp;
 
-## Selected industry projects ordered chronologically [l](#selected-industry-projects-ordered-chronologically)
 
-{% if site.logo %}
+<div class="transparent_box" style="text-align: left;">
+
+<h4 id="-heterogeneous-computing-and-gpu-coherency-2012-2014">&#x2022; Heterogeneous Computing and GPU Coherency (2012-2014)</h4>
+
+<p>
+<img src="assets/img/gpu_coh.png" alt="Octocat" width="128px"> Modelled and prototyped low-level software, and analysed heterogeneous compute use-cases to incorporate <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> support between different type of processors (CPU & GPU), enabling them to share data, as simply as passing a pointer, which massively simplify the software, and delivers more power efficient and higher performance applications than other software managed cache synchronization mechanisms.
+</p>
+
+<p>
+<em>Keywords</em>: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, System Architecture, Modelling, System Programming, Simulation Waveform, FPGA prototyping
+</p>
+
+</div>
+
+</center>
+
+{% if site.resume_mode == true %}
 {% else %}
-&nbsp;  
-&nbsp;  
+</div>
+&nbsp;
 {% endif %}
 
-### Speech Separation and Enhancement [2022-2023] [l](#predictive-models-for-kernel-selection-heuristics)
 
-![Octocat](assets/img/npu_speech_separation.png){:width="128px"} Designed and developed efficient real-time RNN architecture models that distinguishes and separates the primary voice from other sounds. The key is to take advantage of Neural Processing Units to achieve <a href="https://news.samsung.com/us/ai-driven-sound-innovation-redefining-the-tv-audio-experience/">optimal sound enhancements in real-time</a>, providing deeper and greater details by analyzing content scene by scene and accentuating various audio elements including human voices, background music and sound effects. 
-
-_Keywords_: Deep Neural Networks, Convolutions, RNN, Speech Processing, Speaker Source Separation, Neural Processing Units, Real-time Processing
-
-{% if site.logo %}
-{% else %}
-&nbsp;  
-&nbsp;  
-{% endif %}
-
-
-### Predictive Models for Kernel Selection Heuristics [2020-2022] [l](#predictive-models-for-kernel-selection-heuristics)
-
-![Octocat](assets/img/gemm_kernel_heuristics.png){:width="192px"} Designed and developed innovative predictive model for CPUs & GPUs, for high-performance selection of kernels implementations of GEMM (General Matrix Multiply) and convolutions, within Machine Learning use-cases; choosing the right implementation in microseconds is crucial through fast and general heuristics.
-
-_Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classification, Regression, AutoML, Data Augmentation, Performance Analysis
-
-{% if site.logo %}
-{% else %}
-&nbsp;  
-&nbsp;  
-{% endif %}
-
-### Exploring new Armv9-A ML CPU ISA extensions (SME)<br>[2020-2022] [l](#exploring-new-armv9-a-ml-cpu-isa-extensions-sme)
-
-![Octocat](assets/img/sme_extensions.png){:width="192px"} Investigated the impact of <a href="https://community.arm.com/developer/ip-products/processors/b/processors-ip-blog/posts/scalable-matrix-extension-armv9-a-architecture">SME (Scalable Matrix Extension)</a> instruction set in ML workloads and network architectures, exploiting outer product operations with a new programmer’s model and register state to support matrix operations.
-
-_Keywords_: Matrix multiplication, Outer product, Modelling, CPU Architecture, Deep Neural Network, Performance Analysis
-
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %} 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 {% endif %}
 
-### Exploring Deep Neural Networks Performance [2018-2022] [l](#exploring-deep-neural-networks-performance)
 
-![Octocat](assets/img/dnn_analysis.png){:width="128px"} Investigated deep neural networks for future use-cases, analysing them and breaking them down to distill the most relevant operations and data patterns, capturing key insights with data science techniques, to then drive new software and hardware solutions.
+### Personal Projects [l](#personal_projects)
 
-_Keywords_: Deep Neural Networks, Convolutions, General Matrix Multiply, Classification, Regression, LSTM, Transformers, GAN, Clustering, Ensemble Learning, AutoML, Data Augmentation, Performance Analysis
+<div class="dark_box">
+<center>
+<a href="http://ismaelgarcia.ai/">Other experimental projects details can be provided upon request.</a>
+</center>
+</div>
 
-{% if site.logo %}
+&nbsp;  
+
+## Honors and awards [l](#honors-and-awards)
+
+#### 2023        Samsung Electronics:<br>[Outstanding R&D Award for performance & continuous contributions](https://ismagarcia.github.io/me/assets/img/samsung_electronics_award_2023.png) [Dec. 2023]
+                 
+
+#### 2021        University of Girona:<br>[Interview & career recognition](https://ismagarcia.github.io/me/assets/img/25-ANYS-Patronat-UdG-EPS-INTERACTIU.pdf#page=65) [book release: Nov. 2021] 
+Career recognition by the board of trustees of the <a href="https://ismagarcia.github.io/me/assets/img/25-ANYS-Patronat-UdG-EPS-INTERACTIU.pdf#page=64">Polytechnic School Patronage</a> (<a href="https://www.udg.edu/en/">University of Girona</a>) in 25th anniversary book, by founding members, industrialists, representatives of institutions, Chamber of Commerce, delegates from different government departments and presidents and deans of professional associations from <a href="https://www.udg.edu/en/">University of Girona</a>.
+<a href="https://patronateps.udg.edu/llibre-25-anys-premis-patronat/">25th Anniversary Book: Polytechnic School Patronage</a>
+
+#### 2013        Best Ph.D. Thesis Award of the School of Computer Science  
+Parallel spatial data structures for interactive rendering, PhD Thesis, defended October 2012  
+**<a href="https://www.udg.edu/ca/portals/67/OContent_Docs/Resolucio_convocatoria_2013-4.pdf">Publication September 2013</a>**  
+**<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona 2013</a>**  
+  
+#### 2007	Best Computer Science Project Award  
+Generation and real-time visualization of 3D vegetation  
+<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
+Patronat Award 12th Edition winner  
+Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  
+
+
+{% if site.web_mode %}
 {% else %}
-&nbsp;  
-&nbsp;  
 {% endif %}
 
-### Advanced Driver-Assistance System and Computational Biology applications [2016-2017] [l](#advanced-driver-assistance-system-and-computational-biology-applications)
+## Technical skills [l](#tecnical-skills)
 
-![Octocat](assets/img/adas_cb_subsys.png){:width="128px"} Analysed and prototyped
-computer vision and ML subsystems for Advanced Driver-Assistance System and Computational Biology applications.
+### Languages [l](#languages) 
+English (Read, Write and Speak: Fluent),
+Spanish (mother language),
+Catalan (Read, Write and Speak: Fluent),
+Korean  (Beginner).
 
-_Keywords_: Modelling,  Image Segmentation, Graph/Network Structures, Deep Neural Networks, Virtualization, System Architecture, Memory management, Radar, SLAM, Stereo matching, Object Detection, Performance Analysis
+### Programming Languages [l](#programming-languages)
+Python, C, C++, Objective C, OpenCL, CUDA, Aarch64 Assembly (NEON, SVE), Javascript, R, Latex, MatLab, HLSL, GLSL, SQL, NoSQL, HTML, CSS, PHP.
 
-### Exploring new Armv8-A CPU ISA extensions (SVE) [2015-2016] [l](#exploring-new-armv8-a-cpu-isa-extensions-sve)
+### Programming frameworks, tools and APIs [l](#programming-frameworks-tools-and-apis) 
 
-![Octocat](assets/img/sve_asm.png){:width="128px"} Investigated the impact of <a href="https://community.arm.com/tools/hpc/b/hpc/posts/technology-update-the-scalable-vector-extension-sve-for-the-armv8-a-architecture">SVE (Scalable Vector Extension)</a> instruction set in computer vision workloads, exploiting as much data-level parallelism as possible, with new instructions and vector lengths that scale from 128 to 2048 bits.
+Tensorflow, Pytorch, JAX, AirFlow, RStudio, Mathematica, Github Copilot, Jupyter Notebook, Caffe2, OpenCV, DirectX, OpenGL, OpenMP, Unity, Android NDK, LLVM,
+AWS (EC2, EFS, S3), Google Cloud Platform, Docker, Kubernetes, Spark, Hadoop, Git, Confluence, JIRA, Sharepoint, Visual Studio, GDB, 
+3ds Max, Maya, Zbrush, Blender, Photoshop, Gimp, Inkscape.
 
-_Keywords_: Single Instruction, Multiple Data (SIMD)
-programming model, Vector Instructions, Parallel Programming, Modelling, CPU Architecture, Computer Vision, Keypoint and Features Detection, Assembly Language, Performance Analysis
+### Full-Stack Development [l](#full-stack-development)
 
-### Heterogeneous Computing and GPU Coherency [2012-2014] [l](#heterogeneous-computing-and-gpu-coherency)
+OSX, Linux, Android, Tizen, Windows, Firmware and bare-metal.
 
-![Octocat](assets/img/gpu_coh.png){:width="128px"} Modelled and prototyped low-level software, and analysed heterogeneous compute use-cases to incorporate <a href="https://community.arm.com/processors/b/blog/posts/exploring-how-cache-coherency-accelerates-heterogeneous-compute">Shared Virtual Memory (SVM)</a> support between different type of processors (CPU & GPU), enabling them to share data, as simply as passing a pointer, which massively simplify the software, and delivers more power efficient and higher performance applications than other software managed cache synchronization mechanisms.
+_Keywords_: parallel computing, multi-threaded design, algorithm design, numerical methods, data visualization, machine learning, computer vision, 3d graphics and game engine programming, white papers, technical papers, GPU, CPU and FPGA development
 
-_Keywords_: Memory Models, Cache Memory, Interconnect, Heterogeneous Computing, System Architecture, Modelling, System Programming, Simulation Waveform, FPGA prototyping
 
-#### Note: Other experimental projects can be provided upon request.
+{% if site.web_mode %}
+{% else %}
+&nbsp;
+&nbsp;
+&nbsp;
+{% endif %}
+
+
+## Education and training [l](#education-and-training) 
+
+#### <!-- 2007 – 2012--> Ph.D. in Computer  Science
+Dissertation: Parallel spatial data structures for interactive rendering  
+BR PhD Fellowship from the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>
+
+#### <!--2006 – 2007--> Master in Computing
+From the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, and the <a href="https://www.upc.edu/en?set_language=en">UPC Barcelona Tech</a>  
+
+{% if site.web_mode %}
+{% else %}
+&nbsp;
+&nbsp;
+{% endif %}
+
+#### <!--2003 – 2006-->	Computer Engineering
+<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
+
+<!--
+#### 1999 – 2003 Technical Computer Engineering 
+<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
+-->
+
+{% if site.web_mode %}
+{% else %}
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+{% endif %}
 
 ## Academic research [l](#academic-research)
 <div class="dark_box">
@@ -181,7 +635,7 @@ In 2007 I started my Phd. in Computer Graphics joining the
 </p>
 
 <p class="dark_paragraph">
-In 2005 I did a research internship collaborating with <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a>
+In 2005 I did a research internship collaborating with <a href="https://www.iit.bme.hu/users/dr-szirmay-kalos-l%C3%A1szl%C3%B3?language=en">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a>
 <a href="">Computer Graphics Research Group</a>.
 </p>
 
@@ -200,44 +654,33 @@ My previous research explored practical applications in a variety of areas in co
 </p>
 
 <p class="dark_paragraph">
-I was introduced in the Computer Graphics field advised by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>. In 2005 I did a research internship collaborating with <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a> <a href="http://cg.iit.bme.hu/portal/en/cg">Computer Graphics Research Group</a>. In 2007 I started my Phd. in Computer Graphics joining the <a href="http://ggg.udg.edu/">GGG research group</a>, under the supervision of <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a> with doctorate research internships with <a href="http://alice.loria.fr">ALICE Project-Team</a> (<a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a>), collaborating with <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>.
+I was introduced in the Computer Graphics field advised by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>. In 2005 I did a research internship collaborating with <a href="https://www.iit.bme.hu/users/dr-szirmay-kalos-l%C3%A1szl%C3%B3">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a> <a href="http://cg.iit.bme.hu/portal/en/cg">Computer Graphics Research Group</a>. In 2007 I started my Phd. in Computer Graphics joining the <a href="http://ggg.udg.edu/">GGG research group</a>, under the supervision of <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a> with doctorate research internships with <a href="https://www.loria.fr/en/research/teams/alice/">ALICE Project-Team</a> (<a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a>), collaborating with <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>.
 </p>
 
 </div>  
 &nbsp;
 
-## Honors and awards [l](#honors-and-awards)
-
-<!--
-#### 2021        Interview and career recognition [book publication date: November 2021] 
-Career recognition by the board of trustees of the <a href="https://patronateps.udg.edu/">Polytechnic School Patronage</a> (<a href="https://www.udg.edu/en/">University of Girona</a>) in 25th anniversary book, by founding members, industrialists, representatives of institutions, Chamber of Commerce, delegates from different government departments and presidents and deans of professional associations from <a href="https://www.udg.edu/en/">University of Girona</a>.
-<a href="https://patronateps.udg.edu/llibre-25-anys-premis-patronat/">25th Anniversary Book: Polytechnic School Patronage</a>
--->
-
-#### 2013        Best Ph.D. Thesis Award of the School of Computer Science  
-Parallel spatial data structures for interactive rendering, PhD Thesis, defended October 2012  
-**<a href="http://www2.udg.edu/Portals/165/Resoluci%C3%B3%20convocat%C3%B2ria%202013.pdf">Publication September 2013</a>**  
-**<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>, 2013**  
-  
-#### 2007	Best Computer Science Project Award 2006-2007  
-Generation and real-time visualization of 3D vegetation  
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
-Patronat Award 12th Edition winner  
-Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  
-
-
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %}
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
 {% endif %}
 
-## Selected publications [l](#selected-publications)
 
-#### Parallel spatial data structures for interactive rendering
-![Octocat](assets/img/phd_thesis_2012_caption.png){:width="128px"} PhD Thesis, October 2012 <a href="https://www.tdx.cat/bitstream/handle/10803/107998/tigf.pdf?sequence=8&isAllowed=y">[pdf]</a>
+### Selected Research Publications [l](#selected-publications)
 
-Best Ph.D. Thesis Award of the School of Computer Science 2013  
+#### &#x2022; Parallel spatial data structures for interactive rendering (2013)
+![Octocat](assets/img/phd_thesis_2012_caption.png){:width="128px"} PhD Thesis, defended October 2012 <a href="https://www.tdx.cat/bitstream/handle/10803/107998/tigf.pdf?sequence=8&isAllowed=y">[pdf]</a>
+(Best Ph.D. Thesis Award, School of Computer Science 2013  
 <a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>
-&nbsp;
+)
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
 
@@ -262,12 +705,17 @@ The focus of our study is to design and provide time- and space-efficient parall
 <em>Keywords</em>: Spatial data, Dense and Sparse Data Structures, Parallel Computing, Spatial Hashing, Surface Parameterization, Subdivision Surfaces, Surface Simplification
 </p>
 
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %}
 {% endif %}
 
 
-#### Interactive Applications for Sketch-Based Editable Polycube Map
+{% if site.web_mode %}
+{% else %}
+{% endif %}
+
+
+#### &#x2022; Interactive Applications for Sketch-Based Editable Polycube Map (2013)
 ![Octocat](assets/img/editablepc_tvc2013_teaser.png){:width="128px"} IEEE Transactions on Visualization and Computer Graphics, (Volume:19, Issue: 7, July 2013); Ismael Garcia, Jiazhi Xia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="https://ieeexplore.ieee.org/document/6361388">[pdf]</a> 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -283,7 +731,12 @@ In this paper we propose a sketch-based editable polycube mapping framework that
 &nbsp;  
 _Keywords_: Digital Geometry Processing, Surface Parameterization, Polycube Map, GPU Subdivision Surface
 
-#### A Runtime Cache for Interactive Procedural Modeling
+{% if site.web_mode %}
+{% else %}
+{% endif %}
+
+
+#### &#x2022; A Runtime Cache for Interactive Procedural Modeling (2012)
 ![Octocat](assets/img/hash_cache_teaser.png){:width="128px"} SMI 2012: Shape Modeling International, Computer & Graphics; Tim Reiner, Sylvain Lefebvre, Lorenz Diener, Ismael Garcia, Bruno Jobard, Carsten Dachsbacher <a href="http://ggg.udg.edu/publicacions/UsersWebs/hashcache_smi2012/">[project page]</a>
  
 
@@ -301,9 +754,12 @@ We present an efficient runtime cache to accelerate the display of procedurally 
 &nbsp;  
 _Keywords_: Parallel Hashing, Runtime Cache, Interactive Shape Modeling, Implicit Surface Rendering, Procedural Textures 
 
-#### Coherent parallel hashing
-![Octocat](assets/img/cohash_2011.png){:width="128px"} ACM Transactions on Graphics  
-Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ggg.udg.edu/publicacions/UsersWebs/cohash_siga2011/index.shtml">[project page]</a>
+{% if site.web_mode %}
+{% else %}
+{% endif %}
+
+#### &#x2022; Coherent parallel hashing (2011)
+![Octocat](assets/img/cohash_2011.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ggg.udg.edu/publicacions/UsersWebs/cohash_siga2011/index.shtml">[project page]</a>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -320,12 +776,12 @@ We introduce a new parallel hashing scheme which reaches high load factor with a
 _Keywords_: Spatial Data, Parallel Computing, Coherent Memory, Cache Memory, Hashing, Sparse Data
 
 
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %}
 {% endif %}
 
 
-#### Editable Polycube Map for GPU-based Subdivision Surfaces
+#### &#x2022; Editable Polycube Map for GPU-based Subdivision Surfaces (2011)
 ![Octocat](assets/img/epcm_i3d_200w_148h.png){:width="128px"} I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ggg.udg.edu/publicacions/UsersWebs/igarcia_epcm_i3d2011/index.shtml">[project page]</a>
 
 <div class="publicationabstract">
@@ -342,11 +798,17 @@ We propose an editable polycube mapping method that, given an arbitrary high-res
 &nbsp;  
 _Keywords_: Digital Geometry Processing, Surface Parameterization, Polycube Map, GPU Subdivision Surface
 
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %}
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 {% endif %}
 
-#### IGT: Inverse Geometric Textures
+#### &#x2022; IGT: Inverse Geometric Textures (2008)
 ![Octocat](assets/img/Teaser_200w_128h.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 27(5), 2008; Ismael Garcia, Gustavo Patow  
 <a href="http://ggg.udg.edu/publicacions/UsersWebs/igarcia_igt_siga2008/">[project page]</a>
 
@@ -364,11 +826,15 @@ Inverse Geometric Textures (IGT) generates an inversely parameterized texture fr
 &nbsp;  
 _Keywords_: Appearance Preserving Simplification, Detail-Recovery, Computer Games, Texturing, Parameterizations, Level-of-Detail
 
+{% if site.web_mode %}
+{% else %}
+{% endif %}
 
-#### Generation and interactive visualization of 3D vegetation
+
+#### &#x2022; Generation and interactive visualization of 3D vegetation (2007)
 ![Octocat](assets/img/nph07.png){:width="128px"} Master thesis in Computing, 2007; from the University of Girona and the UPC Barcelona Tech; advised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  <a href="http://www.gametools.org/archives/publications/mastertesi_isma.pdf">[pdf]</a>
 
-#### Multi-layered indirect texturing for tree rendering
+#### &#x2022; Multi-layered indirect texturing for tree rendering (2007)
 ![Octocat](assets/img/cork_close_view_polygonal_left_121_billboards_multilayer_right_200w_128h.png){:width="128px"} Eurographics Workshop on Natural Phenomena 2007; Ismael Garcia, Gustavo Patow, Laszlo Szirmay-Kalos, Mateu Sbert  
 <a href="http://ggg.udg.edu/publicacions/UsersWebs/igarcia_tree_np2007/">[project page]</a>
 
@@ -387,7 +853,7 @@ This paper presents a technique to render in real time complex trees using billb
 _Keywords_: Image Generation, Clustering, 3D Graphics, Realism
 
 <!--
-#### Tree rendering with billboard clouds
+#### &#x2022; Tree rendering with billboard clouds (2005)
 ![Octocat](assets/img/billboardIndirectTexturing_200w_128h.png){:width="128px"} Third Hungarian Conference on Computer Graphics and Geometry, 2005; Ismael Garcia, Mateu Sbert, Laszlo Szirmay-Kalos  
 
 <div class="publicationabstract">
@@ -404,14 +870,12 @@ This paper presents a simple method to render complex trees on high frame rates 
 &nbsp;
 -->
 
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %}
-&nbsp;  
-&nbsp;  
 {% endif %}
 
 
-#### Leaf cluster impostors for tree rendering with parallax
+#### &#x2022; Leaf cluster impostors for tree rendering with parallax (2005)
 ![Octocat](assets/img/billboardComparison_200w_128h.png){:width="128px"} Short Paper of Eurographics (Dublin, Ireland), pp. 69-72, 2005; Ismael Garcia, Mateu Sbert, Laszlo Szirmay-Kalos  
 
 <div class="publicationabstract">
@@ -428,29 +892,7 @@ This paper presents a simple method to render complex trees on high frame rates 
 &nbsp;  
 _Keywords_: Image Generation, Clustering, 3D Graphics, Realism
 
-## Technical skills [l](#tecnical-skills)
-
-### Languages [l](#languages) 
-English (Read, Write and Speak: Fluent),
-Spanish (mother language),
-Catalan (Read, Write and Speak: Fluent).
-
-### Programming Languages [l](#programming-languages)
-R, Python, C, C++, Objective C, OpenCL, CUDA, Aarch64 Assembly (NEON, SVE), Javascript, Latex, MatLab, GLSL, SQL, NoSQL, HTML, CSS, PHP.
-
-### Programming frameworks, tools and APIs [l](#programming-frameworks-tools-and-apis) 
-
-Tensorflow, Pytorch, JAX, RStudio, Mathematica, Jupyter Notebook, Caffe2, OpenCV, DirectX, OpenGL, OpenMP, Unity, Android NDK, LLVM,
-AWS (EC2, EFS, S3), Google Cloud Platform, Docker, Kubernetes, Spark, Hadoop, Git, Confluence, JIRA, Sharepoint, Visual Studio, GDB, 
-3ds Max, Maya, Zbrush, Blender, Photoshop, Gimp, Inkscape.
-
-### Operating System and Firmware development [l](#operating-system-and-firmware-development)
-
-OSX, Linux, Android, Windows, Firmware and bare-metal.
-
-_Keywords_: parallel computing, multi-threaded design, algorithm design, numerical methods, data visualization, machine learning, computer vision, 3d graphics and game engine programming, white papers, technical papers, GPU, CPU and FPGA development
-
-## Academic teaching [l](#academic-teaching) 
+### Academic teaching [l](#academic-teaching) 
 
 #### From 2010 to 2011	Multimedia  and computing technologies,  
 Technical Computer Engineering  (University  of Girona)  
@@ -473,7 +915,7 @@ Enviromental Science (University  of Girona)
 Teaching assistant  
 
 
-## Conference talks [l](#conference-talks)
+### Conference talks [l](#conference-talks)
 
 #### 2021: Modelling Machine Learning networks with Scalable Matrix Extensions
 Global Engineering Conference<br>
@@ -497,14 +939,15 @@ Barcelona, Spain
 <a href="https://sa2018.siggraph.org/en/about-us/about-siggraph-asia">SIGGRAPH Asia 2011</a>  
 Hong Kong, China  
 
-#### 2011:       Editable Polycube Map for GPU-based Subdivision Surfaces
+#### 2011:      Editable Polycube Map for GPU-based Subdivision Surfaces
 <a href="http://graphics.cs.umass.edu/i3d2011/program.php">Symposium on Interactive 3D Graphics and Games 2011</a>  
 San Francisco, USA  
 
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %}
-&nbsp;  
-&nbsp;  
+&nbsp;
+&nbsp;
+&nbsp;
 {% endif %}
 
 #### 2008:	IGT: Inverse Geometric Textures
@@ -519,7 +962,7 @@ Prague, Czech Republic
 <a href="http://isg.cs.tcd.ie/eg2005/">Eurographics 2005</a>   
 Dublin, Ireland  
 
-## Supervised Bachelor Students: [l](#supervised-bachelor-students)
+### Supervised Bachelor Students: [l](#supervised-bachelor-students)
 
 #### 2017    Gershom Akoli Agim
 Deep Neural Networks on Arm Cortex-A CPUs: Analysis of CPU Inference on Vision workloads
@@ -553,16 +996,17 @@ BEng Project, Technical Computer Engineering
 <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain
 
 
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %}
 &nbsp;   
 &nbsp;  
 {% endif %}
 
 
-## Other professional activities [l](#other-professional-activites)
+### Other professional activities [l](#other-professional-activites)
 
 ### Program Committee Member [l](#program-committee-member)	 
+
 #### CGVCVIP  Computer  Graphics, Visualization, Computer  Vision &  Image Processing
 2012
 <a href="http://www.iadisportal.org/digital-library/iadis-international-conference-computer-graphics-visualization-computer-vision-and-image-processing-2012-part-of-mccsis-2012">IADIS International Conference Computer Graphics Visualization and Image Processing</a>  
@@ -615,33 +1059,13 @@ Technical papers reviewer
 Girona, Spain  
 Local organizer  
 
+
 ### Industry research collaborations [l](#industry-research-collaboration)	
 2010 GPU Mesh Processing tools  
 NVIDIA Mutual Non-Disclosure Agreement 
 
-## Education and training [l](#education-and-training) 
 
-#### 2007 – 2012	Ph.D. in Computer  Science
-Dissertation: Parallel spatial data structures for interactive rendering  
-BR PhD Fellowship from the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>
-
-#### 2006 – 2007	Master in computing
-From the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, and the <a href="https://www.upc.edu/en?set_language=en">UPC Barcelona Tech</a>  
-
-{% if site.logo %}
-{% else %}
-&nbsp;  
-&nbsp;  
-{% endif %}
-
-#### 2003 – 2006	Computer Engineering
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
-
-#### 1999 – 2003	Technical Computer Engineering 
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
-
-
-## Academic experience
+### Academic undergraduate experience
 
 #### From June 2011 to December 2013	Advances in virtual reality for cutting edge applications
 <a href="http://ima.udg.edu/~sellares/Tin2010/Tin2010.htm">Spanish Ministry of Science and Technology Project (TIN2010-20590-C02-02)</a>  
@@ -657,21 +1081,23 @@ Mobility grant TME2008-00961 from <a href="http://alice.loria.fr/">Alice project
 <a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a> France  
 Reserch developer  
 
-#### From May 2007 to May 2011	PhD research fellowship BR
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>  
-Research PhD student    
 
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %}
 &nbsp;  
 &nbsp;  
 {% endif %}
 
+
+#### From May 2007 to May 2011	PhD research fellowship BR
+<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>  
+Research PhD student    
+
 #### From September 2004 to April 2007	Gametools Project
 <a href="http://ima.udg.edu/~sellares/Tin2010/Tin2010.htm">European Union Project (IST-2-004363)</a>  
 Research developer  
 
-{% if site.logo %}
+{% if site.web_mode %}
 {% else %}
 &nbsp;  
 &nbsp;  
@@ -683,13 +1109,13 @@ Phd thesis research intership under supervision of <a href="http://www.antexel.c
 Research developer
 
 #### From February 2005 to May 2005	Research undergraduate intership
-Undergraduate final project under supervision of <a href="http://www.fsz.bme.hu/~szirmay/szirmay.html">Prof.László Szirmay-Kalos</a>
+Undergraduate final project under supervision of <a href="https://www.iit.bme.hu/users/dr-szirmay-kalos-l%C3%A1szl%C3%B3">Prof.László Szirmay-Kalos</a>
 <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a>  
 Erasmus programme grant  
 Research developer  
 
 <!--
-## Conferences attendance
+### Conferences attendance
 
 #### 2017 Implementing Machine Vision with FPGA and SoC platforms Conference
 https://nmi.org.uk/event/fpga-network-implementing-machine-vision-with-fpga-and-soc-platforms/
@@ -705,7 +1131,8 @@ IWOCL 2013 https://www.iwocl.org/2013-presentations/
 IWOCL 2014 https://www.iwocl.org/iwocl-2014/agenda-and-slides/
 -->
 
-## Previous experience
+<!-- Note: temporarily removed: apparently ATS (applicant tracking systems) get confused when filtering candidates from application pool --> 
+<!-- ## Previous experience -->
 
 #### From June 2003 to March 2006	El Baúl S.A. – Grupo editorial el baúl
 Redesign and implementation of online classified advertisement and community website. 
