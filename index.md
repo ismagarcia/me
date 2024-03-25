@@ -34,7 +34,6 @@ I have expertise optimizing large automatic speech recognition (ASR) models (100
 <p class="dark_paragraph">
 In last role, I gained significant hands-on expertise in deploying large language models (LLMs) on accelerated services and embedded devices. While details are confidential with previous employer project, my primary focus has been fine-tuning and optimizing pre-trained models to meet stringent latency and performance requirements for real-time services. For instance, I successfully slimmed recurrent neural networks (RNNs) and transformers by up to 80% by applying quantization, pruning, knowledge distillation and other compression techniques without severely impacting their accuracy. The results were applied to enhance accessibility of video content, with descriptive captions and subtitles or voiceovers generated automatically for media content.
 </p> 
-{% if site.web_mode %}
 {% else %}
 {% if site.application == "OTHER" %}
 
@@ -119,7 +118,7 @@ Apr.2022-Dec.2023 <a href="https://research.samsung.com/sruk">l Samsung Research
 
 <div class="dark_box">
 <p class="dark_paragraph">
-Between 2022-2023, as Tech Lead and Principal Engineer in <a href="https://research.samsung.com/">Samsung Research</a> (<a href="https://research.samsung.com/sruk">SRUK</a>), I worked with <a href="https://www.linkedin.com/in/chrisalder/" title="Chris Alder">Chris Alder</a> and <a href="https://www.linkedin.com/in/ben-duckworth-05aa8b11" tittle="Ben Duckworth">Ben Duckworth</a>, leading an On-Device AI Applied Research team and collaborated with cross-functional local and remote teams, driving on-device AI vision & speech applied research projects; focusing on ML-hardware aware solutions: frameworks and neural network models optimisation for the next generation of Samsung products; from proof-of-concepts to commercial products in fast-paced projects.
+Between 2022-2023, as Tech Lead and Principal Engineer in <a href="https://research.samsung.com/">Samsung Research</a> (<a href="https://research.samsung.com/sruk">SRUK</a>), I worked with <a href="https://www.linkedin.com/in/chrisalder/" title="Chris Alder">Chris Alder</a> and <a href="https://www.linkedin.com/in/ben-duckworth-05aa8b11" tittle="Ben Duckworth">Ben Duckworth</a>, leading an On-Device AI Applied Research team and collaborated with cross-functional local and remote teams, driving on-device AI vision & speech applied research projects. Focusing on ML-hardware aware solutions: frameworks and neural network models optimisation for the next generation of Samsung products, from proof-of-concepts to commercial products in fast-paced projects.
 </p>
 </div>
 &nbsp;
