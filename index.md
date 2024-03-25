@@ -522,12 +522,12 @@ Career recognition by the board of trustees of the <a href="https://ismagarcia.g
 
 #### 2013        Best Ph.D. Thesis Award of the School of Computer Science  
 Parallel spatial data structures for interactive rendering, PhD Thesis, defended October 2012  
-**<a href="https://www.udg.edu/ca/portals/67/OContent_Docs/Resolucio_convocatoria_2013-4.pdf">Publication September 2013</a>**  
-**<a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona 2013</a>**  
+**<a href="https://ismagarcia.github.io/me/assets/img/Resolucio_convocatoria_2013-4.pdf#page=2">Publication September 2013</a>**  
+**<a href="https://www.udg.edu/en/">University of Girona</a>**  
   
 #### 2007	Best Computer Science Project Award  
 Generation and real-time visualization of 3D vegetation  
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
+<a href="https://www.udg.edu/en/">University of Girona</a>, Spain  
 Patronat Award 12th Edition winner  
 Supervised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  
 
@@ -572,10 +572,10 @@ _Keywords_: parallel computing, multi-threaded design, algorithm design, numeric
 
 #### <!-- 2007 – 2012--> Ph.D. in Computer  Science
 Dissertation: Parallel spatial data structures for interactive rendering  
-BR PhD Fellowship from the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>
+BR PhD Fellowship from the <a href="https://www.udg.edu/en/">University of Girona</a>
 
 #### <!--2006 – 2007--> Master in Computing
-From the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, and the <a href="https://www.upc.edu/en?set_language=en">UPC Barcelona Tech</a>  
+From the <a href="https://www.udg.edu/en/">University of Girona</a>, and the <a href="https://www.upc.edu/en?set_language=en">UPC Barcelona Tech</a>  
 
 {% if site.web_mode %}
 {% else %}
@@ -584,11 +584,11 @@ From the <a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona<
 {% endif %}
 
 #### <!--2003 – 2006-->	Computer Engineering
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
+<a href="https://www.udg.edu/en/">University of Girona</a>, Spain  
 
 <!--
 #### 1999 – 2003 Technical Computer Engineering 
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain  
+<a href="https://www.udg.edu/en/">University of Girona</a>, Spain  
 -->
 
 {% if site.web_mode %}
@@ -978,22 +978,22 @@ MEng Electrical Hons Project
 #### 2011	Enrique Nuzete
 Interactive polycubemap editor  
 BEng Project, Technical Computer Engineering   
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain 
+<a href="https://www.udg.edu/en/">University of Girona</a>, Spain 
 
 #### 2011    Tania Mendes
 Modelling and visualization of skeleton-based animations  
 BEng Project, Technical Computer Engineering   
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain
+<a href="https://www.udg.edu/en/">University of Girona</a>, Spain
 
 #### 2007    Verena Skuk
 Procedural modelling and rendering of vegetation  
 Student Research Project  
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain
+<a href="https://www.udg.edu/en/">University of Girona</a>, Spain
 
 #### 2007    Isaac Moles
 Real-time rendering of large forest  
 BEng Project, Technical Computer Engineering   
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>, Spain
+<a href="https://www.udg.edu/en/">University of Girona</a>, Spain
 
 
 {% if site.web_mode %}
@@ -1090,7 +1090,7 @@ Reserch developer
 
 
 #### From May 2007 to May 2011	PhD research fellowship BR
-<a href="https://www.udg.edu/ca/study-at-the-udg">University of Girona</a>  
+<a href="https://www.udg.edu/en/">University of Girona</a>  
 Research PhD student    
 
 #### From September 2004 to April 2007	Gametools Project
