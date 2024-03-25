@@ -119,7 +119,7 @@ Apr.2022-Dec.2023 <a href="https://research.samsung.com/sruk">l Samsung Research
 
 <div class="dark_box">
 <p class="dark_paragraph">
-Between 2022-2023, as Tech Lead and Principal Engineer in <a href="https://research.samsung.com/">Samsung Research</a> (<a href="https://research.samsung.com/sruk">SRUK</a>), I worked with <a href="https://www.linkedin.com/in/chrisalder/" title="Chris Alder">Chris Alder</a> and <a href="https://www.linkedin.com/in/ben-duckworth-05aa8b11" tittle="Ben Duckworth">Ben Duckworth</a>, leading an On-Device AI Applied Research team and collaborated with cross-functional local and remote teams, driving on-device AI vision & speech applied research projects, focusing on ML-hardware aware solutions: frameworks and neural network models optimisation for the next generation of Samsung products; from proof-of-concepts to commercial products in fast-paced projects.
+Between 2022-2023, as Tech Lead and Principal Engineer in <a href="https://research.samsung.com/">Samsung Research</a> (<a href="https://research.samsung.com/sruk">SRUK</a>), I worked with <a href="https://www.linkedin.com/in/chrisalder/" title="Chris Alder">Chris Alder</a> and <a href="https://www.linkedin.com/in/ben-duckworth-05aa8b11" tittle="Ben Duckworth">Ben Duckworth</a>, leading an On-Device AI Applied Research team and collaborated with cross-functional local and remote teams, driving on-device AI vision & speech applied research projects; focusing on ML-hardware aware solutions: frameworks and neural network models optimisation for the next generation of Samsung products; from proof-of-concepts to commercial products in fast-paced projects.
 </p>
 </div>
 &nbsp;
