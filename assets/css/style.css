@@ -135,7 +135,7 @@
 .highlight { background-color: #f8f8f8; }
 
 
-body { background-color: #303031; padding: 50px; font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #d7d7d8; font-weight: 400; }
+body { background-color: #15202b; padding: 50px; font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #d7d7d8; font-weight: 400; }
 
 h1, h2, h3, h4, h5, h6 { color: #d7d7d8; margin: 0 0 20px; }
 
@@ -228,7 +228,7 @@ code, pre { overflow-x: hidden; font-family: 'Noto Sans'; color: #333; }
 .dark_box { background-color: #4a4a4d; width: 90%; height: 100%; padding: 10px 30px 10px 0px; }
 
 .dark_border_only_box{
-  background-color: #303031;    
+  background-color: #15202b;    
   border-radius: 25px;
   border: 2px dashed #d8d8d9;
   width:100%;
