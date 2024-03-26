@@ -418,46 +418,19 @@ From the <a href="https://www.udg.edu/en/">University of Girona</a>, and the <a 
 {% endif %}
 
 ## Academic research [l](#academic-research)
+
+{% if site.resume_mode == true %}
+{% else %}
+<div class="dark_border_only_box">
+{% endif %}
+
+<h3 id="selected-research-publications">
+Selected Research Publications <a href="">l</a>
+</h3>
+
+<center>
+
 <div class="dark_box">
-
-<!--
-<p class="dark_paragraph">
-I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>.
-</p>
-
-<p class="dark_paragraph">
-My research concerned with parallel efficient data structures for data 
-visualization, geometric modelling, image-based representations and ray-tracing. 
-</p>
-
-<p class="dark_paragraph">
-My work explored practical applications in a variety of areas in computer 
-graphics, including real-time rendering, GPU efficient 
-data-structures for geometry processing and texturing, and 
-dynamic parallel data-structures for ray-tracing and general-purpose 
-GPU applications.
-</p>
-
-<p class="dark_paragraph">
-In 2011 I did a doctorate research internship in <a href="http://alice.loria.fr">ALICE Project-Team</a>
-(<a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a>), collaborating with <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>.
-</p>
-
-<p class="dark_paragraph">
-In 2007 I started my Phd. in Computer Graphics joining the 
-<a href="http://ggg.udg.edu/">GGG research group</a>, under the supervision of <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a>.
-</p>
-
-<p class="dark_paragraph">
-In 2005 I did a research internship collaborating with <a href="https://www.iit.bme.hu/users/dr-szirmay-kalos-l%C3%A1szl%C3%B3?language=en">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a>
-<a href="">Computer Graphics Research Group</a>.
-</p>
-
-<p class="dark_paragraph">
-I was introduced in the Computer Graphics field advised 
-by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>.
-</p>
--->
 
 <p class="dark_paragraph">
 I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/">University of Girona</a>. My research concerned with parallel efficient data structures for data visualization, geometric modeling, image-based representations and ray-tracing.
@@ -467,34 +440,20 @@ I have a Ph. D. in Computer Science from <a href="https://www.udg.edu/en/">Unive
 My previous research explored practical applications in a variety of areas in computer graphics, including real-time rendering, GPU efficient data-structures for geometry processing and texturing, and dynamic parallel data-structures for ray-tracing and general-purpose GPU applications.
 </p>
 
-<p class="dark_paragraph">
-I was introduced in the Computer Graphics field advised by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>. In 2005 I did a research internship collaborating with <a href="https://www.iit.bme.hu/users/dr-szirmay-kalos-l%C3%A1szl%C3%B3">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a> <a href="http://cg.iit.bme.hu/portal/en/cg">Computer Graphics Research Group</a>. In 2007 I started my Phd. in Computer Graphics joining the <a href="http://ggg.udg.edu/">GGG research group</a>, under the supervision of <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a> with doctorate research internships with <a href="https://www.loria.fr/en/research/teams/alice/">ALICE Project-Team</a> (<a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a>), collaborating with <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>.
-</p>
-
 </div>  
 &nbsp;
 
-{% if site.web_mode %}
-{% else %}
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
+<div class="transparent_box" style="text-align: left;">
 
-{% endif %}
+<h4 id="parallel-spatial-data-structures-for-interactive-rendering">&#x2022; Parallel spatial data structures for interactive rendering (2013)</h4>
 
-
-### Selected Research Publications [l](#selected-publications)
-
-#### &#x2022; Parallel spatial data structures for interactive rendering (2013)
-![Octocat](assets/img/phd_thesis_2012_caption.png){:width="128px"} PhD Thesis, defended October 2012 <a href="https://www.tdx.cat/bitstream/handle/10803/107998/tigf.pdf?sequence=8&isAllowed=y">[pdf]</a>
+<p>
+<img src="assets/img/phd_thesis_2012_caption.png" alt="Octocat" width="128px"> PhD Thesis, defended October 2012 <a href="https://www.tdx.cat/bitstream/handle/10803/107998/tigf.pdf?sequence=8&isAllowed=y">[pdf]</a>
 (Best Ph.D. Thesis Award, School of Computer Science 2013  
 <a href="https://www.udg.edu/en/?_ga=2.210128597.1782169398.1547342987-753952721.1547342987">University of Girona</a>
 )
+</p>
+
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
 
@@ -513,7 +472,9 @@ The proposed approaches create a coarse lattice in which each cell contains a lo
 The focus of our study is to design and provide time- and space-efficient parallel data structures and algorithms for real-time rendering and general-purpose GPU applications. This thesis introduces three specific representations of spatial data with efficient parallel random-access for interactive rendering applications.
 
 {% endif %}
+
 </div>  
+&nbsp;
 &nbsp;
 <p>
 <em>Keywords</em>: Spatial data, Dense and Sparse Data Structures, Parallel Computing, Spatial Hashing, Surface Parameterization, Subdivision Surfaces, Surface Simplification
@@ -529,8 +490,12 @@ The focus of our study is to design and provide time- and space-efficient parall
 {% endif %}
 
 
-#### &#x2022; Interactive Applications for Sketch-Based Editable Polycube Map (2013)
-![Octocat](assets/img/editablepc_tvc2013_teaser.png){:width="128px"} IEEE Transactions on Visualization and Computer Graphics, (Volume:19, Issue: 7, July 2013); Ismael Garcia, Jiazhi Xia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="https://ieeexplore.ieee.org/document/6361388">[pdf]</a> 
+<h4 id="interactive-applications-for-sketch-based-editable-polycube-map-2013">&#x2022; Interactive Applications for Sketch-Based Editable Polycube Map (2013)</h4>
+
+<p>
+<img src="assets/img/editablepc_tvc2013_teaser.png" alt="Octocat" width="128px"> IEEE Transactions on Visualization and Computer Graphics, (Volume:19, Issue: 7, July 2013); Ismael Garcia, Jiazhi Xia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="https://ieeexplore.ieee.org/document/6361388">[pdf]</a> 
+</p>
+
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
 
@@ -543,16 +508,21 @@ In this paper we propose a sketch-based editable polycube mapping framework that
 {% endif %}
 </div>
 &nbsp;  
-_Keywords_: Digital Geometry Processing, Surface Parameterization, Polycube Map, GPU Subdivision Surface
+&nbsp;
+<p>
+<em>Keywords</em>: Digital Geometry Processing, Surface Parameterization, Polycube Map, GPU Subdivision Surface
+</p>
 
 {% if site.web_mode %}
 {% else %}
 {% endif %}
 
 
-#### &#x2022; A Runtime Cache for Interactive Procedural Modeling (2012)
-![Octocat](assets/img/hash_cache_teaser.png){:width="128px"} SMI 2012: Shape Modeling International, Computer & Graphics; Tim Reiner, Sylvain Lefebvre, Lorenz Diener, Ismael Garcia, Bruno Jobard, Carsten Dachsbacher <a href="http://ismaelgarcia.ai/000_academic_projects/hashcache_smi2012/">[project page]</a>
- 
+<h4 id="a-runtime-cache-for-interactive-procedural-modeling-2012">&#x2022; A Runtime Cache for Interactive Procedural Modeling (2012)</h4>
+
+<p>
+<img src="assets/img/hash_cache_teaser.png" alt="Octocat" width="128px"> SMI 2012: Shape Modeling International, Computer & Graphics; Tim Reiner, Sylvain Lefebvre, Lorenz Diener, Ismael Garcia, Bruno Jobard, Carsten Dachsbacher <a href="http://ismaelgarcia.ai/000_academic_projects/hashcache_smi2012/">[project page]</a>
+</p>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -566,14 +536,20 @@ We present an efficient runtime cache to accelerate the display of procedurally 
 {% endif %}
 </div>
 &nbsp;  
-_Keywords_: Parallel Hashing, Runtime Cache, Interactive Shape Modeling, Implicit Surface Rendering, Procedural Textures 
-
+&nbsp;
+<p>
+<em>Keywords</em>: Parallel Hashing, Runtime Cache, Interactive Shape Modeling, Implicit Surface Rendering, Procedural Textures 
+</p>
 {% if site.web_mode %}
 {% else %}
 {% endif %}
 
-#### &#x2022; Coherent parallel hashing (2011)
-![Octocat](assets/img/cohash_2011.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ismaelgarcia.ai/000_academic_projects/cohash_siga2011/">[project page]</a>
+
+<h4 id="coherent-parallel-hashing-2011">&#x2022; Coherent parallel hashing (2011)</h4>
+ 
+<p>
+<img src="assets/img/cohash_2011.png" alt="Octocat" width="128px"> ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ismaelgarcia.ai/000_academic_projects/cohash_siga2011/">[project page]</a>
+</p>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -587,16 +563,20 @@ We introduce a new parallel hashing scheme which reaches high load factor with a
 {% endif %}
 </div>
 &nbsp;  
-_Keywords_: Spatial Data, Parallel Computing, Coherent Memory, Cache Memory, Hashing, Sparse Data
-
+&nbsp;
+<p>
+<em>Keywords</em>: Spatial Data, Parallel Computing, Coherent Memory, Cache Memory, Hashing, Sparse Data
+</p>
 
 {% if site.web_mode %}
 {% else %}
 {% endif %}
 
+<h4 id="editable-polycube-map-for-gpu-based-subdivision-surfaces-2011">&#x2022; Editable Polycube Map for GPU-based Subdivision Surfaces (2011)</h4>  
 
-#### &#x2022; Editable Polycube Map for GPU-based Subdivision Surfaces (2011)
-![Octocat](assets/img/epcm_i3d_200w_148h.png){:width="128px"} I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_epcm_i3d2011/">[project page]</a>
+<p>
+<img src="assets/img/epcm_i3d_200w_148h.png" alt="Octocat" width="128px"> I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_epcm_i3d2011/">[project page]</a>
+</p>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -610,7 +590,10 @@ We propose an editable polycube mapping method that, given an arbitrary high-res
 {% endif %}
 </div>
 &nbsp;  
-_Keywords_: Digital Geometry Processing, Surface Parameterization, Polycube Map, GPU Subdivision Surface
+&nbsp;
+<p>
+<em>Keywords</em>: Digital Geometry Processing, Surface Parameterization, Polycube Map, GPU Subdivision Surface
+</p>
 
 {% if site.web_mode %}
 {% else %}
@@ -622,9 +605,12 @@ _Keywords_: Digital Geometry Processing, Surface Parameterization, Polycube Map,
 &nbsp;
 {% endif %}
 
-#### &#x2022; IGT: Inverse Geometric Textures (2008)
-![Octocat](assets/img/Teaser_200w_128h.png){:width="128px"} ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 27(5), 2008; Ismael Garcia, Gustavo Patow  
+<h4 id="igt-inverse-geometric-textures-2008">&#x2022; IGT: Inverse Geometric Textures (2008)</h4>  
+
+<p>
+<img src="assets/img/Teaser_200w_128h.png" alt="Octocat" width="128px"> ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 27(5), 2008; Ismael Garcia, Gustavo Patow  
 <a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_igt_siga2008/">[project page]</a>
+</p>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -638,19 +624,60 @@ Inverse Geometric Textures (IGT) generates an inversely parameterized texture fr
 {% endif %}
 </div>
 &nbsp;  
-_Keywords_: Appearance Preserving Simplification, Detail-Recovery, Computer Games, Texturing, Parameterizations, Level-of-Detail
+&nbsp;
+<p>
+<em>Keywords</em>: Appearance Preserving Simplification, Detail-Recovery, Computer Games, Texturing, Parameterizations, Level-of-Detail
+</p>
 
 {% if site.web_mode %}
 {% else %}
 {% endif %}
 
+</div>
+</center>
 
-#### &#x2022; Generation and interactive visualization of 3D vegetation (2007)
-![Octocat](assets/img/nph07.png){:width="128px"} Master thesis in Computing, 2007; from the University of Girona and the UPC Barcelona Tech; advised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  <a href="http://www.gametools.org/archives/publications/mastertesi_isma.pdf">[pdf]</a>
+{% if site.resume_mode == true %}
+{% else %}
+</div>
+&nbsp;
+{% endif %}
 
-#### &#x2022; Multi-layered indirect texturing for tree rendering (2007)
-![Octocat](assets/img/cork_close_view_polygonal_left_121_billboards_multilayer_right_200w_128h.png){:width="128px"} Eurographics Workshop on Natural Phenomena 2007; Ismael Garcia, Gustavo Patow, Laszlo Szirmay-Kalos, Mateu Sbert  
+
+{% if site.resume_mode == true %}
+{% else %}
+<div class="dark_border_only_box">
+{% endif %}
+
+<h3 id="selected-undergraduate-research-publications">
+Selected Undergraduate Research Publications <a href="">l</a>
+</h3>
+<center>
+
+
+<div class="dark_box">
+
+<p class="dark_paragraph">
+I was introduced in the Computer Graphics field advised by <a href="http://ima.udg.edu/~mateu/">Prof. Mateu Sbert</a>. In 2005 I did a research internship collaborating with <a href="https://www.iit.bme.hu/users/dr-szirmay-kalos-l%C3%A1szl%C3%B3">Prof. Laszlo Szirmay-Kalos</a> at <a href="https://www.bme.hu/?language=en">Technical University of Budapest</a> <a href="http://cg.iit.bme.hu/portal/en/cg">Computer Graphics Research Group</a>. In 2007 I started my Phd. in Computer Graphics joining the <a href="http://ggg.udg.edu/">GGG research group</a>, under the supervision of <a href="http://ima.udg.edu/~dagush/">Dr. Gustavo Patow</a> with doctorate research internships with <a href="https://www.loria.fr/en/research/teams/alice/">ALICE Project-Team</a> (<a href="https://www.inria.fr/en/centre/nancy">INRIA Nancy</a>), collaborating with <a href="http://www.antexel.com/sylefeb/research">Dr. Sylvain Lefebrve</a>.
+</p>
+
+</div>
+&nbsp;
+
+<div class="transparent_box" style="text-align: left;">
+
+
+<h4 id="generation-and-interactive-visualization-of-3d-vegetation-2007">&#x2022; Generation &amp; interactive visualization of 3D vegetation (2007)</h4>
+ 
+<p>
+<img src="assets/img/nph07.png" alt="Octocat" width="128px"> Master thesis in Computing, 2007; from the University of Girona and the UPC Barcelona Tech; advised by <a href="http://ima.udg.edu/~dagush">Dr. Gustavo Patow</a> and <a href="http://ima.udg.edu/~mateu">Prof. Mateu Sbert</a>  <a href="http://www.gametools.org/archives/publications/mastertesi_isma.pdf">[pdf]</a>
+</p>
+
+<h4 id="multi-layered-indirect-texturing-for-tree-rendering-2007">&#x2022; Multi-layered indirect texturing for tree rendering (2007)</h4>
+ 
+<p>
+<img src="assets/img/cork_close_view_polygonal_left_121_billboards_multilayer_right_200w_128h.png" alt="Octocat" width="128px"> Eurographics Workshop on Natural Phenomena 2007; Ismael Garcia, Gustavo Patow, Laszlo Szirmay-Kalos, Mateu Sbert  
 <a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_tree_np2007/">[project page]</a>
+</p>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -664,11 +691,17 @@ This paper presents a technique to render in real time complex trees using billb
 {% endif %}
 </div>
 &nbsp;  
-_Keywords_: Image Generation, Clustering, 3D Graphics, Realism
+&nbsp;
+<p>
+<em>Keywords</em>: Image Generation, Clustering, 3D Graphics, Realism
+</p>
 
 <!--
-#### &#x2022; Tree rendering with billboard clouds (2005)
-![Octocat](assets/img/billboardIndirectTexturing_200w_128h.png){:width="128px"} Third Hungarian Conference on Computer Graphics and Geometry, 2005; Ismael Garcia, Mateu Sbert, Laszlo Szirmay-Kalos  
+<h4 id="tree-rendering-with-billboard-clouds-2005">&#x2022; Tree rendering with billboard clouds (2005)</h4>
+ 
+<p>
+<img src="assets/img/billboardIndirectTexturing_200w_128h.png" alt="Octocat" width="128px"> Third Hungarian Conference on Computer Graphics and Geometry, 2005; Ismael Garcia, Mateu Sbert, Laszlo Szirmay-Kalos  
+</p>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -688,9 +721,11 @@ This paper presents a simple method to render complex trees on high frame rates 
 {% else %}
 {% endif %}
 
-
-#### &#x2022; Leaf cluster impostors for tree rendering with parallax (2005)
-![Octocat](assets/img/billboardComparison_200w_128h.png){:width="128px"} Short Paper of Eurographics (Dublin, Ireland), pp. 69-72, 2005; Ismael Garcia, Mateu Sbert, Laszlo Szirmay-Kalos  
+<h4 id="leaf-cluster-impostor-for-tree-rendering-with-parallax-2005">&#x2022; Leaf cluster impostors for tree rendering with parallax (2005)</h4>
+  
+<p>
+<img src="assets/img/billboardComparison_200w_128h.png" alt="Octocat" width="128px"> Short Paper of Eurographics (Dublin, Ireland), pp. 69-72, 2005; Ismael Garcia, Mateu Sbert, Laszlo Szirmay-Kalos  
+</p>
 
 <div class="publicationabstract">
 {% if site.phone_contact == "dummy_phone" %}
@@ -703,8 +738,22 @@ This paper presents a simple method to render complex trees on high frame rates 
 
 {% endif %}
 </div>
-&nbsp;  
-_Keywords_: Image Generation, Clustering, 3D Graphics, Realism
+&nbsp;
+&nbsp;
+<p>
+<em>Keywords</em>: Image Generation, Clustering, 3D Graphics, Realism
+</p>
+
+</div>
+</center>
+
+{% if site.resume_mode == true %}
+{% else %}
+</div>
+&nbsp;
+{% endif %}
+
+
 
 ### Academic teaching [l](#academic-teaching) 
 
