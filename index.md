@@ -86,7 +86,7 @@ I am a Principal Performance Modelling Engineer in <a href="https://www.huawei.c
 {% endif %}
 
 <h3 id="jan2024-mar2024-l-freelance-ai-consultant">
-Jan.2024-Mar.2024 <a href="https://ismaelgarcia.ai">l Freelance AI Consultant</a>
+Jan.2024-Mar.2024 <a href="https://ismaelgarcia.com">l Freelance AI Consultant</a>
 </h3>
 <center>
 
@@ -319,7 +319,7 @@ and <a href="https://www.linkedin.com/in/jason-parker-1548aa1/">Jason Parker</a>
 
 <div class="dark_box">
 <center>
-<a href="http://ismaelgarcia.ai/">Other experimental projects details can be provided upon request.</a>
+<a href="http://ismaelgarcia.com/">Other experimental projects details can be provided upon request.</a>
 </center>
 </div>
 
@@ -521,7 +521,7 @@ In this paper we propose a sketch-based editable polycube mapping framework that
 <h4 id="a-runtime-cache-for-interactive-procedural-modeling-2012">&#x2022; A Runtime Cache for Interactive Procedural Modeling (2012)</h4>
 
 <p>
-<img src="assets/img/hash_cache_teaser.png" alt="Octocat" width="128px"> SMI 2012: Shape Modeling International, Computer & Graphics; Tim Reiner, Sylvain Lefebvre, Lorenz Diener, Ismael Garcia, Bruno Jobard, Carsten Dachsbacher <a href="http://ismaelgarcia.ai/000_academic_projects/hashcache_smi2012/">[project page]</a>
+<img src="assets/img/hash_cache_teaser.png" alt="Octocat" width="128px"> SMI 2012: Shape Modeling International, Computer & Graphics; Tim Reiner, Sylvain Lefebvre, Lorenz Diener, Ismael Garcia, Bruno Jobard, Carsten Dachsbacher <a href="http://ismaelgarcia.com/000_academic_projects/hashcache_smi2012/">[project page]</a>
 </p>
 
 <div class="publicationabstract">
@@ -548,7 +548,7 @@ We present an efficient runtime cache to accelerate the display of procedurally 
 <h4 id="coherent-parallel-hashing-2011">&#x2022; Coherent parallel hashing (2011)</h4>
  
 <p>
-<img src="assets/img/cohash_2011.png" alt="Octocat" width="128px"> ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ismaelgarcia.ai/000_academic_projects/cohash_siga2011/">[project page]</a>
+<img src="assets/img/cohash_2011.png" alt="Octocat" width="128px"> ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 30(6), 2011, Ismael Garcia, Sylvain Lefebvre, Samuel Hornus, Anass Lasram <a href="http://ismaelgarcia.com/000_academic_projects/cohash_siga2011/">[project page]</a>
 </p>
 
 <div class="publicationabstract">
@@ -575,7 +575,7 @@ We introduce a new parallel hashing scheme which reaches high load factor with a
 <h4 id="editable-polycube-map-for-gpu-based-subdivision-surfaces-2011">&#x2022; Editable Polycube Map for GPU-based Subdivision Surfaces (2011)</h4>  
 
 <p>
-<img src="assets/img/epcm_i3d_200w_148h.png" alt="Octocat" width="128px"> I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_epcm_i3d2011/">[project page]</a>
+<img src="assets/img/epcm_i3d_200w_148h.png" alt="Octocat" width="128px"> I3D 2011: Proceedings of Symposium on Interactive 3D Graphics &amp; Games; Jiazhi Xia, Ismael Garcia, Ying He, Shi-Qing Xin, Gustavo Patow <a href="http://ismaelgarcia.com/000_academic_projects/igarcia_epcm_i3d2011/">[project page]</a>
 </p>
 
 <div class="publicationabstract">
@@ -609,7 +609,7 @@ We propose an editable polycube mapping method that, given an arbitrary high-res
 
 <p>
 <img src="assets/img/Teaser_200w_128h.png" alt="Octocat" width="128px"> ACM Transactions on Graphics, Proceedings of SIGGRAPH Asia, Vol. 27(5), 2008; Ismael Garcia, Gustavo Patow  
-<a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_igt_siga2008/">[project page]</a>
+<a href="http://ismaelgarcia.com/000_academic_projects/igarcia_igt_siga2008/">[project page]</a>
 </p>
 
 <div class="publicationabstract">
@@ -676,7 +676,7 @@ I was introduced in the Computer Graphics field advised by <a href="http://ima.u
  
 <p>
 <img src="assets/img/cork_close_view_polygonal_left_121_billboards_multilayer_right_200w_128h.png" alt="Octocat" width="128px"> Eurographics Workshop on Natural Phenomena 2007; Ismael Garcia, Gustavo Patow, Laszlo Szirmay-Kalos, Mateu Sbert  
-<a href="http://ismaelgarcia.ai/000_academic_projects/igarcia_tree_np2007/">[project page]</a>
+<a href="http://ismaelgarcia.com/000_academic_projects/igarcia_tree_np2007/">[project page]</a>
 </p>
 
 <div class="publicationabstract">
